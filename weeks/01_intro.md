@@ -13,13 +13,18 @@
       * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) (and what's [processing.js](http://processingjs.org/)?)
 
       * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw)
+      -- review  --
+
       * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc)
+      -- review  --
+
       * [History of p5.js video](https://www.youtube.com/watch?v=FdsWWjqoPKU)
+      -- review  --
 
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
-      
+
 ## p5.js in the context of the browser
   * Landscape of HTML, CSS, and JavaScript
   * Other JS frameworks
