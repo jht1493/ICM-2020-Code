@@ -11,12 +11,15 @@
   * General discussion of programming languages
   * History of creative coding frameworks
       * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) (and what's [processing.js](http://processingjs.org/)?)
+
       * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw)
       * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc)
       * [History of p5.js video](https://www.youtube.com/watch?v=FdsWWjqoPKU)
+
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
+      
 ## p5.js in the context of the browser
   * Landscape of HTML, CSS, and JavaScript
   * Other JS frameworks
@@ -31,18 +34,41 @@
 ## Getting started, your first program
 
   * [p5.js Web Editor Tutorial](https://youtu.be/MXs1cOlidWs) 
-    1.2: p5.js Web Editor - p5.js Tutorial 207,393 views•Sep 6, 2018 7:41
+    1.2: p5.js Web Editor - p5.js Tutorial 207,393 views•Sep 6, 2018 
+    07:41
     https://editor.p5js.org/
     sharing
     auto named (cool)
 
   * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E)
-    1.3: Shapes & Drawing - p5.js Tutorial 245,913 views•Sep 7, 2018 25:46
+    1.3: Shapes & Drawing - p5.js Tutorial 245,913 views•Sep 7, 2018 
+    25:46
+    calling functions syntax
+    function_name(____, _____, ____);
+    -- parameters / arguments (Dan S. calls in video)
+    try and error editing numbers
+    auto-refresh
+    dots ==> pixels 
+    JavaScript vs. p5 Library
+    2D Primitives: arc - ellipse - line - point - quad - rect - triangle
+    draw canvas --> you should do it too.
+    cartesian coordinate system
+    ** 0-based. coordinates are edges not pixels **
+    >> make your own drawing
+    DOC: optional args
+    layering - order of lines of code
+    attributes: rectMode, ellipseMode 
+    ** disagree: intro translate and take more about functions **
 
   * [Color video tutorial](https://youtu.be/riiJTF5-N7c)
+    1.4: Color - p5.js Tutorial 143,970 views•Sep 10, 2018
+    17:25
+
+
   * [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM)
   * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
-  * `setup()` and `draw()`
+
+  * `setup()` and `draw()` --remove--
   * [p5.js reference](http://p5js.org/reference)
 
 ## Getting Started with p5.js book
