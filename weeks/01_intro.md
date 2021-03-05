@@ -29,8 +29,16 @@
 
 # Drawing
 ## Getting started, your first program
-  * [p5.js Web Editor Tutorial](https://youtu.be/MXs1cOlidWs)
+
+  * [p5.js Web Editor Tutorial](https://youtu.be/MXs1cOlidWs) 
+    1.2: p5.js Web Editor - p5.js Tutorial 207,393 views•Sep 6, 2018 7:41
+    https://editor.p5js.org/
+    sharing
+    auto named (cool)
+
   * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E)
+    1.3: Shapes & Drawing - p5.js Tutorial 245,913 views•Sep 7, 2018 25:46
+
   * [Color video tutorial](https://youtu.be/riiJTF5-N7c)
   * [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM)
   * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
