@@ -13,14 +13,35 @@
       * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) (and what's [processing.js](http://processingjs.org/)?)
 
       * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw)
-      -- review  --
+      1.1: Code! Programming for Beginners with p5.js 373,027 views•Sep 5, 2018
+      13:10
+      What is means to program?
+      Algorithm
+      Syntax
+      HTML / CSS
+      !!@ Community Statement -- BLM ++
 
       * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc)
-      -- review  --
+      Announcing the p5.js Web Editor! 11,975 views•Aug 31, 2018
+      02:49
+      Diversity - Inclusion
 
       * [History of p5.js video](https://www.youtube.com/watch?v=FdsWWjqoPKU)
-      -- review  --
+      Q&A #5: The History of p5.js and Processing 3,434 views•Sep 2, 2016
+      24:59
+      "Design by Numbers"
+      Logo \ Hypercard \ Seymour Papert
+      ?? API
+      2013 "What if processing started over" -- Lauren McCathy
+        -- sharability / simplicity
+        -- port: openness - friently-ness - design - visual - art
+      ++ DOM -- !!@ Lets use it!!
+      ++ little p -- the issue: P5 with a capital P #1572
+      --> community statement
+      --> github code of conduct
+      +++ diversity and inclusion
 
+    !!@ Drop to end
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
@@ -45,7 +66,7 @@
     sharing
     auto named (cool)
 
-  * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E)
+  * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E).
     1.3: Shapes & Drawing - p5.js Tutorial 245,913 views•Sep 7, 2018 
     25:46
     calling functions syntax
@@ -55,7 +76,11 @@
     auto-refresh
     dots ==> pixels 
     JavaScript vs. p5 Library
-    2D Primitives: arc - ellipse - line - point - quad - rect - triangle
+    2D Primitives: 
+      arc - 
+      ellipse - line - point - quad - 
+      rect - 
+      triangle
     draw canvas --> you should do it too.
     cartesian coordinate system
     ** 0-based. coordinates are edges not pixels **
@@ -68,7 +93,29 @@
   * [Color video tutorial](https://youtu.be/riiJTF5-N7c)
     1.4: Color - p5.js Tutorial 143,970 views•Sep 10, 2018
     17:25
-
+    [ ] link error Oscillation Nature of Code Sketch
+        https://editor.p5js.org/codingtrain/sketches/SJPtYPPOl
+        -- correction:
+          https://editor.p5js.org/natureofcode/sketches/SJPtYPPOl
+    https://editor.p5js.org/codingtrain/sketches/rJ9MQSwvm
+      -- demo of alpha
+    p5js Code! - Color
+    Red-Green-Blue
+    background(200) -- gray
+    background(___, ___, ___)
+    HW: in reference Color/Settings
+      + background()
+      + stroke()
+      + fill()
+      + noFill()
+      + noStroke()
+      clear()
+      colorMode()
+      ++ erase() !!@
+      ++ noErase() !!@
+    Shape / Attributes
+      ++ strokeWeight
+      ++ alpha -- transparency
 
   * [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM)
   * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
@@ -93,3 +140,7 @@
 ### More on the Internets
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
+
+
+[] only use setup
+[] draw only need when state change
