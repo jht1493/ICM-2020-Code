@@ -42,6 +42,8 @@
       --> github code of conduct
       +++ diversity and inclusion
 
+## Programming language discussion
+
     !!@ Drop to end
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
@@ -140,9 +142,6 @@
   https://github.com/lmccart/gswp5.js-code
   https://editor.p5js.org/jht1493/collections/P5w9v1xsq
 
-  * `setup()` and `draw()` --remove--
-  * [p5.js reference](http://p5js.org/reference)
-
 ## Getting Started with p5.js book
   *  Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
   by Lauren McCarthy, Casey Reas, and Ben Fry
@@ -225,7 +224,13 @@ beginShape(); vertex(180, 82); vertex(207, 36); vertex(214, 63); vertex(407, 11)
 
 Comments
 
+https://docs.google.com/document/d/1Qu7qf-E6PblFg8U3MvfP_xVeca9yT8Bt6mIsSYAxf0s/edit
+JHT - Week 1 Worksheet
 
+
+## p5.js
+  * `setup()` and `draw()` --remove--
+  * [p5.js reference](http://p5js.org/reference)
 
 ## Additional viewing / reading:
    * [Pick an Eyeo Talk that looks interesting](https://vimeo.com/eyeofestival/)
@@ -245,3 +250,5 @@ Comments
 
 [] only use setup
 [] draw only need when state change
+[] ?? go back to this model with example code in repo:
+  https://github.com/ITPNYU/ICM-2015
