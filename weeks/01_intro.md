@@ -7,6 +7,7 @@
   * [Example projects for Inspiration](https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration)
   * Can programming be an expressive medium?
   * Why are we introducing programming through drawing?
+
 ## Programming language discussion
   * General discussion of programming languages
   * History of creative coding frameworks
@@ -51,6 +52,7 @@
   * Other JS frameworks
   * Server-side vs. client-side
   * What is the difference between p5 and JavaScript?
+
 ## Participating in an open-source community
   * What is git and github?
   * When should you post to a forum vs. file a github issue?
@@ -118,13 +120,112 @@
       ++ alpha -- transparency
 
   * [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM)
+    1.5: Errors & Console - p5.js Tutorial  89,861 views•Sep 10, 2018
+    06:36
+    print("hello")
+    error message
+  
   * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
+    1.6: Code Comments - p5.js Tutorial 76,543 views•Sep 11, 2018
+    06:13
+    command-slash
+    credit
+
+  - The Coding Train videos [Originals](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js) | [2020 Updates](https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n)
+  https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js
+  https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n
+
+
+  - _Getting Started with p5.js_ [Originals](https://github.com/lmccart/gswp5.js-code) | [2020 Updates](https://editor.p5js.org/jht1493/collections/P5w9v1xsq)
+  https://github.com/lmccart/gswp5.js-code
+  https://editor.p5js.org/jht1493/collections/P5w9v1xsq
 
   * `setup()` and `draw()` --remove--
   * [p5.js reference](http://p5js.org/reference)
 
 ## Getting Started with p5.js book
   *  Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
+  by Lauren McCarthy, Casey Reas, and Ben Fry
+  Copyright © 2016 Maker Media. All rights reserved.
+
+1/Hello: Learn about p5.js.
+
+
+2/Starting to Code: Create your first p5.js program.
+
+function draw() {
+  if (mouseIsPressed) {
+    fill(0); 
+  } else {
+    fill(255); 
+  }
+  ellipse(mouseX, mouseY, 80, 80);
+
+3/Draw: Define and draw simple shapes.
+
+  line(20, 50, 420, 110);
+
+  quad(158, 55, 199, 14, 392, 66, 351, 107);
+  triangle(347, 54, 392, 9, 392, 66); 
+  triangle(158, 55, 290, 91, 290, 112);
+
+  rect(180, 60, 220, 40);
+
+  ellipse(278, -100, 400, 400);
+  ellipse(120, 100, 110, 110);
+  ellipse(412, 60, 18, 18);
+
+  arc(90, 60, 80, 80, 0, HALF_PI);
+  arc(190, 60, 80, 80, 0, PI+HALF_PI);
+  arc(290, 60, 80, 80, PI, TWO_PI+HALF_PI);
+  arc(390, 60, 80, 80, QUARTER_PI, PI+QUARTER_PI);
+
+  arc(90, 60, 80, 80, 0, radians(90)); 
+  arc(190, 60, 80, 80, 0, radians(270));
+  arc(290, 60, 80, 80, radians(180), radians(450));
+  arc(390, 60, 80, 80, radians(45), radians(225));
+
+  angleMode(DEGREES);
+  arc(90, 60, 80, 80, 0, 90);
+  arc(190, 60, 80, 80, 0, 270);
+  arc(290, 60, 80, 80, 180, 450);
+  arc(390, 60, 80, 80, 45, 225);
+
+Drawing Order
+
+Shape Properties
+
+strokeWeight(8); // Stroke weight to 8 pixels
+
+Example 3-13: Set Stroke Attributes
+
+strokeJoin(ROUND);  // Round the stroke corners
+rect(40, 25, 70, 70); 
+strokeJoin(BEVEL); 
+rect(140, 25, 70, 70); 
+strokeCap(SQUARE); 
+line(270, 25, 340, 95); 
+strokeCap(ROUND); 
+line(350, 25, 420, 95);
+
+Color
+
+Example 3-15: Control Fill and Stroke
+
+noFill(); // Turn off fill
+noStroke(); // Turn off stroke
+
+Example 3-16: Draw with Color
+
+Example 3-17: Set Transparency
+
+Custom Shapes
+
+beginShape(); vertex(180, 82); vertex(207, 36); vertex(214, 63); vertex(407, 11); vertex(412, 30); vertex(219, 82); vertex(226, 109); endShape();
+
+Comments
+
+
 
 ## Additional viewing / reading:
    * [Pick an Eyeo Talk that looks interesting](https://vimeo.com/eyeofestival/)
