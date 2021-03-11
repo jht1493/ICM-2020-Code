@@ -31,3 +31,14 @@
   * Chapters 4 through Ex.4.5, 8 through Ex. 8.9
   * Going further: Chapters 6 (Transformations) and 8.10-8.15 (More complex motion)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
+
+
+https://editor.p5js.org/jht1493/sketches/1HRbbpwEK
+createButton draw_rect
+>> basic buttons. apply to variables
+
+>> buttons to clear and draw
+  draw with diferent loc and color
+
+>> intro to DOM from the function point of view
+>> minial muse of variables

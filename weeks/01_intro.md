@@ -133,12 +133,14 @@
     command-slash
     credit
 
-  - The Coding Train videos [Originals](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js) | [2020 Updates](https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n)
+  - The Coding Train videos [Originals](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js) 
+  | [2020 Updates](https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n)
   https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js
   https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n
 
 
-  - _Getting Started with p5.js_ [Originals](https://github.com/lmccart/gswp5.js-code) | [2020 Updates](https://editor.p5js.org/jht1493/collections/P5w9v1xsq)
+  - _Getting Started with p5.js_ [Originals](https://github.com/lmccart/gswp5.js-code) 
+  | [2020 Updates](https://editor.p5js.org/jht1493/collections/P5w9v1xsq)
   https://github.com/lmccart/gswp5.js-code
   https://editor.p5js.org/jht1493/collections/P5w9v1xsq
 
@@ -260,11 +262,6 @@ JHT - Week 1 Worksheet
 [] ?? go back to this model with example code in repo:
   https://github.com/ITPNYU/ICM-2015
 
->> first hw already using other constructs
-  extraCanvas = createGraphics(600, 400);
-  extraCanvas.clear();
-  extraCanvas.ellipse(mouseX, mouseY, 50, 50)
-  image(extraCanvas, 0, 0)
 
 >> Layering of drawing
 
@@ -272,6 +269,33 @@ JHT - Week 1 Worksheet
 
 >> starting fresh with background() vs. building up 
 
->> buttons to clear and draw
-  draw with diferent loc and color
-  
+https://editor.p5js.org/jht1493/sketches/sNH4P8QEp
+head circle 100
+  translate(100,0);
+  draw_head();
+>> flow of execution inside a function
+>> translate affects next drawing
+>> need to understand number line for translate(-100)
+>> fill affects next drawing
+
+https://editor.p5js.org/jht1493/sketches/HC9y3joDz
+head circle
+>> add scale and translate to draw many heads
+
+https://editor.p5js.org/jht1493/sketches/K_1xNuX78
+1.2 p5.js_Color
+>> group draw calls into function and create a row of robots
+
+>> recommend using graphing paper
+>> copy and paste refs from doc
+
+>> first hw already using other constructs
+  extraCanvas = createGraphics(600, 400);
+  extraCanvas.clear();
+  extraCanvas.ellipse(mouseX, mouseY, 50, 50)
+  image(extraCanvas, 0, 0)
+
+>> color as array [], can be before setup
+
+https://bmoren.github.io/p5js-cheat-sheet/
+
