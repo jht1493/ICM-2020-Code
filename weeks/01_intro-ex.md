@@ -140,7 +140,8 @@ p5js Code! - Color
     06:36
     print("hello")
     error message
-  
+    >> use console.log() to show stuff pre-startup
+
   * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
     1.6: Code Comments - p5.js Tutorial 76,543 views•Sep 11, 2018
     06:13
@@ -170,6 +171,9 @@ p5js Code! - Code Comments
   *  Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
   by Lauren McCarthy, Casey Reas, and Ben Fry
   Copyright © 2016 Maker Media. All rights reserved.
+https://github.com/lmccart/gswp5.js-code
+https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
+>> copy and paste into p5js editor
 
 1/Hello: Learn about p5.js.
 
@@ -244,7 +248,9 @@ Example 3-17: Set Transparency
 
 Custom Shapes
 
-beginShape(); vertex(180, 82); vertex(207, 36); vertex(214, 63); vertex(407, 11); vertex(412, 30); vertex(219, 82); vertex(226, 109); endShape();
+beginShape(); vertex(180, 82); vertex(207, 36); vertex(214, 63); vertex(407, 11); 
+vertex(412, 30); vertex(219, 82); vertex(226, 109); 
+endShape();
 
 Comments
 
@@ -288,7 +294,7 @@ JHT - Week 1 Worksheet
   - The Coding Train videos [Originals](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js) 
   | [2020 Updates](https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n)
   https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js
-  https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n
+https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n
 https://editor.p5js.org/jht1493/sketches/p4WOzDrgQ
 1.1_p5.js basics_of_drawing
   createCanvas(400, 300);
@@ -307,13 +313,42 @@ https://editor.p5js.org/jht1493/sketches/K_1xNuX78
   - _Getting Started with p5.js_ [Originals](https://github.com/lmccart/gswp5.js-code) 
   | [2020 Updates](https://editor.p5js.org/jht1493/collections/P5w9v1xsq)
   https://github.com/lmccart/gswp5.js-code
-  https://editor.p5js.org/jht1493/collections/P5w9v1xsq
+https://editor.p5js.org/jht1493/collections/P5w9v1xsq
 https://editor.p5js.org/jht1493/sketches/1jYHAXZRF
 gswp5 Ex_02_01.js
 
 https://editor.p5js.org/jht1493/sketches/un2SAKRVm
 gswp5 Ex_02_02.js
   if (mouseIsPressed) {
+    fill(0);
+  } else {
+    fill(255);
+  }
+
+https://editor.p5js.org/jht1493/sketches/4ru5A30iE
+gswp5 Ex_03_04 quad tri
+
+https://editor.p5js.org/jht1493/sketches/R0o3EvVOC
+gswp5 Ex_03_06 circles touch
+
+https://editor.p5js.org/jht1493/sketches/lj5UimD1G
+gswp5 Ex_03_09 arcs
+
+https://editor.p5js.org/jht1493/sketches/sxI2SjRrh
+gswp5 Ex_03_17 alpha circles
+
+https://editor.p5js.org/jht1493/sketches/xFElx4UBj
+gswp5 Ex_03_19 beginShape
+
+https://editor.p5js.org/jht1493/sketches/mPX1b9278
+gswp5 Ex_03_20 Two Creatures
+
+https://editor.p5js.org/jht1493/sketches/0EzMYSpky
+gswp5 Ex_03 Robot 1: Draw
+
+
+https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
+>> copy and paste into p5js editor
 
 >> x,y coordinates
 
