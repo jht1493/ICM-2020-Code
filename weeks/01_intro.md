@@ -54,3 +54,162 @@
 ### More on the Internets
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
+
+# Recap and Explorations
+
+Here is a recap and some exercises to futher explore the concepts introduced in this session.
+
+## Ex 1.1 sketch function draw_head 
+
+So far have used two specially named functions *setup* and *draw*.
+The function *setup* is called once when we hit the play button,
+and the function *draw* is called repeatedly until we hit the stop button.
+Also we haved used functions defined by the p5js library,
+like *ellipse* and *rect*, to draw shapes on the canvas.
+
+In this exercise we'll define a few other functions
+to explore the p5js canvas coordinate system, shapes, and color.
+
+Open this sketch and play it.
+[sketch - function draw_head](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
+
+As you move the mouse around on the canvas you should see 
+the mouse location and a color value displayed below the canvas:
+For example:
+```
+[mouseX=200] [mouseY=188] [RGBA=220,220,220,255]
+```
+The color value is reported as RGBA (Red,Green,Blue and Alpha) numbers between 0 and 255.
+This is the color at the mouse location on the canvas.
+Move the mouse around and explore these values.
+
+### Ex 1.1.1 Some questions to consider:
+
+- When does the numbers change and when don't they change?
+
+- What is the lowest value you see for the mouseX value?
+
+- What is the largest value for mouseX?
+
+- What value in the code will change the width of the canvas?
+
+- What color value is reported for the background?
+
+Looking at the script you'll see functions *draw_head*, *create_ui*, and *update_ui*.
+Don't worry about the mechanics of *create_ui* and *update_ui*, 
+we'll get into more detail about them in up comng sessions.
+
+Let's look at the definition of function *draw_head*:
+
+```
+function draw_head(xpos, ypos) {
+  translate(xpos,ypos)
+  // ellipse(x, y, w, [h])
+  ellipse(20, 20, 40);     // Face
+  ellipse(10, 16, 10);     // Left Eye
+  ellipse(30, 16, 10);     // Right Eye
+  ellipse(20, 30, 20, 8);  // Mouth
+...
+```
+
+Unlike the functions we've seen so far, 
+*draw_head* is not part of p5js library.
+The function *draw_head* and it's definition is written for this exercise.
+The name is choosen to be descriptive of what it's supposed to do.
+You are encouraged to write functions to break up your code into meaningful units.
+In this illustration we are writing our own function to demonstrate creating an image by repeating a smaller image.
+
+Examine the line: *function draw_head(xpos, ypos)* 
+This begins the definition of *draw_head*.
+The terms xpos and ypos are called parameter variables.
+They will be assigned specific values when *draw_head* is called,
+in this case from the *draw* function.
+The first call to function *draw_head* assigns values 10 for xpos and 80 ypos.
+The second call to function *draw_head* assigns values 60 for xpos and 80 ypos.
+```
+function draw() {
+  background(220);
+  draw_head(10, 80);
+  draw_head(60, 80);
+  ...
+```
+In this case two heads are drawn one starting at x,y location (10, 80)
+and another at x,y location (60, 80).
+
+Lookup the function *translate* in p5js reference and 
+try to reason for yourself why two heads are drawn at two different locations.
+
+### Ex 1.1.2 Adjustment to the sketch to explore:
+
+- Increase the size of the head by adjusting appropriate values in the calls to *ellipse* in function *draw_head* .
+
+- In function *draw* add additional calls to *draw_head* to draw heads all the way across the canvas.
+
+- Adjust the appearance of the head. For example: add ears to the head, add an entire body, or draw something different. You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_head*.
+
+## Ex 1.2 sketch function draw_head color
+
+Open this sketch and play it.
+[sketch - function draw_head color](https://editor.p5js.org/jht1493/sketches/a7_6dOQ-t)
+
+This sketch draws the heads in different colors.
+
+In p5js a color can be represent in a number of ways.
+Here are a few:
+
+- color name, eg: 'white', 'black', 'red', 'green', 'yellow', 'blue'
+
+- gray scale number, eg: 0 (white), 128 (gray), 255 (black)
+
+- red, green, blue, alpha array, eg: [255,0,0,255]
+
+This sketch draws the head in different colors.
+
+function *draw_head* now has had additional parameter variable, *acolor*:
+```
+function draw_head(xpos, ypos, acolor) {
+  translate(xpos,ypos)
+  fill(acolor)
+...
+```
+
+When called from function *draw*, a color name is given:
+```
+function draw() {
+  background(220);
+  draw_head(10, 20, 'white');
+  draw_head(10, 80, 'yellow');
+...
+```
+
+When *draw_head* is called the third parameter can be an valid p5js color value.
+Lookup the function *fill* and function *color* for some possibilities.
+
+
+### Ex 1.2.1 Adjustment to the sketch to explore:
+
+- using different types of color values. for example, try the color name 'green', compared to the rgb representation [0,255,0]
+
+- increase the size of the head so they overlap and inspect the color of overlapping shapes
+
+## Ex 1.3 sketch function draw_head alpha
+
+Open this sketch and play it.
+[sketch function draw_head alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
+
+This sketch uses the [Red,Green,Blue,Alpha] format for colors. The values Red,Greed,Blue and Alpha are numbers between 0 and 255. An alpha value of 100 is used for the drawings. The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). 
+
+```
+function draw() {
+  background(220);
+  draw_head(10, 20, [255,255,255,100]);
+  draw_head(10, 80, [255,255,0,100]);
+...
+```
+
+### Ex 1.3.1 Adjustment to the sketch to explore:
+
+- increase the size of the head so they overlap and inspect the color of overlapping shapes
+
+
+

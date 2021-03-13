@@ -1,5 +1,16 @@
 # Introduction
 
+
+!!@ https://github.com/CodingRainbow/Rainbow-Code
+--> https://github.com/CodingTrain/website.git
+
+/Volumes/GSPOT/jht-g/projects/repo/ICM-2020-Code-forked/weeks/07_dom.md
+  6,27: * [Code for videos below](https://github.com/CodingTrain/website/tree/master/Tutorials/P5JS/p5.js/08)
+
+https://github.com/CodingTrain/website/tree/main/beginners/p5js/
+https://github.com/CodingTrain/website/tree/main/beginners/p5js/1.3-shapes-and-drawing/P5
+https://github.com/CodingTrain/website/tree/main/beginners/p5js/1.4-color/P5
+
 ##  What is computational media?
   * What is programming?
   * How can I apply programming to _____________?
@@ -157,6 +168,9 @@ p5js Code! - Code Comments
   | [2020 Updates](https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n)
   https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js
   https://editor.p5js.org/jht1493/collections/2R1Sx-_K0n
+
+>> Ref. from weeks/03_interaction.md
+* Video Examples: [3.1-3.4](https://github.com/CodingRainbow/Rainbow-Code/tree/master/p5.js)
 
   !!@ See below
 
@@ -358,6 +372,8 @@ https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
   create_ui
   update_ui
   draw_head
+
+
 
 https://editor.p5js.org/jht1493/sketches/a7_6dOQ-t
 head color growth start
