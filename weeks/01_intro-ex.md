@@ -1,5 +1,6 @@
 # Introduction
 
+https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md
 
 !!@ https://github.com/CodingRainbow/Rainbow-Code
 --> https://github.com/CodingTrain/website.git

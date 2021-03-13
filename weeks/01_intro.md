@@ -139,7 +139,7 @@ and another at x,y location (60, 80).
 Lookup the function *translate* in p5js reference and 
 try to reason for yourself why two heads are drawn at two different locations.
 
-### Ex 1.1.2 Adjustment to the sketch to explore:
+### Ex 1.1.2 Explore the sketch:
 
 - Increase the size of the head by adjusting appropriate values in the calls to *ellipse* in function *draw_head* .
 
@@ -163,9 +163,7 @@ Here are a few:
 
 - red, green, blue, alpha array, eg: [255,0,0,255]
 
-This sketch draws the head in different colors.
-
-function *draw_head* now has had additional parameter variable, *acolor*:
+function *draw_head* now has an additional parameter variable, *acolor*:
 ```
 function draw_head(xpos, ypos, acolor) {
   translate(xpos,ypos)
@@ -183,10 +181,12 @@ function draw() {
 ```
 
 When *draw_head* is called the third parameter can be an valid p5js color value.
-Lookup the function *fill* and function *color* for some possibilities.
+The first call to *draw_head* gives a value of 'white' to parameter acolor for *draw_head*.
+The second call gives a value of 'yellow' to *draw_head*.
 
+Lookup the function *fill* and function *color* for other color possibilities.
 
-### Ex 1.2.1 Adjustment to the sketch to explore:
+### Ex 1.2.1 Explore the sketch:
 
 - using different types of color values. for example, try the color name 'green', compared to the rgb representation [0,255,0]
 
@@ -207,9 +207,12 @@ function draw() {
 ...
 ```
 
-### Ex 1.3.1 Adjustment to the sketch to explore:
+### Ex 1.3.1 Explore the sketch:
 
 - increase the size of the head so they overlap and inspect the color of overlapping shapes
+
+- try different values of alpha for colors
+
 
 
 
