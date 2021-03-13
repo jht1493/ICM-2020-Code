@@ -55,7 +55,7 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-# Recap and Explorations
+# 1. Recap and Explorations
 
 Here is a recap and some exercises to futher explore the concepts introduced in this session.
 
@@ -197,7 +197,7 @@ Lookup the function *fill* and function *color* for some possibilities.
 Open this sketch and play it.
 [sketch function draw_head alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
 
-This sketch uses the [Red,Green,Blue,Alpha] format for colors. The values Red,Greed,Blue and Alpha are numbers between 0 and 255. An alpha value of 100 is used for the drawings. The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). 
+This sketch uses the [Red,Green,Blue,Alpha] format for colors. The values Red,Greed,Blue and Alpha are numbers between 0 and 255. The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). An alpha value in between 0 and 255  will mix some of the background color with the fill color.  An alpha value of 100 is used for the drawings. 
 
 ```
 function draw() {
