@@ -55,23 +55,81 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-# 1. Recap and Explorations
+# 1. Recap, Extensions, and Explorations
 
-Here is a recap and some exercises to futher explore the concepts introduced in this session.
+Let's recap, look at some extentions, do some exercises to futher explore the concepts introduced in this session.
 
-## Ex 1.1 sketch function draw_head 
+## Ex 1.1 sketch draw_shapes 
 
-So far have used two specially named functions *setup* and *draw*.
+So far our sketches defined two specially named functions *setup* and *draw*.
 The function *setup* is called once when we hit the play button,
 and the function *draw* is called repeatedly until we hit the stop button.
 Also we haved used functions defined by the p5js library,
 like *ellipse* and *rect*, to draw shapes on the canvas.
 
+In this exercise well explore 
+- how to create buttons to trigger our own events in a sketch
+- how to define our own function
+- the behavior of alpha settings for colors.
+
+Open this sketch and play it.
+[sketch - draw_shapes](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K)
+
+In this sketch in the function *draw* the call to the p5js function *background* is commented out.
+Since the background color is not explicitly set it will start out as white.
+
+Let's look at the definition of function *draw_shapes*:
+
+```
+function draw_shapes() {
+  // fill(red, green, blue, alpha)
+  fill(255, 0, 0, 20)
+  rect(0, 100, 200, 200);
+  // fill([red, green, blue, alpha])
+  fill([255, 0, 255, 20])
+  circle(200, 200, 200)
+  // Green
+  fill([0, 255, 0, 20])
+  rect(200, 100, 200, 200);
+}
+```
+
+Unlike the functions we've seen so far, 
+*draw_shapes* is not part of p5js library.
+The function *draw_shapes* and it's definition is written for this exercise.
+The name is choosen to be descriptive of what it's supposed to do.
+You are encouraged to write functions to break up your code into meaningful units.
+
+This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
+The values Red,Greed,Blue and Alpha are numbers between 0 and 255. 
+The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). 
+An alpha value in between 0 and 255  will mix some of the background color with the fill color.  
+
+- messages in console panel
+- print vs. console.log (p5js vs. javascript)
+- nameing rules for functions (and javascript variables)
+
+## Ex 1.1 sketch draw_shapes questions
+
+- What happens if you repeatedly click on button Shapes? Why?
+
+- What happens if you click on buttons Rect or Circle after button Shapes? Why?
+
+- What happens if you enable the call to p5js function background in function *draw*?
+
+## Ex 1.1 explore sketch draw_shapes
+
+- Add/change shapes drawn in draw_shapes
+
+- Add other button to draw other shapes
+
+## Ex 2.1 sketch draw_mon 
+
 In this exercise we'll define a few other functions
 to explore the p5js canvas coordinate system, shapes, and color.
 
 Open this sketch and play it.
-[sketch - function draw_head](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
+[sketch - draw_mon](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
 
 As you move the mouse around on the canvas you should see 
 the mouse location and a color value displayed below the canvas:
@@ -83,7 +141,53 @@ The color value is reported as RGBA (Red,Green,Blue and Alpha) numbers between 0
 This is the color at the mouse location on the canvas.
 Move the mouse around and explore these values.
 
-### Ex 1.1.1 Some questions to consider:
+Looking at the script you'll see functions *draw_mon*, *create_ui*, and *update_ui*.
+Don't worry about the mechanics of *create_ui* and *update_ui*, 
+we'll get into more detail about them in up comming sessions.
+
+- function name draw_mon chosen to be generic
+
+Let's look at the definition of function *draw_mon*:
+
+```
+function draw_mon(xpos, ypos) {
+  translate(xpos,ypos)
+  // ellipse(x, y, w, [h])
+  ellipse(20, 20, 40);     // Face
+  ellipse(10, 16, 10);     // Left Eye
+  ellipse(30, 16, 10);     // Right Eye
+  ellipse(20, 30, 20, 8);  // Mouth
+...
+```
+
+Unlike the functions we've seen so far, 
+*draw_mon* is not part of p5js library.
+The function *draw_mon* and it's definition is written for this exercise.
+The name is choosen to be descriptive of what it's supposed to do.
+You are encouraged to write functions to break up your code into meaningful units.
+In this illustration we are writing our own function to demonstrate creating an image by repeating a smaller image.
+
+Examine the line: *function draw_mon(xpos, ypos)* 
+This begins the definition of *draw_mon*.
+The terms xpos and ypos are called parameter variables.
+They will be assigned specific values when *draw_mon* is called,
+in this case from the *draw* function.
+The first call to function *draw_mon* assigns values 10 for xpos and 80 ypos.
+The second call to function *draw_mon* assigns values 60 for xpos and 80 ypos.
+```
+function draw() {
+  background(220);
+  draw_mon(10, 80);
+  draw_mon(60, 80);
+  ...
+```
+In this case two shapes are drawn one starting at x,y location (10, 80)
+and another at x,y location (60, 80).
+
+Lookup the function *translate* in p5js reference and 
+try to reason for yourself why two shapes are drawn at two different locations.
+
+### Ex 2.1.1 sketch draw_mon questions
 
 - When does the numbers change and when don't they change?
 
@@ -95,64 +199,21 @@ Move the mouse around and explore these values.
 
 - What color value is reported for the background?
 
-Looking at the script you'll see functions *draw_head*, *create_ui*, and *update_ui*.
-Don't worry about the mechanics of *create_ui* and *update_ui*, 
-we'll get into more detail about them in up comng sessions.
+### Ex 2.1.2 explore sketch draw_mon
 
-Let's look at the definition of function *draw_head*:
+- Increase the size of the shape by adjusting appropriate values in the calls to *ellipse* in function *draw_mon* .
 
-```
-function draw_head(xpos, ypos) {
-  translate(xpos,ypos)
-  // ellipse(x, y, w, [h])
-  ellipse(20, 20, 40);     // Face
-  ellipse(10, 16, 10);     // Left Eye
-  ellipse(30, 16, 10);     // Right Eye
-  ellipse(20, 30, 20, 8);  // Mouth
-...
-```
+- In function *draw* add additional calls to *draw_mon* to draw shapes all the way across the canvas.
 
-Unlike the functions we've seen so far, 
-*draw_head* is not part of p5js library.
-The function *draw_head* and it's definition is written for this exercise.
-The name is choosen to be descriptive of what it's supposed to do.
-You are encouraged to write functions to break up your code into meaningful units.
-In this illustration we are writing our own function to demonstrate creating an image by repeating a smaller image.
+- Adjust the appearance of the shape. For example: add ears to the shape, add an entire body, or draw something different. 
+You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_mon*.
 
-Examine the line: *function draw_head(xpos, ypos)* 
-This begins the definition of *draw_head*.
-The terms xpos and ypos are called parameter variables.
-They will be assigned specific values when *draw_head* is called,
-in this case from the *draw* function.
-The first call to function *draw_head* assigns values 10 for xpos and 80 ypos.
-The second call to function *draw_head* assigns values 60 for xpos and 80 ypos.
-```
-function draw() {
-  background(220);
-  draw_head(10, 80);
-  draw_head(60, 80);
-  ...
-```
-In this case two heads are drawn one starting at x,y location (10, 80)
-and another at x,y location (60, 80).
-
-Lookup the function *translate* in p5js reference and 
-try to reason for yourself why two heads are drawn at two different locations.
-
-### Ex 1.1.2 Explore the sketch:
-
-- Increase the size of the head by adjusting appropriate values in the calls to *ellipse* in function *draw_head* .
-
-- In function *draw* add additional calls to *draw_head* to draw heads all the way across the canvas.
-
-- Adjust the appearance of the head. For example: add ears to the head, add an entire body, or draw something different. You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_head*.
-
-## Ex 1.2 sketch function draw_head color
+## Ex 2.2 sketch draw_mon color
 
 Open this sketch and play it.
-[sketch - function draw_head color](https://editor.p5js.org/jht1493/sketches/a7_6dOQ-t)
+[sketch - draw_mon color](https://editor.p5js.org/jht1493/sketches/a7_6dOQ-t)
 
-This sketch draws the heads in different colors.
+This sketch draws the shapes in different colors.
 
 In p5js a color can be represent in a number of ways.
 Here are a few:
@@ -163,9 +224,9 @@ Here are a few:
 
 - red, green, blue, alpha array, eg: [255,0,0,255]
 
-function *draw_head* now has an additional parameter variable, *acolor*:
+function *draw_mon* now has an additional parameter variable, *acolor*:
 ```
-function draw_head(xpos, ypos, acolor) {
+function draw_mon(xpos, ypos, acolor) {
   translate(xpos,ypos)
   fill(acolor)
 ...
@@ -175,43 +236,54 @@ When called from function *draw*, a color name is given:
 ```
 function draw() {
   background(220);
-  draw_head(10, 20, 'white');
-  draw_head(10, 80, 'yellow');
+  draw_mon(10, 20, 'white');
+  draw_mon(10, 80, 'yellow');
 ...
 ```
 
-When *draw_head* is called the third parameter can be an valid p5js color value.
-The first call to *draw_head* gives a value of 'white' to parameter acolor for *draw_head*.
-The second call gives a value of 'yellow' to *draw_head*.
+When *draw_mon* is called the third parameter can be an valid p5js color value.
+The first call to *draw_mon* gives a value of 'white' to parameter acolor for *draw_mon*.
+The second call gives a value of 'yellow' to *draw_mon*.
 
 Lookup the function *fill* and function *color* for other color possibilities.
 
-### Ex 1.2.1 Explore the sketch:
+### Ex 2.2.1 explore draw_mon color
 
-- using different types of color values. for example, try the color name 'green', compared to the rgb representation [0,255,0]
+- using different types of color values. 
+for example, try the color name 'green', compared it to the rgb representation [0,255,0]
 
-- increase the size of the head so they overlap and inspect the color of overlapping shapes
+- increase the size of the shape so they overlap and inspect the color of overlapping shapes
 
-## Ex 1.3 sketch function draw_head alpha
+## Ex 2.3 sketch draw_mon alpha
 
 Open this sketch and play it.
-[sketch function draw_head alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
+[sketch draw_mon alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
 
-This sketch uses the [Red,Green,Blue,Alpha] format for colors. The values Red,Greed,Blue and Alpha are numbers between 0 and 255. The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). An alpha value in between 0 and 255  will mix some of the background color with the fill color.  An alpha value of 100 is used for the drawings. 
+This sketch uses the format [Red,Green,Blue,Alpha] for colors. 
 
 ```
 function draw() {
   background(220);
-  draw_head(10, 20, [255,255,255,100]);
-  draw_head(10, 80, [255,255,0,100]);
+  draw_mon(10, 20, [255,255,255,100]);
+  draw_mon(10, 80, [255,255,0,100]);
 ...
 ```
 
-### Ex 1.3.1 Explore the sketch:
+### Ex 2.3.1 explore draw_mon alpha
 
-- increase the size of the head so they overlap and inspect the color of overlapping shapes
+- increase the size of the shape so they overlap and inspect the color of overlapping shapes
 
 - try different values of alpha for colors
+
+## Ex 2.4 Free range draw_mon
+
+```
+// https://editor.p5js.org/jht1493/sketches/R2Rdoodqo
+// draw_fem rotate
+
+// https://editor.p5js.org/jht1493/sketches/I7OFtFR8K
+// draw_fem mon
+```
 
 
 
