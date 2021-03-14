@@ -280,14 +280,13 @@ function draw() {
 
 ## Ex 2.4 Free range draw_mon
 
-```
-// https://editor.p5js.org/jht1493/sketches/R2Rdoodqo
-// draw_fem rotate
+Here are some variations on the function draw_mon.
+Go forth and explore!
 
-// https://editor.p5js.org/jht1493/sketches/I7OFtFR8K
-// draw_fem mon
-```
+[sketch draw_fem rotate](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)
 
+[sketch draw_fem mon](https://editor.p5js.org/jht1493/sketches/I7OFtFR8K)
 
+[sketch draw_fem mon row](https://editor.p5js.org/jht1493/sketches/9Cy8EX8iO)
 
-
+[sketch draw_fem matrix](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)
