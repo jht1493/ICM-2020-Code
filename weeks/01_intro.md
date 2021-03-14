@@ -289,4 +289,4 @@ Go forth and explore!
 
 [sketch draw_fem mon row](https://editor.p5js.org/jht1493/sketches/9Cy8EX8iO)
 
-[sketch draw_fem matrix](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)
+[sketch draw_fem matrix](https://editor.p5js.org/jht1493/sketches/BPBunRg2H)
