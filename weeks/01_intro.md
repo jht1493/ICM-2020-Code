@@ -57,7 +57,7 @@
 
 # 1. Recap, Extensions, and Explorations
 
-Let's recap, look at some extentions, do some exercises to futher explore the concepts introduced in this session.
+Let's recap, look at some extentions, and do some exercises to futher explore the concepts introduced in this session.
 
 ## Ex 1.1 sketch draw_shapes 
 
@@ -67,8 +67,8 @@ and the function *draw* is called repeatedly until we hit the stop button.
 Also we haved used functions defined by the p5js library,
 like *ellipse* and *rect*, to draw shapes on the canvas.
 
-In this exercise well explore 
-- how to create buttons to trigger our own events in a sketch
+In this exercise we'll explore 
+- how to create buttons to trigger our own events
 - how to define our own function
 - the behavior of alpha settings for colors.
 
@@ -98,6 +98,7 @@ Unlike the functions we've seen so far,
 *draw_shapes* is not part of p5js library.
 The function *draw_shapes* and it's definition is written for this exercise.
 The name is choosen to be descriptive of what it's supposed to do.
+
 You are encouraged to write functions to break up your code into meaningful units.
 
 This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
@@ -191,7 +192,7 @@ try to reason for yourself why two shapes are drawn at two different locations.
 
 ### Ex 2.1.1 sketch draw_mon questions
 
-- When does the numbers change and when don't they change?
+- When do the numbers change and when don't they change?
 
 - What is the lowest value you see for the mouseX value?
 
