@@ -78,6 +78,12 @@ Open this sketch and play it.
 In this sketch in the function *draw* the call to the p5js function *background* is commented out.
 Since the background color is not explicitly set it will start out as white.
 
+The *createButton* p5js function is used to create the buttons that appear below the canvas. 
+We'll get into the details of how to use them in a future session.
+Click on the buttons and observe the actions and the a messages that appear in the console.
+
+The javascript function *console.log* is used instead of the p5js function *print*.
+
 Let's look at the definition of function *draw_shapes*:
 
 ```
@@ -108,7 +114,7 @@ An alpha value in between 0 and 255  will mix some of the background color with 
 
 - messages in console panel
 - print vs. console.log (p5js vs. javascript)
-- nameing rules for functions (and javascript variables)
+- naming rules for functions (and javascript variables)
 
 ## Ex 1.1 sketch draw_shapes questions
 
@@ -122,7 +128,7 @@ An alpha value in between 0 and 255  will mix some of the background color with 
 
 - Add/change shapes drawn in draw_shapes
 
-- Add other button to draw other shapes
+- Add other buttons to draw other shapes
 
 ## Ex 2.1 sketch draw_mon 
 
@@ -225,7 +231,7 @@ Here are a few:
 
 - gray scale number, eg: 0 (white), 128 (gray), 255 (black)
 
-- red, green, blue, alpha array, eg: [255,0,0,255]
+- red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting.
 
 function *draw_mon* now has an additional parameter variable, *acolor*:
 ```
