@@ -203,7 +203,7 @@ try to reason for yourself why two shapes are drawn at two different locations.
 
 ### Ex 2.1.2 explore sketch draw_mon
 
-- Increase the size of the shape by adjusting appropriate values in the calls to *ellipse* in function *draw_mon* .
+- Increase the size of the shape by adjusting appropriate values in the calls to *rect* in function *draw_mon* .
 
 - In function *draw* add additional calls to *draw_mon* to draw shapes all the way across the canvas.
 
@@ -229,8 +229,9 @@ Here are a few:
 function *draw_mon* now has an additional parameter variable, *acolor*:
 ```
 function draw_mon(xpos, ypos, acolor) {
-  translate(xpos,ypos)
-  fill(acolor)
+  // fill(color)
+  // fill([r,g,b,a])
+  fill(acolor);
 ...
 ```
 
@@ -238,8 +239,8 @@ When called from function *draw*, a color name is given:
 ```
 function draw() {
   background(220);
-  draw_mon(10, 20, 'white');
-  draw_mon(10, 80, 'yellow');
+  draw_mon(5, 60, 'white');
+  draw_mon(70, 60, 'gray');
 ...
 ```
 
