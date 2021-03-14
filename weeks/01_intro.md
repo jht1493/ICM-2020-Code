@@ -151,12 +151,14 @@ Let's look at the definition of function *draw_mon*:
 
 ```
 function draw_mon(xpos, ypos) {
+  // translate(x, y)
   translate(xpos,ypos)
-  // ellipse(x, y, w, [h])
-  ellipse(20, 20, 40);     // Face
-  ellipse(10, 16, 10);     // Left Eye
-  ellipse(30, 16, 10);     // Right Eye
-  ellipse(20, 30, 20, 8);  // Mouth
+  // rect(x, y, w, h)
+  rect(20, 0, 20, 20);     
+  rect(0, 20, 60, 20);     
+  rect(20, 40, 20, 20);     
+  translate(-xpos,-ypos)
+}
 ...
 ```
 
