@@ -280,7 +280,7 @@ function draw() {
 
 ## Ex 2.4 Free range draw_mon
 
-Here are some variations on the function draw_mon.
+Here are some variations on the sketch draw_mon.
 Go forth and explore!
 
 [sketch draw_fem rotate](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)
