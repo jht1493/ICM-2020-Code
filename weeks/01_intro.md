@@ -179,8 +179,8 @@ The second call to function *draw_mon* assigns values 60 for xpos and 80 ypos.
 ```
 function draw() {
   background(220);
-  draw_mon(10, 80);
-  draw_mon(60, 80);
+  draw_mon(5, 60);
+  draw_mon(70, 60);
   ...
 ```
 In this case two shapes are drawn one starting at x,y location (10, 80)
@@ -207,13 +207,13 @@ try to reason for yourself why two shapes are drawn at two different locations.
 
 - In function *draw* add additional calls to *draw_mon* to draw shapes all the way across the canvas.
 
-- Adjust the appearance of the shape. For example: add ears to the shape, add an entire body, or draw something different. 
+- Adjust the appearance of the shape. For example: add other shapes, or draw something different. 
 You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_mon*.
 
 ## Ex 2.2 sketch draw_mon color
 
 Open this sketch and play it.
-[sketch - draw_mon color](https://editor.p5js.org/jht1493/sketches/a7_6dOQ-t)
+[sketch - draw_mon color](https://editor.p5js.org/jht1493/sketches/a3VD0HYqD)
 
 This sketch draws the shapes in different colors.
 
@@ -266,8 +266,8 @@ This sketch uses the format [Red,Green,Blue,Alpha] for colors.
 ```
 function draw() {
   background(220);
-  draw_mon(10, 20, [255,255,255,100]);
-  draw_mon(10, 80, [255,255,0,100]);
+  draw_mon(5, 60, [255,255,255,100]);
+  draw_mon(70, 60, [255,255,0,100]);
 ...
 ```
 
