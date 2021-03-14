@@ -174,8 +174,8 @@ This begins the definition of *draw_mon*.
 The terms xpos and ypos are called parameter variables.
 They will be assigned specific values when *draw_mon* is called,
 in this case from the *draw* function.
-The first call to function *draw_mon* assigns values 10 for xpos and 80 ypos.
-The second call to function *draw_mon* assigns values 60 for xpos and 80 ypos.
+The first call to function *draw_mon* assigns values 5 for xpos and 60 ypos.
+The second call to function *draw_mon* assigns values 70 for xpos and 60 ypos.
 ```
 function draw() {
   background(220);
