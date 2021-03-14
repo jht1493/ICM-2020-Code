@@ -72,7 +72,7 @@ In this exercise we'll explore
 - how to define our own function
 - the behavior of alpha settings for colors.
 
-Open this sketch and play it.
+Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_shapes](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K)
 
 In this sketch in the function *draw* the call to the p5js function *background* is commented out.
@@ -135,7 +135,7 @@ An alpha value in between 0 and 255  will mix some of the background color with 
 In this exercise we'll define a few other functions
 to explore the p5js canvas coordinate system, shapes, and color.
 
-Open this sketch and play it.
+Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_mon](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
 
 As you move the mouse around on the canvas you should see 
@@ -219,7 +219,7 @@ You may call other p5js shape functions (*rect*, *triangle*, etc..) inside funct
 
 ## Ex 2.2 sketch draw_mon color
 
-Open this sketch and play it.
+Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_mon color](https://editor.p5js.org/jht1493/sketches/a3VD0HYqD)
 
 This sketch draws the shapes in different colors.
@@ -266,7 +266,7 @@ for example, try the color name 'green', compared it to the rgb representation [
 
 ## Ex 2.3 sketch draw_mon alpha
 
-Open this sketch and play it.
+Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch draw_mon alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
 
 This sketch uses the format [Red,Green,Blue,Alpha] for colors. 
