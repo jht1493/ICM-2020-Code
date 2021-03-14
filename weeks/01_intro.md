@@ -191,8 +191,8 @@ function draw() {
   draw_mon(70, 60);
   ...
 ```
-In this case two shapes are drawn one starting at x,y location (10, 80)
-and another at x,y location (60, 80).
+In this case two shapes are drawn one starting at x,y location (5, 60)
+and another at x,y location (70, 60).
 
 Lookup the function *translate* in p5js reference and 
 try to reason for yourself why two shapes are drawn at two different locations.
