@@ -109,8 +109,9 @@ You are encouraged to write functions to break up your code into meaningful unit
 
 This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
 The values Red,Greed,Blue and Alpha are numbers between 0 and 255. 
-The alpha value can range from 0 (no alpha, black color), to 255 (full value of the color components). 
-An alpha value in between 0 and 255  will mix some of the background color with the fill color.  
+The alpha value can range from 0 (no alpha, white color), to 255 (full value of the color components). 
+For example alpha value 127 will mix some an even amount of the background color with the fill color,
+alpha value 20 will give a very light tint of the fill color on the background.
 
 - messages in console panel
 - print vs. console.log (p5js vs. javascript)
