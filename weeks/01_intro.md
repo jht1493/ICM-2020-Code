@@ -80,22 +80,23 @@ Since the background color is not explicitly set it will start out as white.
 
 The *createButton* p5js function is used to create the buttons that appear below the canvas. 
 We'll get into the details of how to use them in a future session.
-Click on the buttons and observe the actions and the a messages that appear in the console.
+Click on the buttons and observe the actions and the messages that appear in the console.
 
 The javascript function *console.log* is used instead of the p5js function *print*.
+!!@ why !!@
 
 Let's look at the definition of function *draw_shapes*:
 
 ```
 function draw_shapes() {
   // fill(red, green, blue, alpha)
-  fill(255, 0, 0, 20)
+  fill(255, 0, 0, 20);
   rect(0, 100, 200, 200);
   // fill([red, green, blue, alpha])
-  fill([255, 0, 255, 20])
-  circle(200, 200, 200)
+  fill([255, 0, 255, 20]);
+  circle(200, 200, 200);
   // Green
-  fill([0, 255, 0, 20])
+  fill([0, 255, 0, 20]);
   rect(200, 100, 200, 200);
 }
 ```
@@ -108,28 +109,33 @@ The name is choosen to be descriptive of what it's supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
 
 This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
-The values Red,Greed,Blue and Alpha are numbers between 0 and 255. 
+The values Red, Green, Blue and Alpha are numbers between 0 and 255. 
 The alpha value can range from 0 (no alpha, white color), to 255 (full value of the color components). 
-For example alpha value 127 will mix some an even amount of the background color with the fill color,
+For example alpha value 127 will mix an even amount of the background color with the fill color,
 alpha value 20 will give a very light tint of the fill color on the background.
 
 - messages in console panel
 - print vs. console.log (p5js vs. javascript)
 - naming rules for functions (and javascript variables)
-
+- example with no console.log
+- add console.log to show behavior and long message
+  'in setup function'
+  'calling rect function'
+  
 ## Ex 1.1 sketch draw_shapes questions
 
 - What happens if you repeatedly click on button Shapes? Why?
 
 - What happens if you click on buttons Rect or Circle after button Shapes? Why?
 
-- What happens if you enable the call to p5js function background in function *draw*?
-
 ## Ex 1.1 explore sketch draw_shapes
 
 - Add/change shapes drawn in draw_shapes
 
 - Add other buttons to draw other shapes
+
+- What happens if you enable the call to p5js function background in function *draw*?
+
 
 ## Ex 2.1 sketch draw_mon 
 
