@@ -59,6 +59,12 @@
 
 Let's recap, look at some extentions, and do some exercises to futher explore the concepts introduced in this session.
 
+## Ex 1.1 sketch draw_ rect circle
+
+
+https://editor.p5js.org/jht1493/sketches/WJFtFBmnK
+draw_ rect circle
+
 ## Ex 1.1 sketch draw_shapes 
 
 So far our sketches defined two specially named functions *setup* and *draw*.
@@ -79,11 +85,12 @@ In this sketch in the function *draw* the call to the p5js function *background*
 Since the background color is not explicitly set it will start out as white.
 
 The *createButton* p5js function is used to create the buttons that appear below the canvas. 
-We'll get into the details of how to use them in a future session.
+We'll get into the details of how to use them in a future session. !!@ Later on this page
 Click on the buttons and observe the actions and the messages that appear in the console.
 
 The javascript function *console.log* is used instead of the p5js function *print*.
-!!@ why !!@
+!!@ why !!@replace with print for now 
+!!@ Not at end must use console.log before setup called
 
 Let's look at the definition of function *draw_shapes*:
 
@@ -121,7 +128,7 @@ alpha value 20 will give a very light tint of the fill color on the background.
 - add console.log to show behavior and long message
   'in setup function'
   'calling rect function'
-  
+
 ## Ex 1.1 sketch draw_shapes questions
 
 - What happens if you repeatedly click on button Shapes? Why?
@@ -134,16 +141,17 @@ alpha value 20 will give a very light tint of the fill color on the background.
 
 - Add other buttons to draw other shapes
 
+!!@ Don't do.
 - What happens if you enable the call to p5js function background in function *draw*?
 
 
-## Ex 2.1 sketch draw_mon 
+## Ex 2.1 sketch draw_bars 
 
 In this exercise we'll define a few other functions
 to explore the p5js canvas coordinate system, shapes, and color.
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_mon](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
+[sketch - draw_bars](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
 
 As you move the mouse around on the canvas you should see 
 the mouse location and a color value displayed below the canvas:
@@ -155,16 +163,21 @@ The color value is reported as RGBA (Red,Green,Blue and Alpha) numbers between 0
 This is the color at the mouse location on the canvas.
 Move the mouse around and explore these values.
 
-Looking at the script you'll see functions *draw_mon*, *create_ui*, and *update_ui*.
+Looking at the script you'll see functions *draw_bars*, *create_ui*, and *update_ui*.
 Don't worry about the mechanics of *create_ui* and *update_ui*, 
 we'll get into more detail about them in up comming sessions.
+!!@ Explain later on this page
 
-- function name draw_mon chosen to be generic
+- function name draw_bars chosen to be generic
 
-Let's look at the definition of function *draw_mon*:
+Let's look at the definition of function *draw_bars*:
+
+!!@ draw_bars --> draw_rects
+!!@ print('in function draw_bars xpos=', xpos, 'ypos', ypos);
+!!@ Use tranlate out side func to avoid args until later
 
 ```
-function draw_mon(xpos, ypos) {
+function draw_bars(xpos, ypos) {
   // translate(x, y)
   translate(xpos,ypos)
   // rect(x, y, w, h)
@@ -177,24 +190,24 @@ function draw_mon(xpos, ypos) {
 ```
 
 Unlike the functions we've seen so far, 
-*draw_mon* is not part of p5js library.
-The function *draw_mon* and it's definition is written for this exercise.
+*draw_bars* is not part of p5js library.
+The function *draw_bars* and it's definition is written for this exercise.
 The name is choosen to be descriptive of what it's supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
 In this illustration we are writing our own function to demonstrate creating an image by repeating a smaller image.
 
-Examine the line: *function draw_mon(xpos, ypos)* 
-This begins the definition of *draw_mon*.
+Examine the line: *function draw_bars(xpos, ypos)* 
+This begins the definition of *draw_bars*.
 The terms xpos and ypos are called parameter variables.
-They will be assigned specific values when *draw_mon* is called,
+They will be assigned specific values when *draw_bars* is called,
 in this case from the *draw* function.
-The first call to function *draw_mon* assigns values 5 for xpos and 60 ypos.
-The second call to function *draw_mon* assigns values 70 for xpos and 60 ypos.
+The first call to function *draw_bars* assigns values 5 for xpos and 60 ypos.
+The second call to function *draw_bars* assigns values 70 for xpos and 60 ypos.
 ```
 function draw() {
   background(220);
-  draw_mon(5, 60);
-  draw_mon(70, 60);
+  draw_bars(5, 60);
+  draw_bars(70, 60);
   ...
 ```
 In this case two shapes are drawn one starting at x,y location (5, 60)
@@ -203,7 +216,7 @@ and another at x,y location (70, 60).
 Lookup the function *translate* in p5js reference and 
 try to reason for yourself why two shapes are drawn at two different locations.
 
-### Ex 2.1.1 sketch draw_mon questions
+### Ex 2.1.1 sketch draw_bars questions
 
 - When do the numbers change and when don't they change?
 
@@ -215,19 +228,19 @@ try to reason for yourself why two shapes are drawn at two different locations.
 
 - What color value is reported for the background?
 
-### Ex 2.1.2 explore sketch draw_mon
+### Ex 2.1.2 explore sketch draw_bars
 
-- Increase the size of the shape by adjusting appropriate values in the calls to *rect* in function *draw_mon* .
+- Increase the size of the shape by adjusting appropriate values in the calls to *rect* in function *draw_bars* .
 
-- In function *draw* add additional calls to *draw_mon* to draw shapes all the way across the canvas.
+- In function *draw* add additional calls to *draw_bars* to draw shapes all the way across the canvas.
 
 - Adjust the appearance of the shape. For example: add other shapes, or draw something different. 
-You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_mon*.
+You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_bars*.
 
-## Ex 2.2 sketch draw_mon color
+## Ex 2.2 sketch draw_bars color
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_mon color](https://editor.p5js.org/jht1493/sketches/a3VD0HYqD)
+[sketch - draw_bars color](https://editor.p5js.org/jht1493/sketches/a3VD0HYqD)
 
 This sketch draws the shapes in different colors.
 
@@ -240,9 +253,9 @@ Here are a few:
 
 - red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting.
 
-function *draw_mon* now has an additional parameter variable, *acolor*:
+function *draw_bars* now has an additional parameter variable, *acolor*:
 ```
-function draw_mon(xpos, ypos, acolor) {
+function draw_bars(xpos, ypos, acolor) {
   // fill(color)
   // fill([r,g,b,a])
   fill(acolor);
@@ -253,48 +266,48 @@ When called from function *draw*, a color name is given:
 ```
 function draw() {
   background(220);
-  draw_mon(5, 60, 'white');
-  draw_mon(70, 60, 'gray');
+  draw_bars(5, 60, 'white');
+  draw_bars(70, 60, 'gray');
 ...
 ```
 
-When *draw_mon* is called the third parameter can be an valid p5js color value.
-The first call to *draw_mon* gives a value of 'white' to parameter acolor for *draw_mon*.
-The second call gives a value of 'yellow' to *draw_mon*.
+When *draw_bars* is called the third parameter can be an valid p5js color value.
+The first call to *draw_bars* gives a value of 'white' to parameter acolor for *draw_bars*.
+The second call gives a value of 'yellow' to *draw_bars*.
 
 Lookup the function *fill* and function *color* for other color possibilities.
 
-### Ex 2.2.1 explore draw_mon color
+### Ex 2.2.1 explore draw_bars color
 
 - using different types of color values. 
 for example, try the color name 'green', compared it to the rgb representation [0,255,0]
 
 - increase the size of the shape so they overlap and inspect the color of overlapping shapes
 
-## Ex 2.3 sketch draw_mon alpha
+## Ex 2.3 sketch draw_bars alpha
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch draw_mon alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
+[sketch draw_bars alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
 
 This sketch uses the format [Red,Green,Blue,Alpha] for colors. 
 
 ```
 function draw() {
   background(220);
-  draw_mon(5, 60, [255,255,255,100]);
-  draw_mon(70, 60, [255,255,0,100]);
+  draw_bars(5, 60, [255,255,255,100]);
+  draw_bars(70, 60, [255,255,0,100]);
 ...
 ```
 
-### Ex 2.3.1 explore draw_mon alpha
+### Ex 2.3.1 explore draw_bars alpha
 
 - increase the size of the shape so they overlap and inspect the color of overlapping shapes
 
 - try different values of alpha for colors
 
-## Ex 2.4 Free range draw_mon
+## Ex 2.4 Free range draw_bars
 
-Here are some variations on the sketch draw_mon.
+Here are some variations on the sketch draw_bars.
 Go forth and explore!
 
 [sketch draw_fem rotate](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)

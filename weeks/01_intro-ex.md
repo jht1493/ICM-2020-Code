@@ -1,5 +1,10 @@
 # Introduction
 
+
+https://thecodingtrain.com/beginners/git-and-github/
+
+https://thecodingtrain.com/beginners/p5js/0.1-trailer.html
+
 https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md
 
 ++ scratch.mit.edu
