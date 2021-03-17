@@ -61,29 +61,90 @@
 
 Let's recap, look at some extentions, and do some exercises to futher explore the concepts introduced in this session.
 
-So far our sketches defined two specially named functions *setup* and *draw*.
+So far our sketches defined two specially functions *setup* and *draw*.
 The function *setup* is called once when we hit the play button,
 and the function *draw* is called repeatedly until we hit the stop button.
 Also we haved used functions defined by the p5js library,
 like *ellipse* and *rect*, to draw shapes on the canvas.
 
 In this exercises we'll explore 
-- how to create buttons 
+- how to create buttons to run code
 - how to use the print function to debug your code
-- the behavior of alpha value for colors.
+- the behavior of alpha value for colors
 - how to define your own function
 
 For some of these sketches no drawing is done in the function *draw*.
-When nothing is drawn the canvas will start out as white.
+When nothing is drawn the canvas will start out white.
 
-## Ex 1.1 sketch draw_rect_circle
+## Ex 1.1 play sketch draw_rect
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_rect_circle](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK)
+[sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK)
 
 - buttons will appear below canvas
-- later will see how to adjust spacing and layout of buttons
-- copy paste createButton code, only change title and body
+- play the sketch, click on the buttons and note behavior
+
+## Ex 1.1 explore sketch draw_rect
+
+- did you notice that sometimes the left rect is white and other gray?
+- what are possible ways to represent color for the fill function?
+- try adjusting the colors specified in fill functions
+
+- try adding print function to follow the behavior of the buttons
+
+## Ex 1.1 explore sketch draw_rect_print
+
+- print function added in the sketch
+- try setting different colors for each shape
+
+[sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P)
+
+## Ex 1.1 explore sketch draw_rect_alpha
+
+- alpha colors added to the sketch
+
+[sketch - draw_rect_alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD)
+
+This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
+The values Red, Green, Blue and Alpha are numbers between 0 and 255. 
+The alpha value can range from 0 (no alpha, white color), to 255 (full value of the color components). 
+For example, alpha value 127 will mix an even amount of the background color with the fill color.
+Alpha value 20 will give a very light tint of the fill color on the background.
+
+- try clicking each button repeatedly and observe the laying of the colors
+
+## Ex 1.1 explore sketch draw_rect_createSpan
+
+- other DOM elements added below canvas to show mouse location and canvas color
+
+[sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w)
+
+### Ex 1.1 sketch draw_rect_createSpan questions
+
+- When do the numbers change and when don't they change?
+
+- What is the lowest value you see for the mouseX value?
+
+- What is the largest value for mouseX?
+
+- What value in the code will change the width of the canvas?
+
+- What color value is reported for the background?
+
+### Ex 1.1 functions createButton, createSpan, select
+
+- ok to skip this section, for those curious about DOM functions
+- DOM functions createButton, createSpan, select
+- DOM means Document Object Model, how the browser refers to visual elements on the page.
+- function createButton creates a button element on the page
+- function createSpan creates span of text, spans are layed out on a line.
+- elements may be assigned an id later used to reference them
+- function select is used to referred to an element by it's id
+- an id is descriptive text you make up
+- in future sessions see how to adjust spacing and layout of buttons
+- if you want to try to to make your own buttons:
+- - copy paste createButton code 
+- - change title and body
 
 ```
 function setup() {
@@ -91,21 +152,11 @@ function setup() {
   // createButton('title-for-button-')...
   createButton('backg 240').mousePressed(function() {
     // Code to run when button pressed
+    // the "body" of the mousePressed function
     background(240);
   }); // End of createButton
 ...
 ```
-![setup-createButton](../assets/setup-createButton.png)
-
-[sketch - draw_rect_circle print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P)
-
-[sketch - draw_rect_circle alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD)
-
-This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
-The values Red, Green, Blue and Alpha are numbers between 0 and 255. 
-The alpha value can range from 0 (no alpha, white color), to 255 (full value of the color components). 
-For example alpha value 127 will mix an even amount of the background color with the fill color,
-alpha value 20 will give a very light tint of the fill color on the background.
 
 ## Ex 1.2 sketch draw_shapes 
 
@@ -225,17 +276,6 @@ and another at x,y location (70, 60).
 Lookup the function *translate* in p5js reference and 
 try to reason for yourself why two shapes are drawn at two different locations.
 
-### Ex 1.3 sketch draw_bars questions
-
-- When do the numbers change and when don't they change?
-
-- What is the lowest value you see for the mouseX value?
-
-- What is the largest value for mouseX?
-
-- What value in the code will change the width of the canvas?
-
-- What color value is reported for the background?
 
 ### Ex 1.3 explore sketch draw_bars
 
