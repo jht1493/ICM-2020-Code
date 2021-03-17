@@ -115,7 +115,8 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 
 ## Ex 1.1 explore sketch draw_rect_createSpan
 
-- other DOM elements added below canvas to show mouse location and canvas color
+In this exercise we'll define a few other functions
+to explore the p5js canvas coordinate system, shapes, and color.
 
 [sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w)
 
@@ -133,7 +134,8 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 
 ### Ex 1.1 functions createButton, createSpan, select
 
-- ok to skip this section, for those curious about DOM functions
+- ok to skip this section
+- for those curious about DOM functions
 - DOM functions createButton, createSpan, select
 - DOM means Document Object Model, how the browser refers to visual elements on the page.
 - function createButton creates a button element on the page
@@ -141,7 +143,8 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 - elements may be assigned an id later used to reference them
 - function select is used to referred to an element by it's id
 - an id is descriptive text you make up
-- in future sessions see how to adjust spacing and layout of buttons
+
+- in future sessions we'll see how to adjust layout of buttons and other DOM elements
 - if you want to try to to make your own buttons:
 - - copy paste createButton code 
 - - change title and body
@@ -151,8 +154,7 @@ function setup() {
   createCanvas(400, 300);
   // createButton('title-for-button-')...
   createButton('backg 240').mousePressed(function() {
-    // Code to run when button pressed
-    // the "body" of the mousePressed function
+    // Code to run when button pressed, the "body"
     background(240);
   }); // End of createButton
 ...
@@ -161,7 +163,23 @@ function setup() {
 ## Ex 1.2 sketch draw_shapes 
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_shapes](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K)
+[sketch - 1.2 draw_shapes_body](https://editor.p5js.org/jht1493/sketches/X5iRxm8HK)
+
+- 3 shapes draw in Shapes button.
+- no color set on Rect and Circle buttons
+
+Open this sketch in a separate window so that you can play it and read this page at the same time.
+[sketch - 1.2 draw_shapes_func](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K)
+
+- Shapes button calls function draw_shapes, define in script.
+- function name is description of intent of code
+- You choose the name for your functions. 
+- A function name must begin with a letter (upper or lower case), followed by any number of letters, numbers or underscore characters.
+
+Unlike the functions we've seen so far, 
+*draw_shapes* is not part of p5js library.
+The function *draw_shapes* and it's definition is written for this exercise.
+The name is choosen to be descriptive of what it's supposed to do.
 
 Click on the buttons and observe the actions and the messages that appear in the console.
 
@@ -170,13 +188,13 @@ Let's look at the definition of function *draw_shapes*:
 ```
 function draw_shapes() {
   // fill([red, green, blue, alpha])
-  fill([255, 0, 0, 20]);
+  fill([255, 0, 0, 20]); // Red
   rect(0, 100, 200, 200);
   // fill([red, green, blue, alpha])
-  fill([255, 0, 255, 20]);
-  circle(200, 200, 200);
-  // Green
-  fill([0, 255, 0, 20]);
+  fill([255, 255, 0, 20]); // Yellow
+  circle(200, 200, 200)
+  // fill([red, green, blue, alpha])
+  fill([0, 255, 0, 20]);  // Green
   rect(200, 100, 200, 200);
 }
 ```
@@ -188,7 +206,9 @@ The name is choosen to be descriptive of what it's supposed to do.
 
 You are encouraged to write functions to break up your code into meaningful units.
 
-- naming rules for functions (and javascript variables)
+- You choose the name for your functions. 
+- A function name must begin with a letter (upper or lower case), followed by any number of letters, numbers or underscore characters.
+
 
 ## Ex 1.2 sketch draw_shapes questions
 
@@ -201,9 +221,6 @@ You are encouraged to write functions to break up your code into meaningful unit
 - Add/change shapes drawn in draw_shapes
 
 - Add other buttons to draw other shapes
-
-!!@ Don't do.
-- What happens if you enable the call to p5js function background in function *draw*?
 
 
 ## Ex 1.3 sketch draw_bars 
