@@ -1,5 +1,10 @@
 # Introduction
 
+[] move wiki/inspiration to here
+https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration
+
+  - [Allison Parrish'](https://creative-coding.decontextualize.com/) tutorial
+https://creative-coding.decontextualize.com
 
 https://thecodingtrain.com/beginners/git-and-github/
 
