@@ -90,11 +90,11 @@ try print out this page as you explore the sketch.
 
 - did you notice that sometimes the left rect is white and other gray?
 
-- what are possible ways to represent color for function *fill* ?
+- what are possible ways to represent color for function fill ?
 
-- try adjusting the colors specified in calls to function *fill*
+- try adjusting the colors specified in calls to function fill
 
-- try adding function *print* to follow the behavior of the buttons
+- try adding function print to follow the behavior of the buttons
 
 ## Ex 1.1 explore sketch draw_rect_print
 
@@ -198,7 +198,7 @@ Open this sketch in a separate window so that you can play it and read this page
 
 Click on the buttons and observe the actions and the messages that appear in the console.
 
-Let's look at the definition of function *draw_shapes*:
+Let's look at the definition of function draw_shapes:
 
 ```
 function draw_shapes() {
@@ -215,12 +215,12 @@ function draw_shapes() {
 ```
 
 Unlike the functions we've seen so far, 
-*draw_shapes* is not part of p5js library.
-The function *draw_shapes* and it's definition is written for this exercise.
+function draw_shapes is not part of p5js library.
+function draw_shapes and it's definition is written for this exercise.
 The name is choosen to be descriptive of what it's supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
 
-In this sketch function *draw_shapes* is called from the button 'Shapes' defined in the function *setup*:
+In this sketch function draw_shapes is called from the button 'Shapes' defined in the function setup:
 
 ```
 function setup() {
@@ -246,7 +246,7 @@ followed by any number of letters, numbers or underscore characters.
 
 ## Ex 1.2 extend sketch draw_shapes_func
 
-- Add/change shapes drawn in function *draw_shapes*
+- Add/change shapes drawn in function draw_shapes
 
 - Add other buttons to draw other shapes
 
@@ -255,7 +255,7 @@ followed by any number of letters, numbers or underscore characters.
 Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - 1.2 draw_shapes_ui](https://editor.p5js.org/jht1493/sketches/DGQoBYV9x)
 
-- added functions create_ui and update_ui 
+- added function create_ui and function update_ui 
 - uses code from previous sketch to display mouse location and canvas color
 
 
