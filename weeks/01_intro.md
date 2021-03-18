@@ -152,34 +152,6 @@ Open this sketch in a separate window so that you can play it and read this page
 
 - What color value is reported for the background?
 
-## Ex 1.1 functions createButton, createSpan, select
-
-- ok to skip this section
-- for those curious about DOM functions
-- DOM functions createButton, createSpan, select
-- DOM means Document Object Model, how the browser refers to visual elements on the page.
-- function createButton creates a button element on the page
-- function createSpan creates span of text, spans are layed out on a line.
-- elements may be assigned an id later used to reference them
-- function select is used to referred to an element by it's id
-- an id is descriptive text you make up
-
-- in future sessions we'll see how to adjust layout of buttons and other DOM elements
-- if you want to try to to make your own buttons:
-- - copy paste createButton code 
-- - change title and body
-
-```
-function setup() {
-  createCanvas(400, 300);
-  // createButton('title-for-button-')...
-  createButton('backg 240').mousePressed(function() {
-    // Code to run when button pressed, the "body"
-    background(240);
-  }); // End of createButton
-...
-```
-
 ## Ex 1.2 explore sketch draw_shapes_body 
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
@@ -258,4 +230,30 @@ Open this sketch in a separate window so that you can play it and read this page
 - added function create_ui and function update_ui 
 - uses code from previous sketch to display mouse location and canvas color
 
+## DOM functions createButton, createSpan, select
 
+- ok to skip this section
+- for those curious about DOM functions
+- DOM functions createButton, createSpan, select
+- DOM means Document Object Model, how the browser refers to visual elements on the page.
+- function createButton creates a button element on the page
+- function createSpan creates span of text, spans are layed out on a line.
+- elements may be assigned an id later used to reference them
+- function select is used to referred to an element by it's id
+- an id is descriptive text you make up
+
+- in future sessions we'll see how to adjust layout of buttons and other DOM elements
+- if you want to try to to make your own buttons:
+- - copy paste createButton code 
+- - change title and body
+
+```
+function setup() {
+  createCanvas(400, 300);
+  // createButton('title-for-button-')...
+  createButton('backg 240').mousePressed(function() {
+    // Code to run when button pressed, the "body"
+    background(240);
+  }); // End of createButton
+...
+```
