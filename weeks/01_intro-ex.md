@@ -437,3 +437,166 @@ https://editor.p5js.org/jht1493/sketches/K_1xNuX78
 
 https://bmoren.github.io/p5js-cheat-sheet/
 
+
+-------------------------------------------------------------------------------
+
+## Ex 1.3 sketch draw_bars 
+
+In this exercise we'll define a few other functions
+to explore the p5js canvas coordinate system, shapes, and color.
+
+Open this sketch in a separate window so that you can play it and read this page at the same time.
+[sketch - draw_bars](https://editor.p5js.org/jht1493/sketches/Tiu0zz1NE)
+
+As you move the mouse around on the canvas you should see 
+the mouse location and a color value displayed below the canvas:
+For example:
+```
+[mouseX=200] [mouseY=188] [RGBA=220,220,220,255]
+```
+The color value is reported as RGBA (Red,Green,Blue and Alpha) numbers between 0 and 255.
+This is the color at the mouse location on the canvas.
+Move the mouse around and explore these values.
+
+Looking at the script you'll see functions *draw_bars*, *create_ui*, and *update_ui*.
+Don't worry about the mechanics of *create_ui* and *update_ui*, 
+we'll get into more detail about them in up comming sessions.
+!!@ Explain later on this page
+
+- function name draw_bars chosen to be generic
+
+Let's look at the definition of function *draw_bars*:
+
+!!@ print('in function draw_bars xpos=', xpos, 'ypos', ypos);
+!!@ Use tranlate out side func to avoid args until later
+
+```
+function draw_bars(xpos, ypos) {
+  // translate(x, y)
+  translate(xpos,ypos)
+  // rect(x, y, w, h)
+  rect(20, 0, 20, 20);     
+  rect(0, 20, 60, 20);     
+  rect(20, 40, 20, 20);     
+  translate(-xpos,-ypos)
+}
+...
+```
+
+Unlike the functions we've seen so far, 
+*draw_bars* is not part of p5js library.
+The function *draw_bars* and it's definition is written for this exercise.
+The name is choosen to be descriptive of what it's supposed to do.
+You are encouraged to write functions to break up your code into meaningful units.
+In this illustration we are writing our own function to demonstrate creating an image by repeating a smaller image.
+
+Examine the line: *function draw_bars(xpos, ypos)* 
+This begins the definition of *draw_bars*.
+The terms xpos and ypos are called parameter variables.
+They will be assigned specific values when *draw_bars* is called,
+in this case from the *draw* function.
+The first call to function *draw_bars* assigns values 5 for xpos and 60 ypos.
+The second call to function *draw_bars* assigns values 70 for xpos and 60 ypos.
+```
+function draw() {
+  background(220);
+  draw_bars(5, 60);
+  draw_bars(70, 60);
+  ...
+```
+In this case two shapes are drawn one starting at x,y location (5, 60)
+and another at x,y location (70, 60).
+
+Lookup the function *translate* in p5js reference and 
+try to reason for yourself why two shapes are drawn at two different locations.
+
+
+### Ex 1.3 explore sketch draw_bars
+
+- Increase the size of the shape by adjusting appropriate values in the calls to *rect* in function *draw_bars* .
+
+- In function *draw* add additional calls to *draw_bars* to draw shapes all the way across the canvas.
+
+- Adjust the appearance of the shape. For example: add other shapes, or draw something different. 
+You may call other p5js shape functions (*rect*, *triangle*, etc..) inside function *draw_bars*.
+
+## Ex 1.4 sketch draw_bars color
+
+Open this sketch in a separate window so that you can play it and read this page at the same time.
+[sketch - draw_bars color](https://editor.p5js.org/jht1493/sketches/a3VD0HYqD)
+
+This sketch draws the shapes in different colors.
+
+In p5js a color can be represent in a number of ways.
+Here are a few:
+
+- color name, eg: 'white', 'black', 'red', 'green', 'yellow', 'blue'
+
+- gray scale number, eg: 0 (white), 128 (gray), 255 (black)
+
+- red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting.
+
+function *draw_bars* now has an additional parameter variable, *acolor*:
+```
+function draw_bars(xpos, ypos, acolor) {
+  // fill(color)
+  // fill([r,g,b,a])
+  fill(acolor);
+...
+```
+
+When called from function *draw*, a color name is given:
+```
+function draw() {
+  background(220);
+  draw_bars(5, 60, 'white');
+  draw_bars(70, 60, 'gray');
+...
+```
+
+When *draw_bars* is called the third parameter can be an valid p5js color value.
+The first call to *draw_bars* gives a value of 'white' to parameter acolor for *draw_bars*.
+The second call gives a value of 'yellow' to *draw_bars*.
+
+Lookup the function *fill* and function *color* for other color possibilities.
+
+### Ex 1.4 explore draw_bars color
+
+- using different types of color values. 
+for example, try the color name 'green', compared it to the rgb representation [0,255,0]
+
+- increase the size of the shape so they overlap and inspect the color of overlapping shapes
+
+## Ex 1.5 sketch draw_bars alpha
+
+Open this sketch in a separate window so that you can play it and read this page at the same time.
+[sketch draw_bars alpha](https://editor.p5js.org/jht1493/sketches/3aQA0hvkt)
+
+This sketch uses the format [Red,Green,Blue,Alpha] for colors. 
+
+```
+function draw() {
+  background(220);
+  draw_bars(5, 60, [255,255,255,100]);
+  draw_bars(70, 60, [255,255,0,100]);
+...
+```
+
+### Ex 1.5 explore draw_bars alpha
+
+- increase the size of the shape so they overlap and inspect the color of overlapping shapes
+
+- try different values of alpha for colors
+
+## Ex 1.6 Free range draw_bars
+
+Here are some variations on the sketch draw_bars.
+Go forth and explore!
+
+[sketch draw_fem rotate](https://editor.p5js.org/jht1493/sketches/R2Rdoodqo)
+
+[sketch draw_fem mon](https://editor.p5js.org/jht1493/sketches/I7OFtFR8K)
+
+[sketch draw_fem mon row](https://editor.p5js.org/jht1493/sketches/9Cy8EX8iO)
+
+[sketch draw_fem matrix](https://editor.p5js.org/jht1493/sketches/BPBunRg2H)
