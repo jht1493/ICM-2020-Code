@@ -57,15 +57,15 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-# 1. Recap, Extensions, and Explorations
+# 1. Recap, Explorations, and Extensions
 
 Let's recap, look at some extentions, and do some exercises to futher explore the concepts introduced in this session.
 
-So far our sketches defined two specially functions *setup* and *draw*.
-The function *setup* is called once when we hit the play button,
-and the function *draw* is called repeatedly until we hit the stop button.
+So far our sketches defined two specially functions `setup` and `draw`.
+The function `setup` is called once when we hit the play button,
+and the function `draw` is called repeatedly until we hit the stop button.
 Also we haved used functions defined by the p5js library,
-like *ellipse* and *rect*, to draw shapes on the canvas.
+like `ellipse` and `rect`, to draw shapes on the canvas.
 
 In this exercises we'll explore 
 - how to create buttons to run code
@@ -73,7 +73,7 @@ In this exercises we'll explore
 - the behavior of alpha value for colors
 - how to define your own function
 
-For some of these sketches no drawing is done in the function *draw*.
+For some of these sketches no drawing is done in the function `draw`.
 When nothing is drawn the canvas will start out white.
 
 ## Ex 1.1 play sketch draw_rect
