@@ -57,9 +57,12 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-# 1. Recap, Explorations, and Extensions
+# 1. Recap, Explore and Experiment
 
-Let's recap, look at some extentions, and do some exercises to futher explore the concepts introduced in this session.
+Let's recap, explore, and experiment with the concepts introduced in this session.
+
+- draw a rough schematic what you've learned so far about p5js
+- after you finish these exercises redraw with any new insights
 
 So far our sketches defined two specially functions `setup` and `draw`.
 The function `setup` is called once when we hit the play button,
@@ -82,7 +85,7 @@ Open this sketch in a separate window so that you can play it and read this page
 [sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK)
 
 - if your screen too small to allow viewing sketch and this page at the same time, 
-try print out this page as you explore the sketch.
+use a print out this page as you explore the sketch.
 - buttons will appear below canvas
 - play the sketch, click on the buttons and note behavior
 
@@ -158,10 +161,25 @@ Open this sketch in a separate window so that you can play it and read this page
 [sketch - 1.2 draw_shapes_body](https://editor.p5js.org/jht1493/sketches/X5iRxm8HK)
 
 Click on the buttons and observe the actions and the messages that appear in the console.
-
-- button Shapes draws 3 shapes.
+In the body of the mousePressed function you can call as many other functions as you wish.
 
 - buttons Rect and Circle no color set
+
+- button Shapes draws 3 shapes.
+```
+  createButton('Shapes').mousePressed(function() {
+    print('drawing shapes');
+    // fill([red, green, blue, alpha])
+    fill([255, 0, 0, 20]); // Red, alpha 20
+    rect(0, 100, 200, 200);
+    // fill([red, green, blue, alpha])
+    fill([255, 255, 0, 20]); // Yellow, alpha 20
+    circle(200, 200, 200)
+    // fill([red, green, blue, alpha])
+    fill([0, 255, 0, 20]); // Green, alpha 20
+    rect(200, 100, 200, 200);
+  });
+```
 
 ## Ex 1.2 explore sketch draw_shapes_func
 
@@ -187,12 +205,12 @@ function draw_shapes() {
 ```
 
 Unlike the functions we've seen so far, 
-function draw_shapes is not part of p5js library.
-function draw_shapes and it's definition is written for this exercise.
+function `draw_shapes` is not part of p5js library.
+function `draw_shapes` and it's definition is written for this exercise.
 The name is choosen to be descriptive of what it's supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
 
-In this sketch function draw_shapes is called from the button 'Shapes' defined in the function setup:
+In this sketch function `draw_shapes` is called from the button 'Shapes' defined in the function setup:
 
 ```
 function setup() {
@@ -232,8 +250,8 @@ Open this sketch in a separate window so that you can play it and read this page
 
 ## DOM functions createButton, createSpan, select
 
-- ok to skip this section
 - for those curious about DOM functions
+- ok to skip this section
 - DOM functions createButton, createSpan, select
 - DOM means Document Object Model, how the browser refers to visual elements on the page.
 - function createButton creates a button element on the page
@@ -243,8 +261,9 @@ Open this sketch in a separate window so that you can play it and read this page
 - an id is descriptive text you make up
 
 - in future sessions we'll see how to adjust layout of buttons and other DOM elements
-- if you want to try to to make your own buttons:
-- - copy paste createButton code 
+
+- to make a button
+- - copy paste code for **createButton**  
 - - change title and body
 
 ```
@@ -256,4 +275,21 @@ function setup() {
     background(240);
   }); // End of createButton
 ...
+```
+
+- to display a value
+- - copy paste code for **createSpan** and **select**
+- - replace id and parameter to html
+
+```
+  // setup code
+  // first parameter 'mox' is id for span
+  // replace with your string
+  createSpan().id('mox');
+
+  // draw code
+  // replace string mox with id
+  // first parameter '#mox' is id for span
+  // note: # character needed
+  select('#mox').html('[mouseX='+mouseX+'] ')
 ```
