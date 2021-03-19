@@ -12,10 +12,10 @@ Also we haved used functions defined by the p5js library,
 like `ellipse` and `rect`, to draw shapes on the canvas.
 
 In these exercises we'll explore 
-- how to create buttons to run code
-- how to use the print function to debug your code
-- the behavior of alpha value for colors
-- how to define your own functions
+- how to create buttons to run code   
+- how to use the print function to debug your code   
+- the behavior of alpha value for colors   
+- how to define your own functions   
 
 For these sketches no drawing is done in the function `draw`. Drawing will be trigger by clicking on buttons.
 When nothing is drawn the canvas will start out white.
@@ -30,11 +30,10 @@ use a print out this page as you explore the sketch.
 - buttons will appear below canvas
 - play the sketch, click on the buttons in different orders and note behavior
 
-## Ex 1.1 explore sketch draw_rect
+### Questions
 
-- did you notice that sometimes the left rect is white and other gray?
-
-- if the answer is not clear bring as question to class.
+- did you notice that sometimes the left rect can be white or gray? 
+- if the answer is not clear bring as question to class
 
 - what are possible ways to represent color for function [`fill`](https://p5js.org/reference/#/p5/fill)?
 
@@ -114,7 +113,7 @@ In the body of the mousePressed function you can call as many other functions as
 
 - buttons Rect and Circle not color is set
 
-- button Shapes draws 3 shapes.
+- button Shapes draws 3 shapes:
 ```
   createButton('Shapes').mousePressed(function() {
     print('drawing shapes');
@@ -180,17 +179,11 @@ function setup() {
 - A function name must begin with a letter (upper or lower case), 
 followed by any number of letters, numbers or underscore characters.
 
-## Ex 1.2 question sketch draw_shapes_func
+### Questions
 
-- What happens if you repeatedly click on button Shapes? Why?
+- what happens if you repeatedly click on button Shapes? why?
 
-- What happens if you click on buttons Rect or Circle after button Shapes? Why?
-
-## Ex 1.2 extend sketch draw_shapes_func
-
-- add or change shapes drawn in function draw_shapes
-
-- add other buttons to draw other shapes
+- what happens if you click on buttons Rect or Circle after button Shapes? why?
 
 ## Ex 1.2 explore sketch draw_shapes_ui
 
@@ -200,19 +193,32 @@ Open this sketch in a separate window so that you can play it and read this page
 - added function create_ui and function update_ui 
 - uses code from previous sketch to display mouse location and canvas color
 
-## p5js schematic
+### Try
 
-- Draw your own schematic of p5js 
+- add or change shapes drawn in function draw_shapes
+
+- add other buttons to draw other shapes
+
+## What have you learn?
+
+- draw your own schematic of p5js - illustrate what you've learned so far
 - [my p5js schematic]()
 
+## What's next?
 
-## functions createButton, createSpan, select
+- wouldn't it be cool if we could animate our drawing?
+- or create patterns with our shapes? 
+- next up animation and variables!
 
-- ok to skip this section
-- functions `createButton`, `createSpan`, and `select` create DOM elements
-- DOM means Document Object Model - how the browser refers to visual elements on the page.
+## DOM functions `createButton`, `createSpan`, `select`
+
+- curious about functions `createButton`, `createSpan`, `select`?
+- (ok to skip this section)
+- these are DOM functions.
+- DOM means Document Object Model - how the browser refers to visual elements on the page
+- functions `createButton`, `createSpan`, and `select` manage DOM elements
 - function `createButton` creates a button element on the page
-- function `createSpan` creates span of text, spans are layed out on a line.
+- function `createSpan` creates span containter for text, spans are layed out on a line
 - function `select` is used to referred to an element by it's id
 - elements may be assigned an id which is later used to reference them
 - an id is descriptive text you make up
@@ -247,8 +253,7 @@ function setup() {
 
   // draw code
   // replace string mox with id
-  // parameter '#mox' is id for span
-  // note: # character needed
+  // parameter '#mox' is id for span. note: # character is required
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 ---
