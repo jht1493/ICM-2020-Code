@@ -113,10 +113,9 @@ Here are a few:
 
 - gray scale number, eg: 0 (white), 128 (gray), 255 (black)
 
-- red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting.
+- red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting. Note the square backets in this expression.
 
 - try setting different colors for each shape
-
 
 ## Ex 1.1 explore sketch draw_rect_alpha
 
@@ -207,8 +206,10 @@ function draw_shapes() {
 Unlike the functions we've seen so far, 
 function `draw_shapes` is not part of p5js library.
 function `draw_shapes` and it's definition is written for this exercise.
-The name is choosen to be descriptive of what it's supposed to do.
+The name is choosen to be descriptive of what the function supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
+I prefer to use the underscore characters in names 
+I create to distinguish them from builtin p5js/javascript names.
 
 In this sketch function `draw_shapes` is called from the button 'Shapes' defined in the function setup:
 
@@ -250,9 +251,8 @@ Open this sketch in a separate window so that you can play it and read this page
 
 ## DOM functions createButton, createSpan, select
 
-- for those curious about DOM functions
+- for those curious about DOM functions `createButton`, `createSpan`, and `select`
 - ok to skip this section
-- DOM functions createButton, createSpan, select
 - DOM means Document Object Model, how the browser refers to visual elements on the page.
 - function createButton creates a button element on the page
 - function createSpan creates span of text, spans are layed out on a line.
@@ -263,7 +263,7 @@ Open this sketch in a separate window so that you can play it and read this page
 - in future sessions we'll see how to adjust layout of buttons and other DOM elements
 
 - to make a button
-- - copy paste code for **createButton**  
+- - copy paste code for `createButton`
 - - change title and body
 
 ```
@@ -278,7 +278,7 @@ function setup() {
 ```
 
 - to display a value
-- - copy paste code for **createSpan** and **select**
+- - copy paste code for `createSpan` and `select`
 - - replace id and parameter to html
 
 ```
@@ -289,7 +289,12 @@ function setup() {
 
   // draw code
   // replace string mox with id
-  // first parameter '#mox' is id for span
+  // parameter '#mox' is id for span
   // note: # character needed
   select('#mox').html('[mouseX='+mouseX+'] ')
 ```
+## p5js schematic
+
+- Draw your own schematic of p5js 
+- my p5js schematic
+
