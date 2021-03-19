@@ -61,22 +61,22 @@
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
 
-- draw a rough schematic what you've learned so far about p5js
+- draw a rough schematic of what you've learned so far about p5js
 - after you finish these exercises redraw with any new insights
 
-So far our sketches defined two specially functions `setup` and `draw`.
+So far our sketches define functions `setup` and `draw`.
 The function `setup` is called once when we hit the play button,
 and the function `draw` is called repeatedly until we hit the stop button.
 Also we haved used functions defined by the p5js library,
 like `ellipse` and `rect`, to draw shapes on the canvas.
 
-In this exercises we'll explore 
+In these exercises we'll explore 
 - how to create buttons to run code
 - how to use the print function to debug your code
 - the behavior of alpha value for colors
-- how to define your own function
+- how to define your own functions
 
-For some of these sketches no drawing is done in the function `draw`.
+For these sketches no drawing is done in the function `draw`. Drawing will be trigger by clicking on buttons.
 When nothing is drawn the canvas will start out white.
 
 ## Ex 1.1 play sketch draw_rect
@@ -87,24 +87,33 @@ Open this sketch in a separate window so that you can play it and read this page
 - if your screen too small to allow viewing sketch and this page at the same time, 
 use a print out this page as you explore the sketch.
 - buttons will appear below canvas
-- play the sketch, click on the buttons and note behavior
+- play the sketch, click on the buttons in different orders and note behavior
 
 ## Ex 1.1 explore sketch draw_rect
 
 - did you notice that sometimes the left rect is white and other gray?
 
-- what are possible ways to represent color for function fill ?
+- if the answer is not clear bring as question to class.
 
-- try adjusting the colors specified in calls to function fill
+- what are possible ways to represent color for function [`fill`](https://p5js.org/reference/#/p5/fill)?
 
-- try adding function print to follow the behavior of the buttons
+### Try
+
+- try adjusting the colors specified in calls to function `fill`
 
 ## Ex 1.1 explore sketch draw_rect_print
 
-- print function added in the sketch
+In this sketch the function [`print`](https://p5js.org/reference/#/p5/print) 
+is added so that we can follow the execution of the buttons.
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P)
+
+### Try
+
+- try setting different colors for each shape, eg:
+- try `fill(100)`
+- try `fill(100,20)`
 
 In p5js a color can be represent in a number of ways.
 Here are a few:
@@ -113,46 +122,46 @@ Here are a few:
 
 - gray scale number, eg: 0 (white), 128 (gray), 255 (black)
 
-- red, green, blue, alpha array, eg: [255,0,0,100] is full red with medium alpha setting. Note the square backets in this expression.
-
-- try setting different colors for each shape
+- red, green, blue, alpha, eg: 255, 0, 0, 100 is full red with medium alpha setting. 
 
 ## Ex 1.1 explore sketch draw_rect_alpha
 
-- alpha colors added to the sketch
+In this sketch alpha values are used for colors.
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_rect_alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD)
 
-This sketch uses the [Red,Green,Blue,Alpha] format for colors. 
+This sketch uses the Red, Green, Blue, Alpha format for colors. 
 The values Red, Green, Blue and Alpha are numbers between 0 and 255. 
 The alpha value can range from 0 (no alpha, white color), to 255 (full value of the color components). 
 For example, alpha value 127 will mix an even amount of the background color with the fill color.
 Alpha value 20 will give a very light tint of the fill color on the background.
 
+### Try
+
 - try clicking each button repeatedly and observe the laying of the colors
 
-- try every low values of alpha, eg. 10 and compare to medium alpha value 100
+- try low values of alpha eg. 10, and compare to medium alpha value eg. 100
 
 ## Ex 1.1 explore sketch draw_rect_createSpan
 
-In this exercise we'll define a few other functions
+In this exercise a few other functions are added
 to explore the p5js canvas coordinate system, shapes, and color.
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w)
 
-## Ex 1.1 question sketch draw_rect_createSpan 
+### Questions
 
-- When do the numbers change and when don't they change?
+- when do the numbers change and when don't they change?
 
-- What is the lowest value you see for the mouseX value?
+- what is the lowest value for mouseX within the canvas area?
 
-- What is the largest value for mouseX?
+- what is the largest value for mouseX within the canvas area?
 
-- What value in the code will change the width of the canvas?
+- what value in the code will change the width of the canvas?
 
-- What color value is reported for the background?
+- what color values are reported for different areas on the canvas?
 
 ## Ex 1.2 explore sketch draw_shapes_body 
 
@@ -162,20 +171,20 @@ Open this sketch in a separate window so that you can play it and read this page
 Click on the buttons and observe the actions and the messages that appear in the console.
 In the body of the mousePressed function you can call as many other functions as you wish.
 
-- buttons Rect and Circle no color set
+- buttons Rect and Circle not color is set
 
 - button Shapes draws 3 shapes.
 ```
   createButton('Shapes').mousePressed(function() {
     print('drawing shapes');
-    // fill([red, green, blue, alpha])
-    fill([255, 0, 0, 20]); // Red, alpha 20
+    // fill(red, green, blue, alpha)
+    fill(255, 0, 0, 20); // Red, alpha 20
     rect(0, 100, 200, 200);
-    // fill([red, green, blue, alpha])
-    fill([255, 255, 0, 20]); // Yellow, alpha 20
+    // fill(red, green, blue, alpha)
+    fill(255, 255, 0, 20); // Yellow, alpha 20
     circle(200, 200, 200)
-    // fill([red, green, blue, alpha])
-    fill([0, 255, 0, 20]); // Green, alpha 20
+    // fill(red, green, blue, alpha)
+    fill(0, 255, 0, 20); // Green, alpha 20
     rect(200, 100, 200, 200);
   });
 ```
@@ -191,14 +200,14 @@ Let's look at the definition of function draw_shapes:
 
 ```
 function draw_shapes() {
-  // fill([red, green, blue, alpha])
-  fill([255, 0, 0, 20]); // Red
+  // fill(red, green, blue, alpha)
+  fill(255, 0, 0, 20); // Red
   rect(0, 100, 200, 200);
-  // fill([red, green, blue, alpha])
-  fill([255, 255, 0, 20]); // Yellow
+  // fill(red, green, blue, alpha)
+  fill(255, 255, 0, 20); // Yellow
   circle(200, 200, 200)
-  // fill([red, green, blue, alpha])
-  fill([0, 255, 0, 20]);  // Green
+  // fill(red, green, blue, alpha)
+  fill(0, 255, 0, 20);  // Green
   rect(200, 100, 200, 200);
 }
 ```
@@ -209,9 +218,10 @@ function `draw_shapes` and it's definition is written for this exercise.
 The name is choosen to be descriptive of what the function supposed to do.
 You are encouraged to write functions to break up your code into meaningful units.
 I prefer to use the underscore characters in names 
-I create to distinguish them from builtin p5js/javascript names.
+I create to distinguish them from built-in p5js/javascript names.
 
-In this sketch function `draw_shapes` is called from the button 'Shapes' defined in the function setup:
+In this sketch function `draw_shapes` is called from 
+the button 'Shapes' defined in the function setup:
 
 ```
 function setup() {
@@ -237,9 +247,9 @@ followed by any number of letters, numbers or underscore characters.
 
 ## Ex 1.2 extend sketch draw_shapes_func
 
-- Add/change shapes drawn in function draw_shapes
+- add or change shapes drawn in function draw_shapes
 
-- Add other buttons to draw other shapes
+- add other buttons to draw other shapes
 
 ## Ex 1.2 explore sketch draw_shapes_ui
 
@@ -249,16 +259,23 @@ Open this sketch in a separate window so that you can play it and read this page
 - added function create_ui and function update_ui 
 - uses code from previous sketch to display mouse location and canvas color
 
+## p5js schematic
+
+- Draw your own schematic of p5js 
+- [my p5js schematic]()
+
+
 ## DOM functions createButton, createSpan, select
 
-- for those curious about DOM functions `createButton`, `createSpan`, and `select`
+- about DOM functions `createButton`, `createSpan`, and `select`
 - ok to skip this section
 - DOM means Document Object Model, how the browser refers to visual elements on the page.
-- function createButton creates a button element on the page
-- function createSpan creates span of text, spans are layed out on a line.
+- function `createButton` creates a button element on the page
+- function `createSpan` creates span of text, spans are layed out on a line.
 - elements may be assigned an id later used to reference them
 - function select is used to referred to an element by it's id
 - an id is descriptive text you make up
+- the canvas itself is DOM element!
 
 - in future sessions we'll see how to adjust layout of buttons and other DOM elements
 
@@ -279,22 +296,18 @@ function setup() {
 
 - to display a value
 - - copy paste code for `createSpan` and `select`
-- - replace id and parameter to html
+- - replace parameter to `id`, `select` and `html`
 
 ```
   // setup code
   // first parameter 'mox' is id for span
   // replace with your string
-  createSpan().id('mox');
+  createSpan().id('imx');
 
   // draw code
   // replace string mox with id
   // parameter '#mox' is id for span
   // note: # character needed
-  select('#mox').html('[mouseX='+mouseX+'] ')
+  select('#imx').html('[mouseX='+mouseX+'] ')
 ```
-## p5js schematic
-
-- Draw your own schematic of p5js 
-- my p5js schematic
-
+--
