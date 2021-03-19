@@ -6,27 +6,6 @@
 
 - use createSlider to drive variable
 
-1 -- Introduction and Drawing
-  + func
-2 -- Animation: Variables
-  + func, parameter variables
-3 -- Interaction: Conditionals
-  + arrays, objects
-4 -- Repetition: Loops
-  + arrays, objects
-5 ++ More functions, Object
-6 ++ Classes
-7 ++ Classes & Final Project Presentations
-
-
-5 -- Organization: Functions
-  - merged
-6 -- More Repetition: Objects and Arrays
-  - merged
-7 -- The DOM and Final Project Presentations
-  - merged
-
-
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
 
 ## Tutorials: Basics
