@@ -15,6 +15,7 @@ https://thecodingtrain.com/beginners/p5js/1.2-p5js-web-editor.html
 https://thecodingtrain.com/beginners/p5js/1.3-shapes-and-drawing.html
 https://thecodingtrain.com/beginners/p5js/1.4-color.html
 https://thecodingtrain.com/beginners/p5js/1.5-errors-and-console.html
+https://thecodingtrain.com/beginners/p5js/1.6-code-comments.html
 
 --------------------------------------------
 

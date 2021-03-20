@@ -247,13 +247,13 @@ function setup() {
 
 ```
   // setup code
-  // first parameter 'mox' is id for span
+  // first parameter 'imx' is id for span
   // replace with your string
   createSpan().id('imx');
 
   // draw code
-  // replace string mox with id
-  // parameter '#mox' is id for span. note: # character is required
+  // replace string imx with your id
+  // parameter '#imx' is id for span. note: # character is required
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 ---
