@@ -5,6 +5,9 @@ https://thecodingtrain.com/beginners/p5js/2.2-make-your-own.html
 https://thecodingtrain.com/beginners/p5js/2.3-objects.html
 https://thecodingtrain.com/beginners/p5js/2.4-map.html
 https://thecodingtrain.com/beginners/p5js/2.5-random.html
+https://thecodingtrain.com/beginners/p5js/2.6-create-graphics.html
+
+https://thecodingtrain.com/beginners/p5js/index.html
 
 -------------------------------------------------------------------------------
 https://thecodingtrain.com/beginners/p5js/2.3-objects.html
