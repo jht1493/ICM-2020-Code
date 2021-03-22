@@ -75,11 +75,26 @@ let circleX = 100;
 increment
 circleX = circleX + 1;
 
+// !!@ Expand on expresions
+
 https://editor.p5js.org/codingtrain/sketches/xPXNdPy17
 p5js Code! - 2.2 - make your own variable
+
+function mousePressed() {
+!!@ use %
+https://editor.p5js.org/jht1493/sketches/HtESWWNTa
+p5js Code! - 2.2 - make your own variable remainder
+!!@ use objects and function args for multiple shapes
+!!@ composition
+!!@ frameRate(1) to slowdown
+!!@ propose pulse - tease conditions
+!!@ intro sliders
+
 https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC
 p5js Code! - 2.2 - make your own variable - growing circle exercise
 
+// https://editor.p5js.org/jht1493/sketches/P9xSA4D7d
+// p5js Code! - 2.2 - make your own variable - growing circle remainder
 
 
 -------------------------------------------------------------------------------
@@ -98,6 +113,8 @@ var spot = {
   y: 50
 };
 
+!!@ add buttons, use functions with parameters
+
 !!@ var point --> spot
 >> comment out to isolate problem
 
@@ -105,6 +122,13 @@ var spot = {
 
   * [Rainbow Paintbrush in p5.js](https://medium.com/@kellylougheed/rainbow-paintbrush-in-p5-js-e452d5540b25) by Kelly Lougheed
 
+!!@ Added sketch
+https://editor.p5js.org/jht1493/sketches/dojCKsdwQ
+2. Rainbow Paintbrush
+
+>> !!@ try: add incrementing variable
+>> !!@ use remainder %
+>> !!@ arithmetic expressions
 
 -------------------------------------------------------------------------------
 * The [map()](http://p5js.org/reference/#/p5/map) function
@@ -121,11 +145,13 @@ p5js Code! - map function
 
 
 -------------------------------------------------------------------------------
-
 * Tutorial: [Recode Catalog by John Whitney](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-02/session-02.md)
 
+-------------------------------------------------------------------------------
 ## Tutorials: Transformations
   * [video 9.1: `translate()`, `rotate()`, `push()`, `pop()`](https://youtu.be/o9sgjuh-CBM)
+
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.1-transformations-part-1.html
 
 https://www.youtube.com/watch?v=o9sgjuh-CBM
 9.1: Transformations Pt.1 (Translate, Rotate, Push/Pop) - p5.js Tutorial
@@ -136,14 +162,68 @@ https://www.youtube.com/watch?v=o9sgjuh-CBM
 >> radians
 >> negative numbers to reverse translate/rotate
 
+let angle = 0;
+angle = angle + 1;
+
+>> push / pop
+
+-------------------------------------------------------------------------------
 
   * [video 9.2: `scale()`](https://youtu.be/pkHZTWOoTLM)
+
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.2-transformations-part-2.html
+
+https://www.youtube.com/watch?v=pkHZTWOoTLM&t=19s
+9.2: Transformations Pt.2 (Scale) - p5.js Tutorial
+27,812 views•Sep 19, 2017
+8 mins
+!!@ -- no sketch
+
+>> scale(-1,-1) -- flips coord. to flip image left-right
+>> scale affect stroke
+
+>> intro arithmatic
+  mouseX/4
+
+>> matrix
+2 0 0 
+0 2 0
+
+-------------------------------------------------------------------------------
   * [video 9.3: More on transformations](https://youtu.be/IVMvq9rd8dA)
+
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.3-transformations-art-3.html
+
+!!@ push pop already discussed
+
+>> push / pop -- save style
+
+https://www.youtube.com/watch?v=IVMvq9rd8dA
+9.3: Transformations Pt.3 - p5.js Tutorial
+18,490 views•Sep 19, 2017
+11 mins
+
+-- STACK -- push / pop -- LIFO
+-- QUEUE
+
+
+
+-------------------------------------------------------------------------------
 
 ## p5.js editor examples
   * [random painting](https://editor.p5js.org/icm/sketches/HJg8jfcT3)
+
+https://editor.p5js.org/jht1493/sketches/sUEajcpKC
+2. Random Painting noStroke
+>> !!@ try: cycle circle size
+>> !!@ try: lower alpha
+>> !!@ try: cycle alpha
+>> !!@ try: othe shapes
+
   * [mouse controlled painting](https://editor.p5js.org/icm/sketches/r1JeQqa3)
+
   * [moving circle](https://editor.p5js.org/icm/sketches/Bymv7ca2)
+
   * [clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) -- [Clock coding challenge video](https://youtu.be/E4RyStef-gY)
 
 ## Getting Started with p5.js book

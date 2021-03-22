@@ -1,6 +1,9 @@
 # Introduction
 https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md
 
+-- overview
+https://thecodingtrain.com/beginners/p5js/
+
 [] move wiki/inspiration to here
 https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration
 
