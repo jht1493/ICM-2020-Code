@@ -4,6 +4,12 @@ https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md
 -- overview
 https://thecodingtrain.com/beginners/p5js/
 
+## Getting Started with p5.js book
+
+// https://editor.p5js.org/jht1493/sketches/Cc8MICNun
+// Ex_02_02 Make Circles
+
+
 [] move wiki/inspiration to here
 https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration
 
@@ -211,6 +217,9 @@ p5js Code! - Code Comments
 https://github.com/lmccart/gswp5.js-code
 https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
 >> copy and paste into p5js editor
+
+// https://editor.p5js.org/jht1493/sketches/Cc8MICNun
+// Ex_02_02 Make Circles
 
 1/Hello: Learn about p5.js.
 
