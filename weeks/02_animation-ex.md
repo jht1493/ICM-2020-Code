@@ -54,6 +54,54 @@ p5js Code! - 2.1 - mouseX,mouseY
 
 !!@ Need arith to do suggestions
 
+// https://editor.p5js.org/jht1493/sketches/KaijsTyVc
+// 2.1.1 mouseX,mouseY
+
+function mouseDragged() {
+  circle(mouseX, mouseY, 24);
+}
+
+// https://editor.p5js.org/jht1493/sketches/pmA0d9Uqt
+// 2.1.2 mouseX,mouseY arith
+
+>> a value can be an arithmetic expression
+function mouseDragged() {
+  circle(mouseX-25, mouseY, 24);
+  circle(mouseX+25, mouseY, 24);
+}
+
+// https://editor.p5js.org/jht1493/sketches/5Q_M3rwpt
+// 2.1.3 mouseX,mouseY left
+
+>> intro remainder
+function mouseDragged() {
+  circle(mouseX % 200, mouseY, 24);
+}
+
+// https://editor.p5js.org/jht1493/sketches/I8zejgYIX
+// 2.1.4 mouseX,mouseY ui
+
+>> ui added
+>> Replace mousePressed with mouseDragged
+>> button backg 0
+>> button random
+
+>> Try: draw 4 circles around mouse location
+
+>> Try: write functions to draw other shapes call them from mouseDragged
+// https://editor.p5js.org/jht1493/sketches/tNEJXRA1V
+// 2.1 mouseX,mouseY funcs
+
+>> Try: remainder for x-symmetry
+// https://editor.p5js.org/jht1493/sketches/v56Rd_pWx
+// 2.1 mouseX,mouseY mirror
+function mouseDragged() {
+  circle(mouseX % 200, mouseY, 24);
+  circle(width - (mouseX % 200), mouseY, 24);
+}
+
+>> Try: use raminder to get Y-symmetry
+
 -------------------------------------------------------------------------------
 * User defined variables
   * [video 2.2: Variables in p5.js (Make your own)](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=6)
@@ -75,26 +123,50 @@ let circleX = 100;
 increment
 circleX = circleX + 1;
 
+>> ?? slider for alpha
+  interesting values are low, slide not helpful
+>> slider for brush size ??
+>> Try: buttons for circle size
+
 // !!@ Expand on expresions
+circleX = (circleX + 1) % width;
 
 https://editor.p5js.org/codingtrain/sketches/xPXNdPy17
 p5js Code! - 2.2 - make your own variable
 
+  circle(circleX, 150, 64);
+  circleX = circleX + 1;
+
+>> mouse presssed out side of canvas will reset
+
+// https://editor.p5js.org/jht1493/sketches/v9zsQFPqN
+// 2.2 variable circleX
+
+  createCanvas(400, 300).mousePressed(function() {
+    circleX = 0;
+  });
+
+>> mouse presssed on canvas only to reset circleX
+
 function mousePressed() {
-!!@ use %
-https://editor.p5js.org/jht1493/sketches/HtESWWNTa
-p5js Code! - 2.2 - make your own variable remainder
-!!@ use objects and function args for multiple shapes
-!!@ composition
-!!@ frameRate(1) to slowdown
-!!@ propose pulse - tease conditions
-!!@ intro sliders
 
-https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC
-p5js Code! - 2.2 - make your own variable - growing circle exercise
+// https://editor.p5js.org/jht1493/sketches/CwYDz_4N2
+// 2.2.2 variable circleX % width
 
-// https://editor.p5js.org/jht1493/sketches/P9xSA4D7d
-// p5js Code! - 2.2 - make your own variable - growing circle remainder
+>> variable restricted to 0 ... width
+  circleX = (circleX + 1) % width;
+
+// https://editor.p5js.org/jht1493/sketches/UhNMB6GQO
+// 2.2.3 variable circleX % width ui
+
+>> ui added. add buttons to change circleX and/or circleY
+
+>> Try: no background
+
+>> Try: buttons to change color of shape
+
+// https://editor.p5js.org/jht1493/sketches/mDleb9mKk
+// 2.2.4 variable circleX rgb
 
 
 -------------------------------------------------------------------------------
@@ -104,31 +176,82 @@ p5js Code! - 2.2 - make your own variable - growing circle exercise
 https://thecodingtrain.com/beginners/p5js/2.5-random.html
 https://www.youtube.com/watch?v=nfmV2kuQKwA
 172,294 views•Sep 4, 2015
+https://editor.p5js.org/codingtrain/sketches/4gD7Btg
 
-https://editor.p5js.org/codingtrain/sketches/4gD7Btgi
+// https://editor.p5js.org/jht1493/sketches/UTMOVgcsv
+// 2.5.1 random function 
 
->> Uses objects
-var spot = {
-  x: 100,
-  y: 50
-};
+// https://editor.p5js.org/jht1493/sketches/XzrXlqxMN
+// 2.5.1 random function scan x
 
-!!@ add buttons, use functions with parameters
+  spot.x = (spot.x + 1) % width;
+  spot.y = random(0, height);
 
-!!@ var point --> spot
->> comment out to isolate problem
+// https://editor.p5js.org/jht1493/sketches/ny4aSEPTp
+// 2.5.1 random function scan x ran y
 
-!!@ global vars not needed
+  spot.x = (spot.x + 1) % width;
+  let h = height/8;
+  spot.y = random([h, h*3, h*5, h*7]);
 
+// https://editor.p5js.org/jht1493/sketches/vpcHXx_E1
+// 2.5.2 random function spot.count
+
+  spot.count = spot.count + spot.d;
+  spot.x = spot.count % width;
+  spot.y = (int(spot.count / width) * spot.d) % height;
+
+>> Try: have scan bottom to top, right to left
+
+// https://editor.p5js.org/jht1493/sketches/A1NHTo3cg
+// 2.5.2 random function spot.count ui bottom
+
+  spot.count = spot.count + spot.d;
+  spot.x = width - (spot.count % width);
+  spot.y = height - ((int(spot.count / width) * spot.d) % height);
+
+>> Try: limit to fix set of colors
+
+Use: array of values in 
+https://p5js.org/reference/#/p5/random
+  random(choices)
+  choices Array: the array to choose from
+https://p5js.org/reference/#/p5/fill
+  fill(values)
+  values Number[]: an array containing the red,green,blue & and alpha components of the color
+
+// https://editor.p5js.org/jht1493/sketches/jZtF7e5E5
+// 2.5.2 random spot.count ui col set
+
+let col_set = [
+  [255, 0, 0, a_alpha],
+  [0, 255, 0, a_alpha],
+  [255, 255, 0, a_alpha],
+  [0, 0, 0, a_alpha],
+  // [255, 255, 255, a_alpha]
+];
+
+  let col = random(col_set);
+  col[3] = a_alpha;
+
+    frameRate(0);
+
+    frameRate(10);
+
+-------------------------------------------------------------------------------
   * [Rainbow Paintbrush in p5.js](https://medium.com/@kellylougheed/rainbow-paintbrush-in-p5-js-e452d5540b25) by Kelly Lougheed
 
-!!@ Added sketch
-https://editor.p5js.org/jht1493/sketches/dojCKsdwQ
-2. Rainbow Paintbrush
+>> Added sketch
+// https://editor.p5js.org/jht1493/sketches/9aYZcF6DM
+// 2.5 Rainbow Paintbrush
+  a_hue = (a_hue + 10) % 360;
 
->> !!@ try: add incrementing variable
->> !!@ use remainder %
->> !!@ arithmetic expressions
+// https://editor.p5js.org/jht1493/sketches/dojCKsdwQ
+// 2.5 Rainbow Paintbrush ui
+
+// https://editor.p5js.org/jht1493/sketches/TAnGTwIJ1
+// 2.5.3 Rainbow Paintbrush a_step
+
 
 -------------------------------------------------------------------------------
 * The [map()](http://p5js.org/reference/#/p5/map) function
@@ -142,6 +265,12 @@ https://www.youtube.com/watch?v=nicMAoW6u1g
 https://editor.p5js.org/codingtrain/sketches/yJqbGf71
 p5js Code! - map function
 
+!!@----------------------------------------------------
+02.5 animation 
+  function and objects for multiple motino
+  functions with tranlates to draw complex shapes
+  variables can store color
+  variables can store functions
 
 
 -------------------------------------------------------------------------------
@@ -207,11 +336,11 @@ https://www.youtube.com/watch?v=IVMvq9rd8dA
 -- QUEUE
 
 
-
 -------------------------------------------------------------------------------
 
 ## p5.js editor examples
-  * [random painting](https://editor.p5js.org/icm/sketches/HJg8jfcT3)
+  * [random painting](
+https://editor.p5js.org/icm/sketches/HJg8jfcT3
 
 https://editor.p5js.org/jht1493/sketches/sUEajcpKC
 2. Random Painting noStroke
@@ -220,17 +349,64 @@ https://editor.p5js.org/jht1493/sketches/sUEajcpKC
 >> !!@ try: cycle alpha
 >> !!@ try: othe shapes
 
-  * [mouse controlled painting](https://editor.p5js.org/icm/sketches/r1JeQqa3)
+  * [mouse controlled painting](
+https://editor.p5js.org/icm/sketches/r1JeQqa3
 
-  * [moving circle](https://editor.p5js.org/icm/sketches/Bymv7ca2)
+  * [moving circle](
+https://editor.p5js.org/icm/sketches/Bymv7ca2
 
   * [clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) -- [Clock coding challenge video](https://youtu.be/E4RyStef-gY)
 
+-------------------------------------------------------------------------------
 ## Getting Started with p5.js book
   * Chapters 4 through Ex.4.5, 8 through Ex. 8.9
-  * Going further: Chapters 6 (Transformations) and 8.10-8.15 (More complex motion)
-  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
 
+Example 4-4: Basic Arithmetic
+// https://editor.p5js.org/jht1493/sketches/Eg01Z5WpY
+// Ex_04_04 Basic Arithmetic
+
+
+// https://editor.p5js.org/jht1493/sketches/DJ99paBR7
+// Ex_08_03 Move a Shape
+https://github.com/lmccart/gswp5.js-code/blob/master/08_Motion/Ex_08_03.js
+#- Example 8-3: Move a Shape
+var radius = 40;
+var x = -radius;
+var speed = 0.5;
+function draw() {
+  background(0);
+  x += speed;  // Increase the value of x
+  arc(x, 60, radius, radius, 0.52, 5.76);
+}
+
+// https://editor.p5js.org/jht1493/sketches/W_nCg2LI2
+// Ex_08_04 Wrap Around
+#- Example 8-4: Wrap Around
+  x += speed;  // Increase the value of x
+  if (x > width+radius) {  // If the shape is off screen
+    x = -radius;  // move to the left edge
+  }
+  arc(x, 60, radius, radius, 0.52, 5.76);
+
+#- Example 8-9: Move Shapes Randomly
+function draw() {
+  x += random(-speed, speed);
+  y += random(-speed, speed);
+  x = constrain(x, 0, width);
+  y = constrain(y, 0, height); 
+  ellipse(x, y, diameter, diameter);
+}
+
+https://p5js.org/reference/#/p5/constrain
+constrain(n, low, high)
+
+
+  * Going further: Chapters 6 (Transformations) and 8.10-8.15 (More complex motion)
+  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](
+    https://github.com/lmccart/gswp5.js-code
+    )
+
+!!@----------------------------------------------------
 
 https://editor.p5js.org/jht1493/sketches/1HRbbpwEK
 createButton draw_rect
@@ -241,3 +417,44 @@ createButton draw_rect
 
 >> intro to DOM from the function point of view
 >> minial muse of variables
+
+!!@----------------------------------------------------
+!!@ no-no, circleX goes negative
+>> Try: add variable to use for step
+>> add button to set a_step to 1, and -1 (negative 1)
+let a_step = 1;
+  circleX = (circleX + a_step) % width;
+// https://editor.p5js.org/jht1493/sketches/HtESWWNTa
+// 2.2 variable circleX remainder
+>> use remainder operator % to restrict value to 0 ... n
+>> introduce a_diam user variable
+let circleX = 0;
+let circleY = 80;
+let a_diam = 100;
+  circle(circleX, circleY, a_diam);
+  circleX = (circleX + 1) % width;
+>> add ui to show circleX
+>> add button to grow 0, grow 1
+
+!!@----------------------------------------------------
+!!@ use objects and function args for multiple shapes
+!!@ composition
+!!@ frameRate(1) to slowdown
+!!@ propose pulse - tease conditions
+!!@ intro sliders
+
+https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC
+p5js Code! - 2.2 - make your own variable - growing circle exercise
+
+// https://editor.p5js.org/jht1493/sketches/P9xSA4D7d
+// 2.2 - make your own variable - growing circle remainder
+
+// https://editor.p5js.org/jht1493/sketches/T8BbkINop
+// 2.2 button slider ui remainder
+>> related to:
+https://editor.p5js.org/jht1493/sketches/tuC5MB4nm
+3.1 button slider checkbox ui if
+
+// https://editor.p5js.org/jht1493/sketches/vig9Wkf9V
+// 2.2 variable remainder erase
+>> lots of buttons

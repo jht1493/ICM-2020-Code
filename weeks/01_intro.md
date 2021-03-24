@@ -218,7 +218,7 @@ Open this sketch in a separate window so that you can play it and read this page
 - DOM means Document Object Model - how the browser refers to visual elements on the page
 - functions `createButton`, `createSpan`, and `select` manage DOM elements
 - function `createButton` creates a button element on the page
-- function `createSpan` creates span containter for text, spans are layed out on a line
+- function `createSpan` creates a container for text, spans are layed out on a line
 - function `select` is used to referred to an element by it's id
 - elements may be assigned an id which is later used to reference them
 - an id is descriptive text you make up
