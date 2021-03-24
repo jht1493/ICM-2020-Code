@@ -354,6 +354,12 @@ https://editor.p5js.org/icm/sketches/r1JeQqa3
 
   * [moving circle](
 https://editor.p5js.org/icm/sketches/Bymv7ca2
+>> Try: use mousePressed function to set new color and x, y to mouseX, mouseY
+// https://editor.p5js.org/jht1493/sketches/QfgP2VgJt
+// 2.9 moving circle random set
+
+// https://editor.p5js.org/jht1493/sketches/IiHPr9gcV
+// 2.9 moving circle
 
   * [clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) -- [Clock coding challenge video](https://youtu.be/E4RyStef-gY)
 
