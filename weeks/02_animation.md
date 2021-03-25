@@ -63,7 +63,7 @@
   * Chapter 8 through Ex. 8.9
     * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
   * Going further: Chapter 6 (Transformations) 
-    * [sketches](https://editor.p5js.org/jht1493/collections/xxxxxx)
+    * [sketches](https://editor.p5js.org/jht1493/collections/LyMXjpqPV)
   * Going further: Chapter 8.10-8.15 (More complex motion)
     * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
