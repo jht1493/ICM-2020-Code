@@ -2,6 +2,22 @@
 
 [![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 
+# Your Coding Journey
+
+## Challenges
+- learning to think like the computer
+- thinking in numbers
+- understanding flow and order of operations
+- making the invisible visible  
+  - time
+  - state
+
+## Strategies
+- create your own summary sheet
+- draw pictures
+- re-mix sketches and experiment
+- if you get stuck, document and bring questions to class
+
 # 1. Recap, Explore and Experiment
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
@@ -26,8 +42,8 @@ When nothing is drawn the canvas will start out white.
 
 ## Ex 1.1 play sketch draw_rect
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK)
+[sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK) Open this sketch in a separate window so that you can play it and read this page at the same time.
+
 
 - if your screen too small to allow viewing sketch and this page at the same time, 
 use a print out this page as you explore the sketch.
@@ -63,8 +79,7 @@ For now we'll use buttons to explore p5js drawing behavior.
 In this sketch the function [`print`](https://p5js.org/reference/#/p5/print) 
 is added so that we can follow the execution of the buttons in the console.
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P)
+[sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 Code that uses the function `print` to help debug:
 ```
@@ -93,8 +108,7 @@ Here are a few:
 
 In this sketch alpha values are used for colors.
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_rect_alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD)
+[sketch - draw_rect_alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 This sketch uses the Red, Green, Blue, Alpha format for colors. 
 The values Red, Green, Blue and Alpha are numbers between 0 and 255. 
@@ -113,8 +127,7 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 In this exercise a few other functions are added
 to explore the p5js canvas coordinate system, shapes, and color.
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w)
+[sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 ### Questions
 
@@ -130,8 +143,7 @@ Open this sketch in a separate window so that you can play it and read this page
 
 ## Ex 1.2 explore sketch draw_shapes_body 
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - 1.2 draw_shapes_body](https://editor.p5js.org/jht1493/sketches/X5iRxm8HK)
+[sketch - 1.2 draw_shapes_body](https://editor.p5js.org/jht1493/sketches/X5iRxm8HK) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 Click on the buttons and observe the actions and the messages that appear in the console.
 In the body of the mousePressed function you can call as many other functions as you wish.
@@ -156,8 +168,7 @@ In the body of the mousePressed function you can call as many other functions as
 
 ## Ex 1.2 explore sketch draw_shapes_func
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
-[sketch - 1.2 draw_shapes_func](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K)
+[sketch - 1.2 draw_shapes_func](https://editor.p5js.org/jht1493/sketches/qEgdTdx0K) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 Click on the buttons and observe the actions and the messages that appear in the console.
 
@@ -211,8 +222,8 @@ followed by any number of letters, numbers or underscore characters.
 
 ## Ex 1.2 explore sketch draw_shapes_ui
 
-Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - 1.2 draw_shapes_ui](https://editor.p5js.org/jht1493/sketches/DGQoBYV9x)
+ Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 - added function create_ui and function update_ui 
 - code is re-used from previous sketch to display mouse location and canvas color

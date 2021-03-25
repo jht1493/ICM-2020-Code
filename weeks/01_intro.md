@@ -13,13 +13,15 @@
 ## Programming language discussion
   * General discussion of programming languages
   * History of creative coding frameworks
-      * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) (and what's [processing.js](http://processingjs.org/)?)
-      <!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
-      <!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
+      * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) 
+      *  what's [processing.js](http://processingjs.org/)?
       * [History of p5.js video](https://www.youtube.com/watch?v=FdsWWjqoPKU)
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
+
+      <!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
+      <!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
 
 ## p5.js in the context of the browser
   * Landscape of HTML, CSS, and JavaScript
@@ -28,7 +30,7 @@
   * What is the difference between p5 and JavaScript?
 
 ## Participating in an open-source community
-  * What is git and github?
+  * [What is git and github?](https://thecodingtrain.com/beginners/git-and-github/1-introduction.html)
   * When should you post to a forum vs. file a github issue?
   * Who makes these things?
 
@@ -78,15 +80,15 @@
 
 ## Additional viewing / reading:
    * [Pick an Eyeo Talk that looks interesting](https://vimeo.com/eyeofestival/)
-  >> give some suggestions
+      * Suggestion: Eyeo 2019 - Amon Millner
 
 ### More on p5
 * [All introductory p5.js videos](https://thecodingtrain.com/beginners)
 <!-- (https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -->
 * Comparing Processing and p5.js
-  * [Comparing Processing and p5.js Part 1 video](https://youtu.be/AmlAiKsiy0o)
-  * [Comparing Processing and p5.js Part 2 video](https://youtu.be/AsjPJ5AWkDc)
-  * [Comparing Processing and p5.js Part 3 video](https://youtu.be/_y8rEHjqzRA)
+  * [Part 1 video](https://youtu.be/AmlAiKsiy0o)
+  * [Part 2 video](https://youtu.be/AsjPJ5AWkDc)
+  * [Part 3 video](https://youtu.be/_y8rEHjqzRA)
 * [Overview of p5.js Web Editor with Cassie](https://youtu.be/x1rJJRVTpAI)
 
 ### More on computational drawing
