@@ -30,12 +30,25 @@ Open this sketch in a separate window so that you can play it and read this page
 - if your screen too small to allow viewing sketch and this page at the same time, 
 use a print out this page as you explore the sketch.
 - buttons will appear below canvas
+
+This sketch defines buttons to draw on the screen. 
+Here's the code that defines one of the buttons and its action:
+
+```
+  createButton('backg 240').mousePressed(function() {
+    background(240);
+  });
+```
+
+We'll getting into details of how to create your own button later.
+For now we'll use buttons to explore p5js drawing behavior.
+
 - play the sketch, click on the buttons in different orders and note behavior
 
 ### Questions
 
 - did you notice that sometimes the left rect can be white or gray? 
-- if the answer is not clear bring as question to class
+    - if the answer is not clear bring as question to class
 
 - what are possible ways to represent color for function [`fill`](https://p5js.org/reference/#/p5/fill)?
 
@@ -46,10 +59,18 @@ use a print out this page as you explore the sketch.
 ## Ex 1.1 explore sketch draw_rect_print
 
 In this sketch the function [`print`](https://p5js.org/reference/#/p5/print) 
-is added so that we can follow the execution of the buttons.
+is added so that we can follow the execution of the buttons in the console.
 
 Open this sketch in a separate window so that you can play it and read this page at the same time.
 [sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P)
+
+Code that uses the function `print` to help debug:
+```
+  createButton('backg 240').mousePressed(function() {
+    print('calling background');
+    background(240);
+  });
+```
 
 ### Try
 
@@ -193,7 +214,7 @@ Open this sketch in a separate window so that you can play it and read this page
 [sketch - 1.2 draw_shapes_ui](https://editor.p5js.org/jht1493/sketches/DGQoBYV9x)
 
 - added function create_ui and function update_ui 
-- uses code from previous sketch to display mouse location and canvas color
+- code is re-used from previous sketch to display mouse location and canvas color
 
 ### Try
 
@@ -215,8 +236,8 @@ Open this sketch in a separate window so that you can play it and read this page
 ## DOM functions `createButton`, `createSpan`, `select`
 
 - curious about functions `createButton`, `createSpan`, `select`?
-- (ok to skip this section)
-- these are DOM functions.
+- if not, ok to skip this section
+- these are DOM functions
 - DOM means Document Object Model - how the browser refers to visual elements on the page
 - functions `createButton`, `createSpan`, and `select` manage DOM elements
 - function `createButton` creates a button element on the page
@@ -224,6 +245,7 @@ Open this sketch in a separate window so that you can play it and read this page
 - function `select` is used to referred to an element by it's id
 - elements may be assigned an id which is later used to reference them
 - an id is descriptive text you make up
+
 - the canvas itself is DOM element!
 
 - in future sessions we'll see how to adjust layout of DOM elements

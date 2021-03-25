@@ -78,3 +78,4 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
+![](../assets/Ex_03_17-alpha-circles.png)
