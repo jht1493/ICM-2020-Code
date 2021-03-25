@@ -1,5 +1,7 @@
 # Animation: Variables
 
+![](../assets/Ex_08_03-Move-1.png) ![](../assets/Ex_08_03-Move-2.png)
+
 https://thecodingtrain.com/beginners/p5js/2.1-mousex-mousey.html
 https://thecodingtrain.com/beginners/p5js/2.2-make-your-own.html
 https://thecodingtrain.com/beginners/p5js/2.3-objects.html
@@ -7,7 +9,9 @@ https://thecodingtrain.com/beginners/p5js/2.4-map.html
 https://thecodingtrain.com/beginners/p5js/2.5-random.html
 https://thecodingtrain.com/beginners/p5js/2.6-create-graphics.html
 
-https://thecodingtrain.com/beginners/p5js/index.html
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.1-transformations-part-1.html
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.2-transformations-part-2.html
+https://thecodingtrain.com/Tutorials/9-additional-topics/9.3-transformations-art-3.html
 
 -------------------------------------------------------------------------------
 https://thecodingtrain.com/beginners/p5js/2.3-objects.html

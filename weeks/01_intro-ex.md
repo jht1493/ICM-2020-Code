@@ -214,7 +214,9 @@ p5js Code! - Code Comments
   *  Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
   by Lauren McCarthy, Casey Reas, and Ben Fry
   Copyright © 2016 Maker Media. All rights reserved.
+
 https://github.com/lmccart/gswp5.js-code
+
 https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
 >> copy and paste into p5js editor
 
@@ -222,7 +224,6 @@ https://github.com/lmccart/gswp5.js-code/tree/master/03_Draw
 // Ex_02_02 Make Circles
 
 1/Hello: Learn about p5.js.
-
 
 2/Starting to Code: Create your first p5.js program.
 
@@ -237,32 +238,10 @@ function draw() {
 3/Draw: Define and draw simple shapes.
 
   line(20, 50, 420, 110);
-
   quad(158, 55, 199, 14, 392, 66, 351, 107);
   triangle(347, 54, 392, 9, 392, 66); 
-  triangle(158, 55, 290, 91, 290, 112);
-
   rect(180, 60, 220, 40);
-
   ellipse(278, -100, 400, 400);
-  ellipse(120, 100, 110, 110);
-  ellipse(412, 60, 18, 18);
-
-  arc(90, 60, 80, 80, 0, HALF_PI);
-  arc(190, 60, 80, 80, 0, PI+HALF_PI);
-  arc(290, 60, 80, 80, PI, TWO_PI+HALF_PI);
-  arc(390, 60, 80, 80, QUARTER_PI, PI+QUARTER_PI);
-
-  arc(90, 60, 80, 80, 0, radians(90)); 
-  arc(190, 60, 80, 80, 0, radians(270));
-  arc(290, 60, 80, 80, radians(180), radians(450));
-  arc(390, 60, 80, 80, radians(45), radians(225));
-
-  angleMode(DEGREES);
-  arc(90, 60, 80, 80, 0, 90);
-  arc(190, 60, 80, 80, 0, 270);
-  arc(290, 60, 80, 80, 180, 450);
-  arc(390, 60, 80, 80, 45, 225);
 
 Drawing Order
 
