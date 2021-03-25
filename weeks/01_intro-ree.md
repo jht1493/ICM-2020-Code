@@ -13,10 +13,10 @@
   - state
 
 ## Strategies
+- re-mix sketches and experiment
 - create your own summary sheet
 - draw pictures
-- re-mix sketches and experiment
-- if you get stuck, document and bring questions to class
+- if you get stuck, document as comments in your sketch, and bring sketch with quesitons to class
 
 # 1. Recap, Explore and Experiment
 
@@ -247,8 +247,8 @@ followed by any number of letters, numbers or underscore characters.
 
 ## DOM functions `createButton`, `createSpan`, `select`
 
-- curious about functions `createButton`, `createSpan`, `select`?
 - if not, ok to skip this section
+- curious about functions `createButton`, `createSpan`, `select`?
 - these are DOM functions
 - DOM means Document Object Model - how the browser refers to visual elements on the page
 - functions `createButton`, `createSpan`, and `select` manage DOM elements
