@@ -16,6 +16,10 @@
   * [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)
   * [sketch - growing circle](https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC)
 
+* Incrementing variables
+  * [video 2.3: Incrementation Operations ](https://thecodingtrain.com/beginners/p5js/2.3-incrementation-operations.html) (~5 min)
+    * x = x + 1; x += 1; x++
+
 * The [random()](http://p5js.org/reference/#/p5/random) function
   * [video 2.4: random()](https://thecodingtrain.com/beginners/p5js/2.4-random.html) (~11 min)
   * [sketch - Random Square Design](https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8)

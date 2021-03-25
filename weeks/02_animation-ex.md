@@ -28,6 +28,19 @@ ReferenceError: x is not defined
 
 Ex: use object for vars
 
+>> dropped !!@
+https://github.com/Codingrainbow/Rainbow-Code/blob/master/p5.js/2.3_1_p5.js_JavaScript_with_objects%20/sketch.js
+
+// https://editor.p5js.org/jht1493/sketches/h-rLRPdqn
+// 2.2_p5.js user_defined
+
+// https://editor.p5js.org/jht1493/sketches/qsfTfkb_5
+// 2.3_1_p5 with_objects
+
+// https://editor.p5js.org/jht1493/sketches/gv8PmJE2u
+// 2.3_0_p5 without_objects
+
+
 -------------------------------------------------------------------------------
 
 >> add translate
