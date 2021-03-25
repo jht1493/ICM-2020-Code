@@ -1,6 +1,6 @@
 # Introduction
 
-![](../assets/Ex_03_17-alpha-circles.png)
+[![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 
 ##  What is computational media?
   * What is programming?
