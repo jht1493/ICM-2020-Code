@@ -6,8 +6,8 @@
 
 ## Challenges
 - learning to think like the computer
-- thinking in numbers
-- understanding flow and order of operations
+  - thinking in numbers
+  - understanding flow, order of operations
 - making the invisible visible  
   - time
   - state
@@ -16,7 +16,11 @@
 - re-mix sketches and experiment
 - create your own summary sheet
 - draw pictures
-- if you get stuck, document as comments in your sketch, and bring sketch with quesitons to class
+- if you get stuck
+  - duplicated your sketch
+  - document questions as comments in your sketch
+  - bring sketch to class and ask for help
+  - "if there is no struggle there is no progress"
 
 # 1. Recap, Explore and Experiment
 
