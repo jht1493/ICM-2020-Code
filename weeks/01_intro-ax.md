@@ -1,6 +1,8 @@
-# 1. Recap, Explore and Experiment
+# Introduction
 
 ![](../assets/Ex_03_17-alpha-circles.png)
+
+# 1. Recap, Explore and Experiment
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
 
@@ -197,7 +199,6 @@ function setup() {
 }
 ```
 
-- Shapes button calls function draw_shapes, defined in script.
 - You choose the name for your functions names to describe the intent of the code
 - A function name must begin with a letter (upper or lower case), 
 followed by any number of letters, numbers or underscore characters.
