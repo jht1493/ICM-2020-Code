@@ -293,7 +293,7 @@ function setup() {
 
   // draw code
   // replace string imx with your id
-  // parameter '#imx' is id for span. note: # character is required
+  // parameter '#imx' is id for span. character # is required
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 

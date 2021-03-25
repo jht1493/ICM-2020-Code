@@ -20,8 +20,10 @@
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
 
-      <!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
-      <!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
+>> is p5js lib for Arduino still in use? https://github.com/sarahgp/p5bots
+
+<!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
+<!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
 
 ## p5.js in the context of the browser
   * Landscape of HTML, CSS, and JavaScript
