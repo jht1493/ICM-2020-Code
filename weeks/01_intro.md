@@ -14,6 +14,8 @@
   * General discussion of programming languages
   * History of creative coding frameworks
       * [Processing](https://processing.org/) and [p5.js](https://p5js.org/) (and what's [processing.js](http://processingjs.org/)?)
+      <!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
+      <!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
       * [History of p5.js video](https://www.youtube.com/watch?v=FdsWWjqoPKU)
       * [openFrameworks](https://openframeworks.cc/), [Cinder](https://libcinder.org/)
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
@@ -30,9 +32,9 @@
   * When should you post to a forum vs. file a github issue?
   * Who makes these things?
 
-# Drawing
+# Getting started, your first program 
 
-## Tutorials: Getting started, your first program
+## Tutorials: Drawing
 
 * Programming for Beginners with p5.js
   * [video 1.1 Introduction](https://thecodingtrain.com/beginners/p5js/1.1-introduction.html) (~13 min)
@@ -42,15 +44,29 @@
   * [video 1.2 p5.js Web Editor](https://thecodingtrain.com/beginners/p5js/1.2-p5js-web-editor.html) (~8 min)
 <!-- * [p5.js Web Editor Tutorial](https://youtu.be/MXs1cOlidWs) -->
 
-* [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E)
-* [Color video tutorial](https://youtu.be/riiJTF5-N7c)
-* [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM)
-* [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q)
+* Shapes & Drawing 
+  * [video 1.3 Shapes and Drawing](https://thecodingtrain.com/beginners/p5js/1.3-shapes-and-drawing.html) (~26 min)
+  * [sketch](https://editor.p5js.org/codingtrain/sketches/HJ1WjEPwQ)
+<!-- * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E) -->
+
+* Color 
+  * [video 1.4 Color](https://thecodingtrain.com/beginners/p5js/1.4-color.html) (~18 min)
+  * [sketch](https://editor.p5js.org/codingtrain/sketches/rJ9MQSwvm)
+<!-- * [Color video tutorial](https://youtu.be/riiJTF5-N7c) -->
+
+* Errors and Console
+  * [video 1.5 Errors and Console](https://thecodingtrain.com/beginners/p5js/1.5-errors-and-console.html) (~7 min)
+<!-- * [Errors and Console Video Tutorial](https://youtu.be/LuGsp5KeJMM) -->
+
+* Code Comments
+  * [video 1.6 Code Comments](https://thecodingtrain.com/beginners/p5js/1.6-code-comments.html) (~7 min)
+<!-- * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q) -->
 
 ## Getting Started with p5.js book
-  * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | 
-  [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | 
-  [Code](https://github.com/lmccart/gswp5.js-code)
+  * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
+    * [sketches](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
 
 ## p5.js references
 
@@ -62,11 +78,16 @@
 
 ## Additional viewing / reading:
    * [Pick an Eyeo Talk that looks interesting](https://vimeo.com/eyeofestival/)
+  >> give some suggestions
 
 ### More on p5
-   * [All introductory p5.js videos](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
-   * [Comparing Processing and p5.js Part 1 video](https://youtu.be/AmlAiKsiy0o), [Comparing Processing and p5.js Part 2 video](https://youtu.be/AsjPJ5AWkDc), [Comparing Processing and p5.js Part 3 video](https://youtu.be/_y8rEHjqzRA)
-   * [Overview of p5.js Web Editor with Cassie](https://youtu.be/x1rJJRVTpAI)
+* [All introductory p5.js videos](https://thecodingtrain.com/beginners)
+<!-- (https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -->
+* Comparing Processing and p5.js
+  * [Comparing Processing and p5.js Part 1 video](https://youtu.be/AmlAiKsiy0o)
+  * [Comparing Processing and p5.js Part 2 video](https://youtu.be/AsjPJ5AWkDc)
+  * [Comparing Processing and p5.js Part 3 video](https://youtu.be/_y8rEHjqzRA)
+* [Overview of p5.js Web Editor with Cassie](https://youtu.be/x1rJJRVTpAI)
 
 ### More on computational drawing
    * [FORM+CODE: Introduction and What is Code?](http://formandcode.com)
@@ -78,4 +99,4 @@
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
-![](../assets/Ex_03_17-alpha-circles.png)
+[![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)

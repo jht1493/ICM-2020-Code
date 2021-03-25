@@ -1,6 +1,6 @@
 # Introduction
 
-![](../assets/Ex_03_17-alpha-circles.png)
+[![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 
 # 1. Recap, Explore and Experiment
 
@@ -282,4 +282,4 @@ function setup() {
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 
-![](../assets/Ex_03_20-Two-Creatures.png)
+[![](../assets/Ex_03_20-Two-Creatures.png)](https://editor.p5js.org/jht1493/sketches/mPX1b9278)
