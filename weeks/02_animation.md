@@ -1,6 +1,6 @@
 # Animation: Variables
 
-[![](../assets/Ex_08_03-Move-1.png) ![](../assets/Ex_08_03-Move-2.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
+[![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
 
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
 
@@ -59,11 +59,15 @@
 
 ## Getting Started with p5.js book
   * Chapter 4 through Ex. 4.5
+    * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
   * Chapter 8 through Ex. 8.9
+    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
   * Going further: Chapter 6 (Transformations) 
+    * [sketches](https://editor.p5js.org/jht1493/collections/xxxxxx)
   * Going further: Chapter 8.10-8.15 (More complex motion)
+    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
     * [git source code](https://github.com/lmccart/gswp5.js-code)
 
-[![](../assets/Ex_08_03-Move-1.png) ![](../assets/Ex_08_03-Move-2.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
+[![](../assets/Ex_08_03-Move-4.png) ![](../assets/Ex_08_03-Move-3.png)](https://editor.p5js.org/jht1493/sketches/wJCzyVzBm)

@@ -1,5 +1,7 @@
 # Animation: Variables
+https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/02_animation.md
 
+[![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
 ![](../assets/Ex_08_03-Move-1.png) ![](../assets/Ex_08_03-Move-2.png)
 
 https://thecodingtrain.com/beginners/p5js/2.1-mousex-mousey.html
@@ -15,6 +17,7 @@ https://thecodingtrain.com/Tutorials/9-additional-topics/9.3-transformations-art
 
 -------------------------------------------------------------------------------
 https://thecodingtrain.com/beginners/p5js/2.3-objects.html
+
 https://www.youtube.com/watch?v=-e5h4IGKZRY
 2.3: JavaScript Objects - p5.js Tutorial
 190,360 views•Sep 4, 2015

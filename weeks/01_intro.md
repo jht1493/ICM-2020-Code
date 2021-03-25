@@ -83,13 +83,13 @@
       * Suggestion: Eyeo 2019 - Amon Millner
 
 ### More on p5
-* [All introductory p5.js videos](https://thecodingtrain.com/beginners)
+* [All introductory p5.js videos](https://thecodingtrain.com/beginners/p5js/)
 <!-- (https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) -->
 * Comparing Processing and p5.js
-  * [Part 1 video](https://youtu.be/AmlAiKsiy0o)
-  * [Part 2 video](https://youtu.be/AsjPJ5AWkDc)
-  * [Part 3 video](https://youtu.be/_y8rEHjqzRA)
-* [Overview of p5.js Web Editor with Cassie](https://youtu.be/x1rJJRVTpAI)
+  * [Part 1 video](https://youtu.be/AmlAiKsiy0o) (~17 min)
+  * [Part 2 video](https://youtu.be/AsjPJ5AWkDc) (~23 min)
+  * [Part 3 video](https://youtu.be/_y8rEHjqzRA) (~10 min)
+* [Overview of p5.js Web Editor with Cassie](https://youtu.be/x1rJJRVTpAI) (~23 min)
 
 ### More on computational drawing
    * [FORM+CODE: Introduction and What is Code?](http://formandcode.com)
