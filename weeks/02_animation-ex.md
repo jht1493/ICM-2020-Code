@@ -15,31 +15,6 @@ https://thecodingtrain.com/Tutorials/9-additional-topics/9.1-transformations-par
 https://thecodingtrain.com/Tutorials/9-additional-topics/9.2-transformations-part-2.html
 https://thecodingtrain.com/Tutorials/9-additional-topics/9.3-transformations-art-3.html
 
--------------------------------------------------------------------------------
-https://thecodingtrain.com/beginners/p5js/2.3-objects.html
-
-https://www.youtube.com/watch?v=-e5h4IGKZRY
-2.3: JavaScript Objects - p5.js Tutorial
-190,360 views•Sep 4, 2015
-
-!!@ In homework but not here
-
-ReferenceError: x is not defined
-
-Ex: use object for vars
-
->> dropped !!@
-https://github.com/Codingrainbow/Rainbow-Code/blob/master/p5.js/2.3_1_p5.js_JavaScript_with_objects%20/sketch.js
-
-// https://editor.p5js.org/jht1493/sketches/h-rLRPdqn
-// 2.2_p5.js user_defined
-
-// https://editor.p5js.org/jht1493/sketches/qsfTfkb_5
-// 2.3_1_p5 with_objects
-
-// https://editor.p5js.org/jht1493/sketches/gv8PmJE2u
-// 2.3_0_p5 without_objects
-
 
 -------------------------------------------------------------------------------
 

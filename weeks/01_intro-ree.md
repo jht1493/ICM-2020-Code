@@ -13,13 +13,13 @@
   - state
 
 ## Strategies
-- re-mix sketches and experiment
-- create your own summary sheet
+- re-mix and experiment with sketches
+- create your own summary sheet of p5js terms as you use them
 - draw pictures
 - if you get stuck
   - duplicated your sketch
   - document questions as comments in your sketch
-  - bring sketch to class and ask for help
+  - bring your sketch to class and ask for help
   - "if there is no struggle there is no progress"
 
 # 1. Recap, Explore and Experiment

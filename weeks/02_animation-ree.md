@@ -11,11 +11,6 @@ Let's recap, explore, and experiment with the concepts introduced in this sessio
   * [video 2.1: Variables in p5.js (mouseX, mouseY)](https://thecodingtrain.com/beginners/p5js/2.1-mousex-mousey.html) (~11 min)
   * [sketch](https://editor.p5js.org/codingtrain/sketches/IeblvUQrf)
 
-https://www.youtube.com/watch?v=-e5h4IGKZRY   
-2.3: JavaScript Objects - p5.js Tutorial
-190,360 views•Sep 4, 2015
-!!@ In homework but not here
-
 Flow of code.
 function mousePressed() {
 }
@@ -106,7 +101,7 @@ circleX = circleX + 1;
 // !!@ Expand on expresions
 circleX = (circleX + 1) % width;
 
-https://editor.p5js.org/codingtrain/sketches/xPXNdPy17
+https://editor.p5js.org/codingtrain/sketches/xPXNdPy17   
 p5js Code! - 2.2 - make your own variable
 
   circle(circleX, 150, 64);
@@ -114,7 +109,7 @@ p5js Code! - 2.2 - make your own variable
 
 >> mouse presssed out side of canvas will reset
 
-// https://editor.p5js.org/jht1493/sketches/v9zsQFPqN
+// https://editor.p5js.org/jht1493/sketches/v9zsQFPqN   
 // 2.2 variable circleX
 
   createCanvas(400, 300).mousePressed(function() {
@@ -125,22 +120,25 @@ p5js Code! - 2.2 - make your own variable
 
 function mousePressed() {
 
-// https://editor.p5js.org/jht1493/sketches/CwYDz_4N2
+// https://editor.p5js.org/jht1493/sketches/CwYDz_4N2   
 // 2.2.2 variable circleX % width
 
 >> variable restricted to 0 ... width
   circleX = (circleX + 1) % width;
 
-// https://editor.p5js.org/jht1493/sketches/UhNMB6GQO
+// https://editor.p5js.org/jht1493/sketches/UhNMB6GQO   
 // 2.2.3 variable circleX % width ui
 
 >> ui added. add buttons to change circleX and/or circleY
+
+// https://editor.p5js.org/jht1493/sketches/YzI6wqRG   
+2.2.3 variable circleX random color
 
 >> Try: no background
 
 >> Try: buttons to change color of shape
 
-// https://editor.p5js.org/jht1493/sketches/mDleb9mKk
+// https://editor.p5js.org/jht1493/sketches/mDleb9mKk   
 // 2.2.4 variable circleX rgb
 
 
@@ -149,65 +147,7 @@ function mousePressed() {
   * [video 2.5: random()](https://www.youtube.com/watch?v=nfmV2kuQKwA&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9)
 
 
-  * [video 2.4: random()](https://thecodingtrain.com/beginners/p5js/2.4-random.html) (~11 min)
-  * [sketch - Random Square Design](https://editor.p5js.org/codingtrain/sketches/Sl8ml_Lz8)
-
-// https://editor.p5js.org/jht1493/sketches/UTMOVgcsv   
-// 2.5.1 obj random function 
-
-```
-let a_scan = {
-  x: 0,
-  r: 0,
-  alpha: 100,
-  diam: 20
-};
-
-function draw() {
-  // variables are set on the object a_scan
-  a_scan.x = (a_scan.x + 1) % width;
-  a_scan.y = random(0, height / 2);
-  a_scan.r = (a_scan.r + 1) % 255;
-  a_scan.g = random(100, 255);
-  a_scan.b = random(100, 190);
-  fill(a_scan.r, a_scan.g, a_scan.b, a_scan.alpha);
-  ellipse(a_scan.x, a_scan.y, a_scan.diam);
-}
-```
-
-// https://editor.p5js.org/jht1493/sketches/XzrXlqxMN   
-// 2.5.1 obj random function scan x
-```
-  spot.x = (spot.x + 1) % width;
-  spot.y = random(0, height);
-```
-
-// https://editor.p5js.org/jht1493/sketches/ny4aSEPTp   
-// 2.5.1 random function scan x ran y
-```
-  spot.x = (spot.x + 1) % width;
-  let h = height/8;
-  spot.y = random([h, h*3, h*5, h*7]);
-```
-
-// https://editor.p5js.org/jht1493/sketches/vpcHXx_E1   
-// 2.5.2 random function spot.count
-```
-  spot.count = spot.count + spot.d;
-  spot.x = spot.count % width;
-  spot.y = (int(spot.count / width) * spot.d) % height;
-```
-
->> Try: have scan bottom to top, right to left
-
-// https://editor.p5js.org/jht1493/sketches/A1NHTo3cg   
-// 2.5.2 random function spot.count ui bottom
-```
-  spot.count = spot.count + spot.d;
-  spot.x = width - (spot.count % width);
-  spot.y = height - ((int(spot.count / width) * spot.d) % height);
-```
->> Try: limit to fix set of colors
+>> limit to fix set of colors
 
 ```
 Use: array of values in   
@@ -286,8 +226,8 @@ https://editor.p5js.org/icm/sketches/Bymv7ca2
   * Chapter 4 through Ex. 4.5
     * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
 
-Ex_04_04 Basic Arithmetic  
-Ex_04_05 Do the Same	  
+[Ex_04_04 Basic Arithmetic](https://editor.p5js.org/jht1493/sketches/Eg01Z5WpY)  
+[Ex_04_05 Do the Same](https://editor.p5js.org/jht1493/sketches/nUqcuwlY9)   
 Ex_04 Robot 2: Variables  
 Ex_04 Robot 2: Variable func  
 Ex_04 Robot 2: func jiggle  
@@ -296,7 +236,7 @@ Ex_04 Robot 2: func jiggle
     * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
 
 Ex_08_03 Move a Shape	  
-Ex_08_04 Wrap Around	 
+Ex_08_04 Wrap Around   
 Ex_08_05 Bounce Off the Wall  
 Ex_08_06 Tween   
 Ex_08_08 Draw Randomly   
