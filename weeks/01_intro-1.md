@@ -1,7 +1,5 @@
 # Introduction
 
-![](../assets/Ex_03_17-alpha-circles.png)
-
 ##  What is computational media?
   * What is programming?
   * How can I apply programming to _____________?

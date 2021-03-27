@@ -16,11 +16,9 @@
 - re-mix and experiment with sketches
 - create your own summary sheet of p5js terms as you use them
 - draw pictures
-- if you get stuck
-  - duplicated your sketch
-  - document questions as comments in your sketch
+- if you get stuck, document the issues
+  - duplicated your sketch, add issues as comments
   - bring your sketch to class and ask for help
-  - "if there is no struggle there is no progress"
 
 # 1. Recap, Explore and Experiment
 
@@ -251,8 +249,7 @@ followed by any number of letters, numbers or underscore characters.
 
 ## DOM functions `createButton`, `createSpan`, `select`
 
-- if not, ok to skip this section
-- curious about functions `createButton`, `createSpan`, `select`?
+- curious about functions `createButton`, `createSpan`, `select`? (if not, ok to skip this section)
 - these are DOM functions
 - DOM means Document Object Model - how the browser refers to visual elements on the page
 - functions `createButton`, `createSpan`, and `select` manage DOM elements

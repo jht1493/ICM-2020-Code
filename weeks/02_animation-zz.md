@@ -18,6 +18,18 @@ https://thecodingtrain.com/Tutorials/9-additional-topics/9.3-transformations-art
 
 -------------------------------------------------------------------------------
 
+// https://editor.p5js.org/jht1493/sketches/5Q_M3rwpt   
+// 2.1.3 mouseX,mouseY left
+
+// https://editor.p5js.org/jht1493/sketches/v56Rd_pWx   
+// 2.1 mouseX,mouseY mirror
+function mouseDragged() {
+  circle(mouseX % 200, mouseY, 24);
+  circle(width - (mouseX % 200), mouseY, 24);
+}
+
+-------------------------------------------------------------------------------
+
 >> add translate
 
 >> add translate with parameter variables
@@ -459,3 +471,165 @@ https://editor.p5js.org/jht1493/sketches/tuC5MB4nm
 // https://editor.p5js.org/jht1493/sketches/vig9Wkf9V
 // 2.2 variable remainder erase
 >> lots of buttons
+
+
+-------------------------------------------------------------------------------
+
+## 2.2 Variables circleX
+
+  * video 2.2: Variables in p5.js (Make your own)
+
+  * [video 2.2: Variables in p5.js (Make your own)](https://thecodingtrain.com/beginners/p5js/2.2-make-your-own.html) (~11 min)
+  
+  * [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)
+  * [sketch - growing circle](https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC)
+
+
+variable:
+- declare
+- init
+- use
+
+global variables
+all at the top of script
+let circleX = 100;
+
+increment
+circleX = circleX + 1;
+
+>> ?? slider for alpha
+  interesting values are low, slide not helpful
+>> slider for brush size ??
+>> Try: buttons for circle size
+
+// !!@ Expand on expresions
+```
+circleX = (circleX + 1) % width;
+```
+
+https://editor.p5js.org/codingtrain/sketches/xPXNdPy17   
+p5js Code! - 2.2 - make your own variable
+```
+  circle(circleX, 150, 64);
+  circleX = circleX + 1;
+```
+
+>> mouse presssed out side of canvas will reset
+
+// https://editor.p5js.org/jht1493/sketches/v9zsQFPqN   
+// 2.2 variable circleX
+```
+  createCanvas(400, 300).mousePressed(function() {
+    circleX = 0;
+  });
+
+>> mouse presssed on canvas only to reset circleX
+
+function mousePressed() {
+```
+
+// https://editor.p5js.org/jht1493/sketches/CwYDz_4N2   
+// 2.2.2 variable circleX % width
+
+```
+>> variable restricted to 0 ... width
+  circleX = (circleX + 1) % width;
+```
+
+// https://editor.p5js.org/jht1493/sketches/UhNMB6GQO   
+// 2.2.3 variable circleX % width ui
+
+>> ui added. add buttons to change circleX and/or circleY
+
+// https://editor.p5js.org/jht1493/sketches/YzI6wqRGE   
+2.2.3 variable circleX random color
+
+>> Try: no background
+
+>> Try: buttons to change color of shape
+
+// https://editor.p5js.org/jht1493/sketches/mDleb9mKk   
+// 2.2.4 variable circleX rgb
+
+
+-------------------------------------------------------------------------------
+
+* The [random()](http://p5js.org/reference/#/p5/random) function
+  * [video 2.5: random()](https://www.youtube.com/watch?v=nfmV2kuQKwA&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9)
+
+
+>> limit to fix set of colors
+
+```
+Use: array of values in   
+https://p5js.org/reference/#/p5/random   
+  random(choices) 
+  choices Array: the array to choose from
+https://p5js.org/reference/#/p5/fill
+  fill(values)
+  values Number[]: an array containing the red,green,blue & and alpha components of the color
+```
+
+// https://editor.p5js.org/jht1493/sketches/jZtF7e5E5   
+// 2.5.2 random spot.count ui col set
+```
+let col_set = [
+  [255, 0, 0, a_alpha],
+  [0, 255, 0, a_alpha],
+  [255, 255, 0, a_alpha],
+  [0, 0, 0, a_alpha],
+  // [255, 255, 255, a_alpha]
+];
+
+  let col = random(col_set);
+  col[3] = a_alpha;
+
+    frameRate(0);
+
+    frameRate(10);
+```
+-------------------------------------------------------------------------------
+
+  * [Rainbow Paintbrush in p5.js](https://medium.com/@kellylougheed/rainbow-paintbrush-in-p5-js-e452d5540b25) by Kelly Lougheed
+
+>> Added sketch   
+
+// https://editor.p5js.org/jht1493/sketches/9aYZcF6DM   
+// 2.5 Rainbow Paintbrush
+```
+  a_hue = (a_hue + 10) % 360;
+```
+// https://editor.p5js.org/jht1493/sketches/dojCKsdwQ   
+// 2.5 Rainbow Paintbrush ui
+
+// https://editor.p5js.org/jht1493/sketches/TAnGTwIJ1   
+// 2.5.3 Rainbow Paintbrush a_step
+
+-------------------------------------------------------------------------------
+
+## p5.js editor examples
+  * [random painting](
+https://editor.p5js.org/icm/sketches/HJg8jfcT3   
+
+https://editor.p5js.org/jht1493/sketches/sUEajcpKC   
+2. Random Painting noStroke   
+>> !!@ try: cycle circle size   
+>> !!@ try: lower alpha   
+>> !!@ try: cycle alpha   
+>> !!@ try: othe shapes   
+
+  * [mouse controlled painting](   
+https://editor.p5js.org/icm/sketches/r1JeQqa3   
+
+  * [moving circle](   
+https://editor.p5js.org/icm/sketches/Bymv7ca2   
+>> Try: use mousePressed function to set new color and x, y to mouseX, mouseY   
+// https://editor.p5js.org/jht1493/sketches/QfgP2VgJt   
+// 2.9 moving circle random set   
+
+// https://editor.p5js.org/jht1493/sketches/IiHPr9gcV   
+// 2.9 moving circle   
+
+  * [clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) -- [Clock coding challenge video](https://youtu.be/E4RyStef-gY)
+
+-------------------------------------------------------------------------------
