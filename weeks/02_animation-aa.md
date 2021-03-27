@@ -8,6 +8,7 @@
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
 
+-------------------------------------------------------------------------------
 ## 2.1 mouseX and mouseY
 
 [sketch - p5js Code! - 2.1 - mouseX,mouseY](https://editor.p5js.org/codingtrain/sketches/IeblvUQrf) Open these sketch in a separate window so that you can play it and read this page at the same time.
@@ -70,7 +71,6 @@ function mouseDragged() {
 [sketch -  2.1.4 mouseX,mouseY ui](https://editor.p5js.org/jht1493/sketches/I8zejgYIX)
 
 -------------------------------------------------------------------------------
-
 ## 2.2 Variables circleX
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
@@ -98,15 +98,21 @@ x % n // result is always between 0 and n-1
 
 ### Try
 
+- add another shape that moves top to bottom
+
+[sketch - 2.2.1 shape1 shape2 ](https://editor.p5js.org/jht1493/sketches/cuaGTyRYU)   
+
+### Try
+
 - re-mix [sketch - growing circle](https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC) use the remainder operator to limit the circle growth
 
-[sketch - 2.2.2 circleR growing](https://editor.p5js.org/jht1493/sketches/2ZGRl9x1p) -remix-
+[sketch - 2.2.3 circleR growing](https://editor.p5js.org/jht1493/sketches/2ZGRl9x1p)  
 
 ### Try
 
 - remix [sketch - 2.2.1 variable...](https://editor.p5js.org/jht1493/sketches/CwYDz_4N2) with buttons to change the diameter of the circle
 
-[sketch -  2.2.3 circleX width ui](https://editor.p5js.org/jht1493/sketches/UhNMB6GQO)   
+[sketch -  2.2.4 circleX width ui](https://editor.p5js.org/jht1493/sketches/UhNMB6GQO)   
 
 ### Try
 
@@ -116,7 +122,73 @@ x % n // result is always between 0 and n-1
 
 - add button for random color
 
-[sketch - 2.2.4 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
+[sketch - 2.2.5 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
+
+-------------------------------------------------------------------------------
+## 2.3 Incrementing variables
+
+These examples uses this coding pattern to create animation: A variable, circleX, is updated by increment its value. There is an illusion of motion as the shape is drawn one pixel to the right each time the `function draw` is called.
+
+```
+  circleX = (circleX + 1) % width;
+```
+
+We could increase the apparent speed of this animation by adding a value greater than 1:
+
+```
+  circleX = (circleX + 2) % width;
+```
+
+By increment by 2 the shape will move faster.
+
+### Try
+
+- create a new variable that controls the speed of the animation
+
+- create a second shape that animates across the screen at a different speed
+
+[2.3.1 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
+
+-------------------------------------------------------------------------------
+## 2.4 [function random()](http://p5js.org/reference/#/p5/random)
+
+The random function is a versatile function that can add variety to our sketches.
+We've seen it used to produce a random number with in a range:
+```
+// x will be a random number between width/2 and width
+// ie. the right half of the canvas
+let x = random(width/2,width);
+```
+We can also get a less random selection by using an `array` of values. An array is a series of values enclosed in square brackets. In future session we'll get deeper into creating and modifing arrays. For now we'll use them as a source for values.
+
+```
+// x will be one of 10,20,100,200
+let x = random([10,20,100,200]);
+// col will be one of 'red', 'green' or 'yellow'
+let col = random(['red','green','yellow']);
+```
+
+The array notation can also be used to specify colors with alpha values:
+```
+let cRed = [255,0,0,10];
+let cGreen = [0,255,0,10];
+let cYellow = [255,255,0,10];
+// pick a random color value
+let col = random([cRed,cGreen,cYellow]);
+```
+
+### Try
+
+- remix one of the circleX sketches to change to random color when the canvas is clicked.
+
+[2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
+
+
+### Try
+
+- use alpha color values with a moving shape
+
+[2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book

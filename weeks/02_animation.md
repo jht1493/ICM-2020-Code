@@ -61,7 +61,8 @@
   * [sketch - random painting](https://editor.p5js.org/icm/sketches/HJg8jfcT3)
   * [sketch - mouse controlled painting](https://editor.p5js.org/icm/sketches/r1JeQqa3)
   * [sketch - moving circle](https://editor.p5js.org/icm/sketches/Bymv7ca2)
-  * [sketch - clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) -- [Clock coding challenge video](https://youtu.be/E4RyStef-gY)
+  * [sketch - clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) 
+    - [Clock coding challenge video](https://youtu.be/E4RyStef-gY) (~21 min)
 
 ## Getting Started with p5.js book
   * Chapter 4 through Ex. 4.5
