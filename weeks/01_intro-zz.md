@@ -1,6 +1,6 @@
 # Introduction
 https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md
-https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro-ree.md
+https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro-aa.md
 
 -- overview
 https://thecodingtrain.com/beginners/p5js/

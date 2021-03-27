@@ -10,9 +10,9 @@ Let's recap, explore, and experiment with the concepts introduced in this sessio
 
 ## 2.1 mouseX and mouseY
 
-[sketch - p5js Code! - 2.1 - mouseX,mouseY](https://editor.p5js.org/codingtrain/sketches/IeblvUQrf) Open this sketch in a separate window so that you can play it and read this page at the same time. It is the sketch from the first video.
+[sketch - p5js Code! - 2.1 - mouseX,mouseY](https://editor.p5js.org/codingtrain/sketches/IeblvUQrf) Open these sketch in a separate window so that you can play it and read this page at the same time.
 
-This sketch uses the p5js variables `mouseX` and  `mouseY` to draw circles on the canvas. Code in the function `mousePressed` causes the canvas to be black whenever mouse is pressed anywhere on the page. A circle is drawn when the mouse moves over the canvas.
+This sketch from the video uses the p5js variables `mouseX` and  `mouseY` to draw circles on the canvas. Code in the function `mousePressed` causes the canvas to be black whenever mouse is pressed anywhere on the page. A circle is drawn when the mouse moves over the canvas.
 
 ```
 function draw() {
@@ -44,7 +44,7 @@ function mouseDragged() {
 
 [sketch - 2.1.2 mouseX,mouseY arith](https://editor.p5js.org/jht1493/sketches/pmA0d9Uqt) Two circles are drawn when the mouse moves in this sketch.
 
-We can draw multiple shapes based on the mouse location and have them not overlap by using the some basic arithmatic. 
+We can draw multiple shapes based on the mouse location using the some basic arithmatic. 
 
 ```
 function mouseDragged() {
@@ -74,7 +74,6 @@ function mouseDragged() {
 ## 2.2 Variables circleX
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
-
 
 In this sketch the variable circleX is used to control the location of the circle. The circle will move to the right indefinately. We'll use the math operator remainder to have the circle jump back to the left after it has passed the right edge of the canvas.
 
@@ -169,4 +168,4 @@ The `Getting Started book` has many useful sketches. You're invite to remix and 
 [Ex_08_15 Spirals](https://editor.p5js.org/jht1493/sketches/nAiwy2Qte)   
 [Ex_08_99 Robot06_Motion](https://editor.p5js.org/jht1493/sketches/GD_kzWHeR)   
 
-[![](../assets/2.4-random-Painting-Exercise-2.png)](https://editor.p5js.org/jht1493/sketches/OLzJZWjV5)
+[ ![](../assets/2.4-random-Painting-Exercise-2.png) ![](../assets/2.4-random-Painting-Exercise-2.png)](https://editor.p5js.org/jht1493/sketches/OLzJZWjV5)

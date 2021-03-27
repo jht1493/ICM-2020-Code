@@ -1,5 +1,6 @@
 # Animation: Variables
 https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/02_animation.md
+https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/02_animation-aa.md
 
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
 ![](../assets/Ex_08_03-Move-1.png) ![](../assets/Ex_08_03-Move-2.png)
