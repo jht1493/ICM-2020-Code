@@ -82,7 +82,7 @@
 
 ## Additional viewing / reading:
    * [Pick an Eyeo Talk that looks interesting](https://vimeo.com/eyeofestival/)
-      * Suggestion: Eyeo 2019 - Amon Millner
+      * Suggestion: [Eyeo 2019 - Amon Millner](https://vimeo.com/355843375)
 
 ### More on p5
 * [All introductory p5.js videos](https://thecodingtrain.com/beginners/p5js/)
@@ -100,6 +100,7 @@
    * [p5 playground](http://yining1023.github.io/p5PlayGround/)
 
 ### More on the Internets
+  * [The Machine Stops](https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf) by E. M. Forster, November 1909
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
@@ -196,9 +197,9 @@ Code that uses the function `print` to help debug:
 
 ### Try
 
-- try setting different colors for each shape, eg:
-- try `fill(100)`
-- try `fill(100,20)`
+- setting different colors for each shape, eg:
+  - `fill(100)`
+  - `fill(100,20)`
 
 In p5js a color can be represent in a number of ways.
 Here are a few:
@@ -223,9 +224,9 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 
 ### Try
 
-- try clicking each button repeatedly and observe the laying of the colors
+- clicking each button repeatedly and observe the laying of the colors
 
-- try low values of alpha eg. 10, and compare to medium alpha value eg. 100
+- low values of alpha eg. 10, and compare to medium alpha value eg. 100
 
 ## Ex 1.1 explore sketch draw_rect_createSpan
 
@@ -347,6 +348,11 @@ followed by any number of letters, numbers or underscore characters.
 -------------------------------------------------------------------------------
 ## sketches from Getting Started with p5.js book 
 
+- explore these sketches from the reading
+- add color
+- change shapes
+- have fun ...
+
 [Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
 [Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
 [Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)	  
@@ -413,3 +419,5 @@ function setup() {
 ```
 
 [![](../assets/Ex_03_20-Two-Creatures.png)](https://editor.p5js.org/jht1493/sketches/mPX1b9278)
+
+[sketch - Ex_03_20 Two Creatures ui](https://editor.p5js.org/jht1493/sketches/MLzEHAnCh) -remix-
