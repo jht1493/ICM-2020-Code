@@ -202,6 +202,11 @@ x % n // result is always between 0 and n-1
 -------------------------------------------------------------------------------
 ## 2.3 Incrementing variables
 
+Add one to variable `x`.
+* `x = x + 1;` 
+* `x += 1;` 
+* `x++;`
+
 These examples uses this coding pattern to create animation: A variable, circleX, is updated by increment its value. There is an illusion of motion as the shape is drawn one pixel to the right each time the `function draw` is called.
 
 ```
