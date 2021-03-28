@@ -170,7 +170,7 @@ let col = random(['red','green','yellow']);
 
 The array notation can also be used to specify colors with alpha values:
 ```
-let cRed = [255,0,0,10];
+let cRed = [255,0,0,10]; // red,green,blue,alpha
 let cGreen = [0,255,0,10];
 let cYellow = [255,255,0,10];
 // pick a random color value
@@ -179,7 +179,7 @@ let col = random([cRed,cGreen,cYellow]);
 
 ### Try
 
-- remix one of the circleX sketches to change to random color when the canvas is clicked.
+- remix one of the circleX sketches to change the shape to a random color when the canvas is clicked.
 
 [2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
 
@@ -191,7 +191,7 @@ let col = random([cRed,cGreen,cYellow]);
 [2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
 
 -------------------------------------------------------------------------------
-## Getting Started with p5.js book
+## Getting Started with p5.js book sketches
 
 The `Getting Started book` has many useful sketches. You're invite to remix and combine them to further explore drawings in motion.
 

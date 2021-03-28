@@ -241,12 +241,27 @@ followed by any number of letters, numbers or underscore characters.
 - draw your own schematic of p5js - illustrate what you've learned so far
 - [my p5js schematic]()
 
+-------------------------------------------------------------------------------
+## sketches from Getting Started with p5.js book 
+
+[Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
+[Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
+[Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)	  
+[Ex_03_06 circles touch](https://editor.p5js.org/jht1493/sketches/R0o3EvVOC)  
+[Ex_03_09 arcs](https://editor.p5js.org/jht1493/sketches/lj5UimD1G)  
+[Ex_03_17 alpha circles](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)  
+[Ex_03_19 beginShape](https://editor.p5js.org/jht1493/sketches/xFElx4UBj)  
+[Ex_03_20 Two Creatures](https://editor.p5js.org/jht1493/sketches/mPX1b9278)  
+[Ex_03_99 Robot 1: Draw](https://editor.p5js.org/jht1493/sketches/0EzMYSpky)  
+
+-------------------------------------------------------------------------------
 ## What's next?
 
 - wouldn't it be cool if we could animate our drawing?
 - or create patterns with our shapes? 
 - next up animation and variables!
 
+-------------------------------------------------------------------------------
 ## DOM functions `createButton`, `createSpan`, `select`
 
 - curious about functions `createButton`, `createSpan`, `select`? (if not, ok to skip this section)
