@@ -18,9 +18,9 @@
 
 * Incrementing variables
   * [video 2.3: Incrementation Operations ](https://thecodingtrain.com/beginners/p5js/2.3-incrementation-operations.html) (~5 min)
-    * `x = x + 1;` 
+    <!-- * `x = x + 1;` 
     * `x += 1;` 
-    * `x++;`
+    * `x++;` -->
 
 * The [random()](http://p5js.org/reference/#/p5/random) function
   * [video 2.4: random()](https://thecodingtrain.com/beginners/p5js/2.4-random.html) (~11 min)
