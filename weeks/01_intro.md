@@ -339,7 +339,7 @@ followed by any number of letters, numbers or underscore characters.
 
 - add other buttons to draw other shapes
 
-## What have you learn?
+## What have you learned?
 
 - draw your own schematic of p5js - illustrate what you've learned so far
 - [my p5js schematic]()
