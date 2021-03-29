@@ -418,6 +418,7 @@ function setup() {
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 
+[sketch - Ex_03_20 Two Creatures ui](https://editor.p5js.org/jht1493/sketches/MLzEHAnCh) -remix-
+
 [![](../assets/Ex_03_20-Two-Creatures.png)](https://editor.p5js.org/jht1493/sketches/mPX1b9278)
 
-[sketch - Ex_03_20 Two Creatures ui](https://editor.p5js.org/jht1493/sketches/MLzEHAnCh) -remix-
