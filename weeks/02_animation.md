@@ -32,6 +32,7 @@
 * The [map()](http://p5js.org/reference/#/p5/map) function
   * [video 2.5: map()](https://thecodingtrain.com/beginners/p5js/2.5-map.html) (~11 min)
   * [sketch](https://editor.p5js.org/codingtrain/sketches/yJqbGf71)
+  * [sketch - 2.5 map function ui](https://editor.p5js.org/jht1493/sketches/OGwu_nlNh)
 
   <!-- * [video 2.1: Variables in p5.js (mouseX, mouseY)](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) -->
 <!-- * [video 2.2: Variables in p5.js (Make your own)](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=6) -->
