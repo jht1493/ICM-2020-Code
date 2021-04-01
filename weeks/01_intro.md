@@ -164,7 +164,7 @@ Here's the code that defines one of the buttons and its action:
   });
 ```
 
-We'll getting into details of how to create your own button later.
+We'll get into details of how to create your own button later.
 For now we'll use buttons to explore p5js drawing behavior.
 
 - play the sketch, click on the buttons in different orders and note behavior
@@ -183,7 +183,7 @@ For now we'll use buttons to explore p5js drawing behavior.
 ## Ex 1.1 explore sketch draw_rect_print
 
 In this sketch the function [`print`](https://p5js.org/reference/#/p5/print) 
-is added so that we can follow the execution of the buttons in the console.
+is added so that we can follow the execution of the code called by the buttons in the console.
 
 [sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
@@ -208,11 +208,11 @@ Here are a few:
 
 - gray scale number, eg: 0 (white), 128 (gray), 255 (black)
 
-- red, green, blue, alpha, eg: 255, 0, 0, 100 is full red with medium alpha setting. 
+- red, green, blue, alpha, eg: 255, 0, 0, 100 is full red with medium alpha setting. Alpha is optional.
 
 ## Ex 1.1 explore sketch draw_rect_alpha
 
-In this sketch alpha values are used for colors.
+In this sketch alpha values are used to modify the intensity of colors.
 
 [sketch - draw_rect_alpha](https://editor.p5js.org/jht1493/sketches/6mrwOv4RD) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
@@ -224,7 +224,7 @@ Alpha value 20 will give a very light tint of the fill color on the background.
 
 ### Try
 
-- clicking each button repeatedly and observe the laying of the colors
+- clicking each button repeatedly and observe the layering of the colors
 
 - low values of alpha eg. 10, and compare to medium alpha value eg. 100
 
@@ -236,6 +236,8 @@ to explore the p5js canvas coordinate system, shapes, and color.
 [sketch - draw_rect_createSpan](https://editor.p5js.org/jht1493/sketches/C83N_DY9w) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
 ### Questions
+
+Move the mouse on the canvas and observe the values displayed below the canvas.
 
 - when do the numbers change and when don't they change?
 
@@ -254,7 +256,7 @@ to explore the p5js canvas coordinate system, shapes, and color.
 Click on the buttons and observe the actions and the messages that appear in the console.
 In the body of the mousePressed function you can call as many other functions as you wish.
 
-- buttons Rect and Circle not color is set
+- buttons Rect and Circle, note no fill color set
 
 - button Shapes draws 3 shapes:
 ```
@@ -294,7 +296,7 @@ function draw_shapes() {
 }
 ```
 
-Unlike the functions we've seen so far, 
+Unlike the functions we've seen so far (eg. `print`, `createButton` etc), 
 function `draw_shapes` is not part of p5js library.
 function `draw_shapes` and it's definition is written for this exercise.
 The name is choosen to be descriptive of what the function supposed to do.
@@ -316,7 +318,7 @@ function setup() {
 }
 ```
 
-- You choose the name for your functions names to describe the intent of the code
+- You choose the name for your functions to describe the intent of the code
 - A function name must begin with a letter (upper or lower case), 
 followed by any number of letters, numbers or underscore characters.
 
@@ -331,6 +333,7 @@ followed by any number of letters, numbers or underscore characters.
 [sketch - 1.2 draw_shapes_ui](https://editor.p5js.org/jht1493/sketches/DGQoBYV9x)
  Open this sketch in a separate window so that you can play it and read this page at the same time.
 
+About this sketch:
 - added function create_ui and function update_ui 
 - code is re-used from previous sketch to display mouse location and canvas color
 
@@ -343,7 +346,7 @@ followed by any number of letters, numbers or underscore characters.
 ## What have you learned?
 
 - draw your own schematic of p5js - illustrate what you've learned so far
-- [my p5js schematic]()
+- [example p5js schematic](../assets/p5js-schematic.jpg)
 
 -------------------------------------------------------------------------------
 ## sketches from Getting Started with p5.js book 
