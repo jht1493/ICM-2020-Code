@@ -1,19 +1,30 @@
 # workflow.md
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Test_your_skills:_Object_basics   
+CodePen, jsFiddle, or Glitch
 
-!!@ uses array values
+https://codepen.io/
 
- CodePen, jsFiddle, or Glitch
+https://jsfiddle.net/
 
- https://codepen.io/
+https://glitch.com/
 
- https://glitch.com/
+-------------------------------------------------------------------------------
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
+https://github.com/jnsjknn/p5-project-downloader
+https://www.reddit.com/r/p5js/comments/kew2gc/is_it_possible_to_easily_download_all_my_sketches/
 
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
+https://p5-project-downloader.herokuapp.com/
 
-!!@ Too dense ??
+-------------------------------------------------------------------------------
+
+
+/Volumes/GSPOT/jht-g/projects/repo/ICM-2020-Media.wiki/Homework-Ellen.md
+  142,136: - p5 Local Server (see class recording for steps) | 
+  Install [Visual Studio Code](https://code.visualstudio.com/) and Sam Lavigne's 
+  [p5.vscode extension](https://marketplace.visualstudio.com/items?itemName=samplavigne.p5-vscode) 
+
+
+-------------------------------------------------------------------------------
+
+
