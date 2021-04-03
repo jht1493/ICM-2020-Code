@@ -50,12 +50,12 @@
 
 * Shapes & Drawing 
   * [video 1.3 Shapes and Drawing](https://thecodingtrain.com/beginners/p5js/1.3-shapes-and-drawing.html) (~26 min)
-  * [sketch](https://editor.p5js.org/codingtrain/sketches/HJ1WjEPwQ)
+  * [sketch - Shapes and Drawing](https://editor.p5js.org/codingtrain/sketches/HJ1WjEPwQ)
 <!-- * [Shapes & Drawing video tutorial](https://youtu.be/c3TeLi6Ns1E) -->
 
 * Color 
   * [video 1.4 Color](https://thecodingtrain.com/beginners/p5js/1.4-color.html) (~18 min)
-  * [sketch](https://editor.p5js.org/codingtrain/sketches/rJ9MQSwvm)
+  * [sketch - Color](https://editor.p5js.org/codingtrain/sketches/rJ9MQSwvm)
 <!-- * [Color video tutorial](https://youtu.be/riiJTF5-N7c) -->
 
 * Errors and Console
@@ -70,7 +70,7 @@
   * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
     * [git source code](https://github.com/lmccart/gswp5.js-code)
-    * [sketches](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
+    * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
 
 ## p5.js references
 
