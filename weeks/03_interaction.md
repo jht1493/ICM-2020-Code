@@ -2,6 +2,8 @@
 
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
 
+<!-- >> ?? recommend reading before watching videos -->
+
 ## Conditional Statements
 * [video 3.1: Introduction to Conditional Statements ](https://thecodingtrain.com/beginners/p5js/3.1-conditional-statements.html) (~12 min)
   * `if` statement
@@ -9,16 +11,29 @@
   * [sketch - if mouseX](https://editor.p5js.org/codingtrain/sketches/z_yjYIha)
 * [video 3.2: Bouncing Ball](https://thecodingtrain.com/beginners/p5js/3.2-bouncing-ball.html) (~8 min)
   * [sketch - bouncing ball x](https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU)
+  <!-- >> does not bounce!! -->
   * [sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
-  >> simpler example that does with going off on left
+  <!-- >> bounces x and y -->
+  <!-- >> simpler example that does with going off on left -->
+  <!-- println -> console.log -->
 * [video 3.3: else, else if, and, or](https://thecodingtrain.com/beginners/p5js/3.3-else-elseif-and-or.html) (~17 min)
   * [sketch - else if](https://editor.p5js.org/codingtrain/sketches/In-bIB8w)
-  >> ?? add better example
+  * [sketch - if and mouseX](https://editor.p5js.org/jht1493/sketches/pK7xE8hN3)
+  * [sketch - bounce ball x OR](https://editor.p5js.org/jht1493/sketches/G1WHVQsRV)
+  <!-- code commented out in sketch -->
+  <!-- mentions updateing bouncing bacll and othe sketch -->
+  <!-- else if not essential -->
+  <!-- >> ?? add better example -->
+  <!-- otherwise -->
 * [video 3.4: Boolean variables](https://thecodingtrain.com/beginners/p5js/3.4-boolean-variables.html) (~20 min)
-  * [sketch - Boolean variables](https://editor.p5js.org/codingtrain/sketches/yzBpV0CI)
-  >> ?? no Boolean variables used in sketch
-  mouseIsPressed variable
-  function mousePressed() {}
+  <!-- * [sketch - Boolean variables](https://editor.p5js.org/codingtrain/sketches/yzBpV0CI) !!@ Does not match video -->
+  * [sketch - Boolean variables](https://editor.p5js.org/jht1493/sketches/1IcyZZamQ)
+  <!-- sketch correct to match video -->
+  <!-- >> ?? no Boolean variables used in sketch -->
+  <!-- mouseIsPressed variable
+  // change state of program
+  // toggle boolean value
+  on = !on; -->
 
 <!-- 3.1: Introduction to Conditional Statements - video tutorial -->
 <!-- https://www.youtube.com/watch?v=1Osb_iGDdjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=10 -->
