@@ -16,9 +16,15 @@
 - [5.3: Functions and Return - video tutorial](https://www.youtube.com/watch?v=qRnUBiTJ66Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=18)
   - [Implementing distance function code example](https://editor.p5js.org/icm/sketches/HJgR7UcKa)
 
-## Getting Started with p5.js book
+<!-- ## Getting Started with p5.js book
+- Chapter 9 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
 
-- Chapter 9 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
+## Getting Started with p5.js book
+*  Chapter 9 Functions
+  * [sketches](https://editor.p5js.org/jht1493/collections/XXXXXXX)
+  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 # Object Literals
 

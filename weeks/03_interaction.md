@@ -76,11 +76,14 @@ One way to practice working with conditionals is to try to code a common interfa
 
 # 3. Recap, Explore and Experiment - Interaction: Conditionals
 
+>> slider ui + read out ui
+>> text input ui
+
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 5 Response.  
-You're invite to remix and combine them to further explore.
+You are invite to remix and combine them to further explore.
 
 [Ex_05_01 frameCount](https://editor.p5js.org/jht1493/sketches/QrE5pO6E9)  
 [Ex_05_02 setup draw](https://editor.p5js.org/jht1493/sketches/rts0Rja8o)  

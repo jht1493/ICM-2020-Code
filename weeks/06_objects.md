@@ -29,8 +29,15 @@
 * [7.7: Object Communication Part 2 - video tutorial](https://youtu.be/5Q9cA0REztY?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 * [Checking Objects Intersection - code](http://editor.p5js.org/icm/sketches/S1BbBT13b)
 
+<!-- ## Getting Started with p5.js book
+*  Chapters 10 and 11 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
 ## Getting Started with p5.js book
-*  Chapters 10 and 11 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code)
+*  Chapter 10 Objects
+*  Chapter 11 Arrays
+  * [sketches](https://editor.p5js.org/jht1493/collections/XXXXXXX)
+  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 ### Going Further
 #### Images and Objects
