@@ -2,6 +2,7 @@
 
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
 
+<!-- >> ?? move this comment to video page -->
 <!-- >> ?? recommend reading before watching videos -->
 
 ## Conditional Statements
@@ -17,11 +18,12 @@
   <!-- >> simpler example that does with going off on left -->
   <!-- println -> console.log -->
 * [video 3.3: else, else if, and, or](https://thecodingtrain.com/beginners/p5js/3.3-else-elseif-and-or.html) (~17 min)
-  * [sketch - else if](https://editor.p5js.org/codingtrain/sketches/In-bIB8w)
-  * [sketch - if and mouseX](https://editor.p5js.org/jht1493/sketches/pK7xE8hN3)
+  <!-- * [sketch - if mouseX](https://editor.p5js.org/codingtrain/sketches/In-bIB8w) -->
+  * [sketch - if mouseX AND](https://editor.p5js.org/jht1493/sketches/pK7xE8hN3)
+  * [sketch - else if](https://editor.p5js.org/jht1493/sketches/VmJD4ZUMJ)
   * [sketch - bounce ball x OR](https://editor.p5js.org/jht1493/sketches/G1WHVQsRV)
   <!-- code commented out in sketch -->
-  <!-- mentions updateing bouncing bacll and othe sketch -->
+  <!-- mentions updating bounceing bacll and other sketch -->
   <!-- else if not essential -->
   <!-- >> ?? add better example -->
   <!-- otherwise -->
@@ -64,4 +66,5 @@ One way to practice working with conditionals is to try to code a common interfa
 - [knob](https://editor.p5js.org/icm/sketches/HkfFHcp2)
 - [slider](https://editor.p5js.org/icm/sketches/H1LXU9ah)
 
->> some not easy to reuse. Drop??
+<!-- >> some not easy to reuse this code. Drop?? -->
+<!-- better to show if and variables used with DOM -->
