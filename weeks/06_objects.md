@@ -1,6 +1,6 @@
 # Scale: Objects and Arrays
 
-Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know!
+<!-- Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know! -->
 
 ## Object-Oriented Programming with Classes in JavaScript
 * [6.1 Intro to ES6 OOP - video tutorial](https://www.youtube.com/watch?v=xG2Vbnv0wvg)
