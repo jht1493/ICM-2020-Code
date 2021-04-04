@@ -14,8 +14,7 @@
   * relational operators (`>`, `<`, `<=`, `>=`, `==`, `===`, `!==`)
   * [sketch - if mouseX](https://editor.p5js.org/codingtrain/sketches/z_yjYIha)
 * [video 3.2: Bouncing Ball](https://thecodingtrain.com/beginners/p5js/3.2-bouncing-ball.html) (~8 min)
-  * [sketch - bouncing ball x](https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU)
-  <!-- >> does not bounce!! -->
+  * [sketch - bouncing ball x](https://editor.p5js.org/codingtrain/sketches/Xm4cmQvU) <!-- >> does not bounce!! -->
   * [sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
   <!-- >> bounces x and y -->
   <!-- >> simpler example that does with going off on left -->
@@ -58,7 +57,8 @@
 
 
 ## GUI Interfaces
-One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. In [week 6](https://github.com/ITPNYU/ICM-2018/blob/master/weeks/06_dom.md) we'll compare this technique to using elements the browser provides for free.
+One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. 
+<!-- In [week 6](https://github.com/ITPNYU/ICM-2018/blob/master/weeks/06_dom.md) we'll compare this technique to using elements the browser provides for free. -->
 - [circle rollover](https://editor.p5js.org/icm/sketches/H1kCSqah)
 - [square rollover](https://editor.p5js.org/icm/sketches/rkLfL56h)
 - [button hold down](https://editor.p5js.org/icm/sketches/S16-H9pn)
