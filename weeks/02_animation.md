@@ -200,7 +200,7 @@ x % n // result is always between 0 and n-1
 
 - add button for random color
 
-[sketch - 2.2.5 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
+[sketch - sketch - 2.2.5 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
 
 -------------------------------------------------------------------------------
 ## 2.3 Incrementing variables
@@ -230,7 +230,7 @@ By increment by 2 the shape will move faster.
 
 - create a second shape that animates across the screen at a different speed
 
-[2.3.1 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
+[sketch - 2.3.1 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
 
 -------------------------------------------------------------------------------
 ## 2.4 [function random()](http://p5js.org/reference/#/p5/random)
@@ -264,14 +264,31 @@ let col = random([cRed,cGreen,cYellow]);
 
 - remix one of the circleX sketches to change the shape to a random color when the canvas is clicked.
 
-[2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
+[sketch - 2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
 
 
 ### Try
 
 - use alpha color values with a moving shape
 
-[2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
+[sketch - 2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
+
+-------------------------------------------------------------------------------
+## 2.5 creating patterns with functions
+
+[sketch - 2.5.1 draw_shape1](https://editor.p5js.org/jht1493/sketches/hgFw3__cZ)
+
+>> parameter variables
+>> speed var
+>> push, translate, pop
+
+[sketch - 2.5.2 draw_shape1 pattern](https://editor.p5js.org/jht1493/sketches/5JqwobAgJ)
+
+>> creating one line pattern with draw_shape1
+
+[sketch - 2.5.3 draw_shape1 patter2](https://editor.p5js.org/jht1493/sketches/huhUWN6Uc)
+
+>> creating two line pattern with draw_shape1
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
