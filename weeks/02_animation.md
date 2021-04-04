@@ -301,7 +301,8 @@ Add buttons to
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
-The `Getting Started book` has many useful sketches. You're invite to remix and combine them to further explore drawings in motion.
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
+You are invite to remix and combine them to further explore drawings in motion.
 
   * Chapter 4 through Ex. 4.5
 

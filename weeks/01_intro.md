@@ -421,6 +421,22 @@ function setup() {
   select('#imx').html('[mouseX='+mouseX+'] ')
 ```
 
+-------------------------------------------------------------------------------
+## Getting Started with p5.js book sketches
+
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
+You are invite to remix and combine them to further explore.  
+
+[Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
+[Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
+[Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)  
+[Ex_03_06 circles touch](https://editor.p5js.org/jht1493/sketches/R0o3EvVOC)  
+[Ex_03_09 arcs](https://editor.p5js.org/jht1493/sketches/lj5UimD1G)  
+[Ex_03_17 alpha circles](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)  
+[Ex_03_19 beginShape](https://editor.p5js.org/jht1493/sketches/xFElx4UBj)  
+[Ex_03_20 Two Creatures](https://editor.p5js.org/jht1493/sketches/mPX1b9278)  
+[Ex_03_99 Robot 1: Draw](https://editor.p5js.org/jht1493/sketches/0EzMYSpky)  
+
 [sketch - Ex_03_20 Two Creatures ui](https://editor.p5js.org/jht1493/sketches/MLzEHAnCh) -remix-
 
 [![](../assets/Ex_03_20-Two-Creatures.png)](https://editor.p5js.org/jht1493/sketches/mPX1b9278)
