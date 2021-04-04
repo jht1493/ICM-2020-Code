@@ -146,7 +146,7 @@ function mouseDragged() {
 
 - Add ui elements to control color and give feedback about mouse location and canvas color. Borrow code from previous session.
 
-[sketch -  2.1.4 mouseX,mouseY ui](https://editor.p5js.org/jht1493/sketches/I8zejgYIX)
+[sketch - 2.1.4 mouseX mirror ui](https://editor.p5js.org/jht1493/sketches/I8zejgYIX)
 
 -------------------------------------------------------------------------------
 ## 2.2 Variables circleX
@@ -289,6 +289,14 @@ let col = random([cRed,cGreen,cYellow]);
 [sketch - 2.5.3 draw_shape1 patter2](https://editor.p5js.org/jht1493/sketches/huhUWN6Uc)
 
 >> creating two line pattern with draw_shape1
+
+### Try
+
+Add buttons to
+- clear background
+- change spacing of shapes
+
+[sketch - 2.5.4 draw_shape1 patter2 ui](https://editor.p5js.org/jht1493/sketches/jiS58glnK)
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
