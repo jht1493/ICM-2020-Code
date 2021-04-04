@@ -1,9 +1,12 @@
-# Interaction: Conditionals
+# 3. Interaction: Conditionals
+
+[![](../assets/Ex_05_11-Detect.png)](https://editor.p5js.org/jht1493/sketches/hV0JF0uwo)
 
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
 
 <!-- >> ?? move this comment to video page -->
 <!-- >> ?? recommend reading before watching videos -->
+<!-- >> guided copy-and-paster: re-mix is ok, start with best practices -->
 
 ## Conditional Statements
 * [video 3.1: Introduction to Conditional Statements ](https://thecodingtrain.com/beginners/p5js/3.1-conditional-statements.html) (~12 min)
@@ -48,7 +51,7 @@
 
 ## Getting Started with p5.js book
 *  Chapter 5. Response
-  * [sketches](https://editor.p5js.org/jht1493/collections/XXXXXXXX)
+  * [sketches](https://editor.p5js.org/jht1493/collections/u8b97q_m7)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
     * [git source code](https://github.com/lmccart/gswp5.js-code)
@@ -68,3 +71,8 @@ One way to practice working with conditionals is to try to code a common interfa
 
 <!-- >> some not easy to reuse this code. Drop?? -->
 <!-- better to show if and variables used with DOM -->
+
+[![](../assets/Ex_05_11-Detect.png)](https://editor.p5js.org/jht1493/sketches/hV0JF0uwo)
+
+# 3. Recap, Explore and Experiment - Interaction: Conditionals
+

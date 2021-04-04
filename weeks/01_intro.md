@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 [![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 

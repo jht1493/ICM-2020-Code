@@ -1,9 +1,14 @@
-# Animation: Variables
+# 2. Animation: Variables
 
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
 
 *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).*
-
+<!-- 
+>> Replace this warning with tips for updating old js to latest conventions
+>> var -> let
+>> print -> console.log
+>> offline editor vs. https://editor.p5js.org/
+ -->
 ## Tutorials: Basics
 
 * `setup()`, `draw()`, and other events: `mousePressed()`, etc.
@@ -34,10 +39,10 @@
   * [sketch](https://editor.p5js.org/codingtrain/sketches/yJqbGf71)
   * [sketch - 2.5 map function ui](https://editor.p5js.org/jht1493/sketches/OGwu_nlNh)
 
-  <!-- * [video 2.1: Variables in p5.js (mouseX, mouseY)](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) -->
+<!-- * [video 2.1: Variables in p5.js (mouseX, mouseY)](https://www.youtube.com/watch?v=RnS0YNuLfQQ&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=5) -->
 <!-- * [video 2.2: Variables in p5.js (Make your own)](https://www.youtube.com/watch?v=Bn_B3T_Vbxs&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=6) -->
-  <!-- * [video 2.5: random()](https://www.youtube.com/watch?v=nfmV2kuQKwA&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9) -->
-  <!-- * [video 2.4: map()](https://www.youtube.com/watch?v=nicMAoW6u1g&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=8) -->
+<!-- * [video 2.5: random()](https://www.youtube.com/watch?v=nfmV2kuQKwA&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=9) -->
+<!-- * [video 2.4: map()](https://www.youtube.com/watch?v=nicMAoW6u1g&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=8) -->
 
 * Tutorial: [Recode Catalog by John Whitney](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-02/session-02.md)
 
