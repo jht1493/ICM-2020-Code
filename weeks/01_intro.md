@@ -45,7 +45,7 @@
     * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
-    * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read it.
+    * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read.
 
 ## Tutorials: Drawing
 
