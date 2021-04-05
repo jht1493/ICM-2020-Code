@@ -38,6 +38,15 @@
 
 # Getting started, your first program 
 
+<!-- >> !!@ recommendation is to read first and play with sketches as you read -->
+
+## Getting Started with p5.js book
+  * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
+    * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
+    * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read it.
+
 ## Tutorials: Drawing
 
 * Programming for Beginners with p5.js
@@ -65,12 +74,6 @@
 * Code Comments
   * [video 1.6 Code Comments](https://thecodingtrain.com/beginners/p5js/1.6-code-comments.html) (~7 min)
 <!-- * [Code Comments Video Tutorial](https://youtu.be/xJcrPJuem5Q) -->
-
-## Getting Started with p5.js book
-  * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-    * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
-    * [git source code](https://github.com/lmccart/gswp5.js-code)
-    * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
 
 ## p5.js references
 
@@ -106,6 +109,7 @@
 
 [![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 
+-------------------------------------------------------------------------------
 # Your Coding Journey
 
 ## Challenges
@@ -124,6 +128,7 @@
   - duplicated your sketch, add issues as comments
   - bring your sketch to class and ask for help
 
+-------------------------------------------------------------------------------
 # 1. Recap, Explore and Experiment - Introduction
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
@@ -349,24 +354,6 @@ About this sketch:
 - [example p5js schematic](../assets/p5js-schematic.jpg)
 
 -------------------------------------------------------------------------------
-## sketches from Getting Started with p5.js book 
-
-- explore these sketches from the reading
-- add color
-- change shapes
-- have fun ...
-
-[Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
-[Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
-[Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)	  
-[Ex_03_06 circles touch](https://editor.p5js.org/jht1493/sketches/R0o3EvVOC)  
-[Ex_03_09 arcs](https://editor.p5js.org/jht1493/sketches/lj5UimD1G)  
-[Ex_03_17 alpha circles](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)  
-[Ex_03_19 beginShape](https://editor.p5js.org/jht1493/sketches/xFElx4UBj)  
-[Ex_03_20 Two Creatures](https://editor.p5js.org/jht1493/sketches/mPX1b9278)  
-[Ex_03_99 Robot 1: Draw](https://editor.p5js.org/jht1493/sketches/0EzMYSpky)  
-
--------------------------------------------------------------------------------
 ## What's next?
 
 - wouldn't it be cool if we could animate our drawing?
@@ -423,13 +410,16 @@ function setup() {
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
-
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
-You are invite to remix and combine them to further explore.  
+You are invited to remix and combine them to further explore.  
+
+- add color
+- change shapes
+- have fun ...
 
 [Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
 [Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
-[Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)  
+[Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)	  
 [Ex_03_06 circles touch](https://editor.p5js.org/jht1493/sketches/R0o3EvVOC)  
 [Ex_03_09 arcs](https://editor.p5js.org/jht1493/sketches/lj5UimD1G)  
 [Ex_03_17 alpha circles](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)  

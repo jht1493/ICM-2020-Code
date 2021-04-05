@@ -82,6 +82,7 @@
 
 [![](../assets/Ex_08_03-Move-4.png) ![](../assets/Ex_08_03-Move-3.png)](https://editor.p5js.org/jht1493/sketches/wJCzyVzBm)
 
+-------------------------------------------------------------------------------
 # 2. Recap, Explore and Experiment - Animation: Variables
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
@@ -304,7 +305,7 @@ Add buttons to
 ## Getting Started with p5.js book sketches
 
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
-You are invite to remix and combine them to further explore drawings in motion.
+You are invited to remix and combine them to further explore drawings in motion.
 
   * Chapter 4 through Ex. 4.5
 

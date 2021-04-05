@@ -49,11 +49,11 @@
 <!-- https://www.youtube.com/watch?v=Rk-_syQluvc&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=13 -->
 
 ## Getting Started with p5.js book
-*  Chapter 5. Response
+* Chapter 5. Response
   * [sketches](https://editor.p5js.org/jht1493/collections/u8b97q_m7)
-  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
-    * [git source code](https://github.com/lmccart/gswp5.js-code)
+* [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+  * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+  * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 
 ## GUI Interfaces
@@ -74,16 +74,57 @@ One way to practice working with conditionals is to try to code a common interfa
 
 [![](../assets/Ex_05_11-Detect.png)](https://editor.p5js.org/jht1493/sketches/hV0JF0uwo)
 
+-------------------------------------------------------------------------------
 # 3. Recap, Explore and Experiment - Interaction: Conditionals
 
->> slider ui + read out ui
->> text input ui
+<!-- >> slider ui + read out ui -->
+
+[] TODO
+Dig into to explain use of DOM to make variables visible  
+[![](../assets/3.1_circleX_ui.png)](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)  
+[sketch - 3.1 circleX width ui lib](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
+
+
+```
+let a_move = true;
+...
+  if (a_move) {
+    circleX = (circleX + 1) % width;
+  }
+...
+  // createCheckbox([label], [value])
+  createCheckbox('move', a_move).changed(function() {
+    a_move = this.checked();
+  });
+
+```
+
+```
+let diam = 64;
+...
+  circle(circleX, circleY, diam);
+...
+  createButton('diam 50').mousePressed(function() {
+    diam = 50;
+  });
+...
+  // createSlider(min, max, [value], [step])
+  createSlider(0, 200, diam).input(function() {
+    diam = this.value();
+  });
+```
+
+```
+  createSpan().id('idiam');
+...
+  select('#idiam').html('[diam=' + diam + '] ')
+```
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 5 Response.  
-You are invite to remix and combine them to further explore.
+You are invited to remix and combine them to further explore.
 
 [Ex_05_01 frameCount](https://editor.p5js.org/jht1493/sketches/QrE5pO6E9)  
 [Ex_05_02 setup draw](https://editor.p5js.org/jht1493/sketches/rts0Rja8o)  
@@ -100,6 +141,7 @@ You are invite to remix and combine them to further explore.
 [Ex_05_13 Find the Cursor](https://editor.p5js.org/jht1493/sketches/Im7tJDFJM)  
 [Ex_05_14 The Bounds of a Circle](https://editor.p5js.org/jht1493/sketches/tPX6MmuEk)  
 [Ex_05_14 The Bounds of a Circle pulse](https://editor.p5js.org/jht1493/sketches/nPTnXZD3c) -remix-  
+[Ex_05_14 The Bounds of a Circle obj](https://editor.p5js.org/jht1493/sketches/ctwjs9TcL) -remix-  
 [Ex_05_15 The Bounds of a Rectangle](https://editor.p5js.org/jht1493/sketches/MV2Ifxtaz)  
 [Ex_05_16 Tap a Key](https://editor.p5js.org/jht1493/sketches/UNsRwHJVQ)  
 [Ex_05_17 Draw Some Letters](https://editor.p5js.org/jht1493/sketches/vdHJ835F4)  

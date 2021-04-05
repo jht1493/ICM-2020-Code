@@ -4,24 +4,31 @@
 
 ## Modularity
 
-- [5.1: Function Basics - video tutorial](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=16)
-  - [Bouncing ball with functions code example](https://editor.p5js.org/icm/sketches/H1Oq4qta)
+- [video 5.1: Function Basics](https://thecodingtrain.com/beginners/p5js/5.1-function-basics.html) (~13 min)
+  - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) <!-- >> expand with multiple balls -->
+  - [sketch - Bouncing ball with functions](https://editor.p5js.org/icm/sketches/H1Oq4qta)
 
 ## Re-usability
 
+- [video 5.2: Function Parameters and Arguments](https://thecodingtrain.com/beginners/p5js/5.2-parameters-arguments.html) (~11 min)
+  - [skethc - lollipop](https://editor.p5js.org/codingtrain/sketches/eGD-xzsw)
+  - [sketch - Dice no functions](https://editor.p5js.org/icm/sketches/ryx70m5tT)
+  - [sketch - Dice w/ functions](https://editor.p5js.org/icm/sketches/S1R44qtT)
+  - [sketch - Robots from Getting Started with p5.js Code Example](https://editor.p5js.org/icm/sketches/rylf4S5K6)
+- [5.3: Functions and Return - video tutorial](https://thecodingtrain.com/beginners/p5js/5.3-return.html) (~8 min)
+  - [sketch - milesToKm](https://editor.p5js.org/codingtrain/sketches/twpIiI-v)
+  - [sketch - Implementing distance function](https://editor.p5js.org/icm/sketches/HJgR7UcKa)
+
+<!-- - [5.1: Function Basics - video tutorial](https://www.youtube.com/watch?v=wRHAitGzBrg&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=16)
 - [5.2: Function Parameters and Arguments - video tutorial](https://www.youtube.com/watch?v=zkc417YapfE&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=17)
-  - [Dice no functions code example](https://editor.p5js.org/icm/sketches/ryx70m5tT)
-  - [Dice w/ functions code example](https://editor.p5js.org/icm/sketches/S1R44qtT)
-  - [Robots from Getting Started with p5.js Code Example](https://editor.p5js.org/icm/sketches/rylf4S5K6)
-- [5.3: Functions and Return - video tutorial](https://www.youtube.com/watch?v=qRnUBiTJ66Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=18)
-  - [Implementing distance function code example](https://editor.p5js.org/icm/sketches/HJgR7UcKa)
+- [5.3: Functions and Return - video tutorial](https://www.youtube.com/watch?v=qRnUBiTJ66Y&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=18) -->
 
 <!-- ## Getting Started with p5.js book
 - Chapter 9 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
 
 ## Getting Started with p5.js book
 *  Chapter 9 Functions
-  * [sketches](https://editor.p5js.org/jht1493/collections/XXXXXXX)
+  * [sketches](https://editor.p5js.org/jht1493/collections/RNo3VMponN)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
     * [git source code](https://github.com/lmccart/gswp5.js-code)
@@ -37,3 +44,29 @@
 - [Coding Challenge video: Fractal Tree](https://youtu.be/0jjeOYMjmDU) - note this video uses the p5.dom function `createSlider()` which we have yet to cover in class!
   - [fractal tree code example](https://editor.p5js.org/icm/sketches/rkZAJ6PtX)
   - Tutorial: [Recode Morisawa series by John Maeda](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-05/session-05-example.md)
+
+-------------------------------------------------------------------------------
+# 5. Recap, Explore and Experiment - Functions
+
+<!-- >> slider ui + read out ui -->
+<!-- >> text input ui -->
+
+[] !!@  TODO
+
+-------------------------------------------------------------------------------
+## Getting Started with p5.js book sketches
+
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 5 Functions.  
+You are invited to remix and combine them to further explore.
+
+>> need to do more with return.
+>> return random color, loc, obj literal
+
+[Ex_09_01 Roll the Dice](https://editor.p5js.org/jht1493/sketches/uetaqd2FH)  
+[Ex_09_02 Another Way](https://editor.p5js.org/jht1493/sketches/oK-w6sUbz)  
+[Ex_09_03 Draw the Owl](https://editor.p5js.org/jht1493/sketches/DdDo_LBJa)  
+[Ex_09_04 Two’s Company](https://editor.p5js.org/jht1493/sketches/sa96pUoKH)  
+[Ex_09_05 An Owl Function](https://editor.p5js.org/jht1493/sketches/NAl5YSdTI_)  
+[Ex_09_06 Increasing the Surplus Population](https://editor.p5js.org/jht1493/sketches/AVYN7MUVc)  
+[Ex_09_07 Owls of Different Sizes](https://editor.p5js.org/jht1493/sketches/45Cv8Gi4i)  
+[Ex_09_08 Return a Value](https://editor.p5js.org/jht1493/sketches/xAc-jbG9y)  
