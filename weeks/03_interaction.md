@@ -24,6 +24,7 @@
   * [sketch - if mouseX AND](https://editor.p5js.org/jht1493/sketches/pK7xE8hN3)
   * [sketch - else if](https://editor.p5js.org/jht1493/sketches/VmJD4ZUMJ)
   * [sketch - bounce ball x OR](https://editor.p5js.org/jht1493/sketches/G1WHVQsRV)
+  * [sketch - bounce ball x OR ui](https://editor.p5js.org/jht1493/sketches/h0ZJWwOzb)
   <!-- code commented out in sketch -->
   <!-- mentions updating bounceing bacll and other sketch -->
   <!-- else if not essential -->
@@ -77,9 +78,24 @@ One way to practice working with conditionals is to try to code a common interfa
 -------------------------------------------------------------------------------
 # 3. Recap, Explore and Experiment - Interaction: Conditionals
 
-<!-- >> slider ui + read out ui -->
+>> need to develop algorithm
+>> process that must be expressed in operations on variables over time  
+>> need to visualize state and time
 
-[] TODO
+>> replace % width with if check  
+>> state tables   
+>> boolean tables AND OR  
+>> breaking long expressions with temp variables  
+>> pseudo-code -> comments  
+>> your code as a story with characters (variables)   
+>> script is the code in sketch -- plot line -- time
+>> characters can only say one told to remember one thing
+>> and asked to repeat it
+
+>> intro `while` as way to draw entire frame on each draw call
+
+<!-- >> slider ui + read out ui -->
+[] TODO  
 Dig into to explain use of DOM to make variables visible  
 [![](../assets/3.1_circleX_ui.png)](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)  
 [sketch - 3.1 circleX width ui lib](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
@@ -136,7 +152,7 @@ You are invited to remix and combine them to further explore.
 [Ex_05_08 Easing Does It](https://editor.p5js.org/jht1493/sketches/kdszl3wkF)  
 [Ex_05_09 Smooth Lines with Easing](https://editor.p5js.org/jht1493/sketches/TZ5FwWXoW)  
 [Ex_05_10 Click the Mouse](https://editor.p5js.org/jht1493/sketches/ptw9C5yOQ)  
-[Ex_05_11  Detect When Not Clicked](https://editor.p5js.org/jht1493/sketches/hV0JF0uwo)  
+[Ex_05_11 Detect When Not Clicked](https://editor.p5js.org/jht1493/sketches/hV0JF0uwo)  
 [Ex_05_12 Multiple Mouse Buttons](https://editor.p5js.org/jht1493/sketches/PQdxi8L_T)  
 [Ex_05_13 Find the Cursor](https://editor.p5js.org/jht1493/sketches/Im7tJDFJM)  
 [Ex_05_14 The Bounds of a Circle](https://editor.p5js.org/jht1493/sketches/tPX6MmuEk)  

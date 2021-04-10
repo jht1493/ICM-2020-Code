@@ -20,7 +20,7 @@
       * [Max/MSP](https://cycling74.com/) [dataflow programming](https://en.wikipedia.org/wiki/Dataflow_programming)
       * How does [Arduino](https://www.arduino.cc/) fit in?
 
->> is p5js lib for Arduino still in use? https://github.com/sarahgp/p5bots
+<!-- >> is p5js lib for Arduino still in use? https://github.com/sarahgp/p5bots -->
 
 <!-- * [Introduction to Code with p5.js Video](https://youtu.be/yPWkPOfnGsw) -->
 <!-- * [p5.js Web Editor Promo Video](https://youtu.be/dtHxDggkBYc) -->
@@ -38,14 +38,19 @@
 
 # Getting started, your first program 
 
-<!-- >> !!@ recommendation is to read first and play with sketches as you read -->
+<!-- >> !!@ recommendation: read first and play with sketches as you read -->
+- recommendation: read chapters before watching videos
+- play with the sketches discussed in the chapters as you read.
 
-## Getting Started with p5.js book
+## book - Getting Started with p5.js 
   * Chapter 1-3 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
-    * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read.
+
+## book - Code as Creative Medium 
+  * Part One: Iterative Pattern
+    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 
 ## Tutorials: Drawing
 
@@ -121,9 +126,10 @@
   - state
 
 ## Strategies
+- buy hard-copy of books. hilight, write margin notes, add book marks. make it yours.
+- draw pictures of what you've learned
 - re-mix and experiment with sketches
 - create your own summary sheet of p5js terms as you use them
-- draw pictures
 - if you get stuck, document the issues
   - duplicated your sketch, add issues as comments
   - bring your sketch to class and ask for help
@@ -155,7 +161,6 @@ When nothing is drawn the canvas will start out white.
 
 [sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
-
 - if your screen too small to allow viewing sketch and this page at the same time, 
 use a print out this page as you explore the sketch.
 - buttons will appear below canvas
@@ -179,7 +184,8 @@ For now we'll use buttons to explore p5js drawing behavior.
 - did you notice that sometimes the left rect can be white or gray? 
     - if the answer is not clear bring as question to class
 
-- what are possible ways to represent color for function [`fill`](https://p5js.org/reference/#/p5/fill)?
+- what are possible ways to represent color for function `file`
+  - check out the reference for [`fill`](https://p5js.org/reference/#/p5/fill)
 
 ### Try
 
@@ -285,7 +291,7 @@ In the body of the mousePressed function you can call as many other functions as
 
 Click on the buttons and observe the actions and the messages that appear in the console.
 
-Let's look at the definition of function draw_shapes:
+Let's look at the definition of function `draw_shapes`:
 
 ```
 function draw_shapes() {

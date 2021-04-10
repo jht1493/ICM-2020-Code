@@ -9,6 +9,25 @@
 >> print -> console.log
 >> offline editor vs. https://editor.p5js.org/
  -->
+
+ ## book - Getting Started with p5.js 
+  * Chapter 4 through Ex. 4.5
+    * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
+  * Chapter 8 through Ex. 8.9
+    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
+  * Going further: Chapter 6 (Transformations) 
+    * [sketches](https://editor.p5js.org/jht1493/collections/LyMXjpqPV)
+  * Going further: Chapter 8.10-8.15 (More complex motion)
+    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
+  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
+    * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read.
+
+## book - Code as Creative Medium 
+  * Part One: Iterative Pattern
+    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
+
 ## Tutorials: Basics
 
 * `setup()`, `draw()`, and other events: `mousePressed()`, etc.
@@ -66,19 +85,6 @@
   * [sketch - moving circle](https://editor.p5js.org/icm/sketches/Bymv7ca2)
   * [sketch - clock](https://editor.p5js.org/icm/sketches/ryYueiWu7) 
     - [Clock coding challenge video](https://youtu.be/E4RyStef-gY) (~21 min)
-
-## Getting Started with p5.js book
-  * Chapter 4 through Ex. 4.5
-    * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
-  * Chapter 8 through Ex. 8.9
-    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
-  * Going further: Chapter 6 (Transformations) 
-    * [sketches](https://editor.p5js.org/jht1493/collections/LyMXjpqPV)
-  * Going further: Chapter 8.10-8.15 (More complex motion)
-    * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
-  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
-    * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 [![](../assets/Ex_08_03-Move-4.png) ![](../assets/Ex_08_03-Move-3.png)](https://editor.p5js.org/jht1493/sketches/wJCzyVzBm)
 
@@ -229,9 +235,11 @@ By increment by 2 the shape will move faster.
 
 - create a new variable that controls the speed of the animation
 
+[sketch - 2.3.1 shape1 speed](https://editor.p5js.org/jht1493/sketches/WL3YIp05x)
+
 - create a second shape that animates across the screen at a different speed
 
-[sketch - 2.3.1 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
+[sketch - 2.3.2 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
 
 -------------------------------------------------------------------------------
 ## 2.4 [function random()](http://p5js.org/reference/#/p5/random)
@@ -270,24 +278,104 @@ let col = random([cRed,cGreen,cYellow]);
 
 ### Try
 
-- use alpha color values with a moving shape
+- use alpha color and remove `background` function call from `draw` function so drawings build up.
 
 [sketch - 2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
 
+### Try
+
+- use the frameRate function to slow down the animation
+- add variables to quickly experiment with alpha, change in shape1x variable, and size of circle.
+
+[sketch - 2.4.3 shape1 alpha slow](https://editor.p5js.org/jht1493/sketches/iNY8JDhzH)
+
 -------------------------------------------------------------------------------
-## 2.5 creating patterns with functions
+## 2.5 static patterns
+
+[sketch - 2.5 setup pattern draw_shape1](https://editor.p5js.org/jht1493/sketches/OtE1lw_X2)
+
+Open the sketch, make sure the console panel below the sketch is visible,
+and play the sketch. You'll see a pattern of gray circles and squares.
+The `draw` function is not used. All drawing is done in the `setup` function so only static or non-animated pattern is created.
+
+The canvas should look like this:  
+![](../assets/2.5-setup-pattern.png)
+
+and you should see theses console messages. If you don't see all of these lines, pull the top edge of the console panel up to make it bigger.
+```
+row 1 
+draw_shape1 x=0 y=0 
+draw_shape1 x=50 y=0 
+draw_shape1 x=100 y=0 
+row 2 
+draw_shape1 x=0 y=100 
+draw_shape1 x=50 y=100 
+setup done 
+```
+
+What's going on?
+In this sketch the function draw_shape1 draws a a circle atop a square. It is called several times from the `setup` function.
+
+### function `draw_shape1`
+
+The function `draw_shape1` is defined in this sketch. It draws a circle and a rect. The location of the drawing will be relative to the position given to the `translate` function. By defining our own function we can easily run (or call) a series of instructions. In this case we only do two simple drawings as an illustration. To make a different static pattern can and or modify function calls between `translate` and `pop` lines.
+
+```
+// Draw a circle on top of square
+function draw_shape1(x, y) {
+  console.log('draw_shape1 x=' + x + ' y=' + y)
+  push();
+  translate(x, y);
+  circle(0, 25, 50)
+  rect(-25, 50, 50, 50);
+  pop();
+}
+```
+### parameter variables
+The terms `x` and `y` are called `parameter variables` and they will take on values when the function `draw_shape1` is called. The `console.log` line displays the values of `x` and `y` to help us follow the execution of this code.
+
+The function `draw_shape1` is called several times in the `setup` function:
+```
+  draw_shape1(0, 0);
+  draw_shape1(50, 0);
+  ...
+```
+Each time `draw_shape1` is called it will have new values for `x` and `y.`
+In the first call both `x` and `y` will be 0, in the second call `x` will be 50 and `y` will be 0.
+In effect the `parameter variables x and y` are place holders for values that will be supplied later.
+
+### Try
+
+- adding `draw_shape1` calls to fill the canvas with the shape.
+
+- modifying the shapes drawn to get a new pattern.
+
+## Saving the canvas
+
+  - You are experiment and you create an interesting pattern. Let's make it easy to save it.
+Here's an example of a button to save your canvas as a png file.
+
+[sketch - 2.5 setup pattern draw_shape1 save](https://editor.p5js.org/jht1493/sketches/D34BIqcoE)
+
+
+### Try
+
+  - add the save button to one of your animated sketches and save a special moment in the sketch.
+
+<!-- -------------------------------------------------------------------------------
+## 2.6 animated patterns 
 
 [sketch - 2.5.1 draw_shape1](https://editor.p5js.org/jht1493/sketches/hgFw3__cZ)
 
->> parameter variables
->> speed var
->> push, translate, pop
+>> parameter variables  
+>> speed var  
+>> push, translate, pop  
 
 [sketch - 2.5.2 draw_shape1 pattern](https://editor.p5js.org/jht1493/sketches/5JqwobAgJ)
 
 >> creating one line pattern with draw_shape1
 
-[sketch - 2.5.3 draw_shape1 patter2](https://editor.p5js.org/jht1493/sketches/huhUWN6Uc)
+[sketch - 2.5.3 draw_shape1 pattern2](https://editor.p5js.org/jht1493/sketches/huhUWN6Uc)
 
 >> creating two line pattern with draw_shape1
 
@@ -297,9 +385,10 @@ Add buttons to
 - clear background
 - change spacing of shapes
 
-[sketch - 2.5.4 draw_shape1 patter2 ui](https://editor.p5js.org/jht1493/sketches/jiS58glnK)
+[sketch - 2.5.4 draw_shape1 pattern2 ui](https://editor.p5js.org/jht1493/sketches/jiS58glnK)
 
 >> save button
+ -->
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
