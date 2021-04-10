@@ -3,17 +3,33 @@
 <!-- Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know! -->
 
 ## Object-Oriented Programming with Classes in JavaScript
+
 * [6.1 Intro to ES6 OOP - video tutorial](https://www.youtube.com/watch?v=xG2Vbnv0wvg)
+https://thecodingtrain.com/beginners/p5js/6.1-opp-intro.html
+https://www.youtube.com/watch?v=xG2Vbnv0wvg
+
 * [6.2 Writing a Class - video](https://www.youtube.com/watch?v=T-HGdc8L-7w)
+https://thecodingtrain.com/beginners/p5js/6.2-classes.html
+https://editor.p5js.org/codingtrain/sketches/qi7N4LWq
+
 * [6.3 Constructor Arguments](https://www.youtube.com/watch?v=rHiSsgFRgx4)
 * [Two Gravity Ball Objects code](https://editor.p5js.org/icm4.0/sketches/vshTFC6kU)
+<!-- https://editor.p5js.org/icm4.0/sketches/vshTFC6kU -->
+<!-- https://editor.p5js.org/jht1493/sketches/vA7I6jRfY
+gravity ball two objects 1 POJO -->
+
 #### Written Tutorials
 * [Learning Processing Chapter 8 on Objects translated to p5](https://shiffman.github.io/Learning-p5.js/ch08.html)
 * [Mozilla Classes reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ## Arrays
+
 * [7.1 What is an array? - video tutorial](https://www.youtube.com/watch?v=VIQoUghHSxU)
+
+
 * [7.2 Arrays and loops - video tutorial](https://www.youtube.com/watch?v=RXWO3mFuW-I)
+
+
 * [7.3 Arrays of objects - video tutorial](https://www.youtube.com/watch?v=fBqaA7zRO58)
 * [Extra video tutorial: for...of loop](https://youtu.be/Y8sMnRQYr3c?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)
 * [A Snake Following the Mouse - code](https://editor.p5js.org/icm/sketches/BkBsybb5X)

@@ -78,21 +78,21 @@ One way to practice working with conditionals is to try to code a common interfa
 -------------------------------------------------------------------------------
 # 3. Recap, Explore and Experiment - Interaction: Conditionals
 
->> need to develop algorithm
+>> need to develop algorithm   
 >> process that must be expressed in operations on variables over time  
->> need to visualize state and time
+>> need to visualize state and time  
+>> pseudo-code -> comments  
 
 >> replace % width with if check  
 >> state tables   
 >> boolean tables AND OR  
 >> breaking long expressions with temp variables  
->> pseudo-code -> comments  
 >> your code as a story with characters (variables)   
->> script is the code in sketch -- plot line -- time
->> characters can only say one told to remember one thing
->> and asked to repeat it
+>> script is the code in sketch -- plot line -- time  
+>> characters can only say one told to remember one thing  
+>> and asked to repeat it  
 
->> intro `while` as way to draw entire frame on each draw call
+>> intro `while` as way to draw entire frame on each draw call  
 
 <!-- >> slider ui + read out ui -->
 <!-- check box ui -->
