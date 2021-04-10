@@ -39,7 +39,6 @@
 
 # Getting started, your first program 
 
-<!-- >> !!@ recommendation: read first and play with sketches as you read -->
 - recommendation: read chapters before watching videos
 - play with the sketches discussed in the chapters as you read.
 
