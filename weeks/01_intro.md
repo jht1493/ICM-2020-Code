@@ -1,12 +1,13 @@
 # 1. Introduction
 
 [![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
+<!-- https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md -->
 
 ##  What is computational media?
   * What is programming?
   * How can I apply programming to _____________?
   * As a ____________, why would I want or need to write software?
-  * [Example projects for Inspiration](https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration)
+  * [Example projects for Inspiration](../Inspiration)
   * Can programming be an expressive medium?
   * Why are we introducing programming through drawing?
 

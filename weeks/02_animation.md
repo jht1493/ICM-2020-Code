@@ -94,7 +94,7 @@
 Let's recap, explore, and experiment with the concepts introduced in this session.
 
 -------------------------------------------------------------------------------
-## 2.1 mouseX and mouseY
+## Ex 2.1 mouseX and mouseY
 
 [sketch - p5js Code! - 2.1 - mouseX,mouseY](https://editor.p5js.org/codingtrain/sketches/IeblvUQrf) Open these sketch in a separate window so that you can play it and read this page at the same time.
 
@@ -156,7 +156,7 @@ function mouseDragged() {
 [sketch - 2.1.4 mouseX mirror ui](https://editor.p5js.org/jht1493/sketches/I8zejgYIX)
 
 -------------------------------------------------------------------------------
-## 2.2 Variables circleX
+## Ex 2.2 Variables circleX
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
 
@@ -210,7 +210,7 @@ x % n // result is always between 0 and n-1
 [sketch - sketch - 2.2.5 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
 
 -------------------------------------------------------------------------------
-## 2.3 Incrementing variables
+## Ex 2.3 Incrementing variables
 
 Ways to one to variable `x`.
 * `x = x + 1;` 
@@ -242,7 +242,7 @@ By increment by 2 the shape will move faster.
 [sketch - 2.3.2 shape1 shape2 speed](https://editor.p5js.org/jht1493/sketches/IuKS1TIjB)
 
 -------------------------------------------------------------------------------
-## 2.4 [function random()](http://p5js.org/reference/#/p5/random)
+## Ex 2.4 [function random()](http://p5js.org/reference/#/p5/random)
 
 The random function is a versatile function that can add variety to our sketches.
 We've seen it used to produce a random number with in a range:
@@ -290,7 +290,7 @@ let col = random([cRed,cGreen,cYellow]);
 [sketch - 2.4.3 shape1 alpha slow](https://editor.p5js.org/jht1493/sketches/iNY8JDhzH)
 
 -------------------------------------------------------------------------------
-## 2.5 static patterns
+## Ex 2.5 static patterns
 
 [sketch - 2.5 setup pattern draw_shape1](https://editor.p5js.org/jht1493/sketches/OtE1lw_X2)
 
