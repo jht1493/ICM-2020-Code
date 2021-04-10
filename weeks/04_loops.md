@@ -23,15 +23,16 @@
 
 ## 10PRINT
 * [10PRINT Coding Challenge video](https://youtu.be/bEyTZ5ZZxZs)
-* [10PRINT code example](https://editor.p5js.org/icm/sketches/rkHKL962)
+  * [sketch - 10PRINT code example](https://editor.p5js.org/icm/sketches/rkHKL962)
 <!-- >> !!@ Does NOT use for loop -->
+>> convert to while-loop version
 
 * Tutorial: [Recode Metaesquema by Hélio Oiticica](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-04/session-04-example.md)
 
 -------------------------------------------------------------------------------
 # 4. Recap, Explore and Experiment - Repetition: Loops
 
-[] !!@  TODO
+>> [] !!@ TODO
 <!-- >> read out ui -->
 <!-- >> save canvas -->
 

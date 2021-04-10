@@ -78,6 +78,7 @@ One way to practice working with conditionals is to try to code a common interfa
 -------------------------------------------------------------------------------
 # 3. Recap, Explore and Experiment - Interaction: Conditionals
 
+>> [] !!@ TODO  
 >> need to develop algorithm   
 >> process that must be expressed in operations on variables over time  
 >> need to visualize state and time  
@@ -94,13 +95,11 @@ One way to practice working with conditionals is to try to code a common interfa
 
 >> intro `while` as way to draw entire frame on each draw call  
 
-<!-- >> slider ui + read out ui -->
-<!-- check box ui -->
-[] TODO  
 Dig into to explain use of DOM to make variables visible  
 [![](../assets/3.1_circleX_ui.png)](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)  
 [sketch - 3.1 circleX width ui lib](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
-
+<!-- >> slider ui + read out ui -->
+<!-- check box ui -->
 
 ```
 let a_move = true;
