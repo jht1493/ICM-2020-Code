@@ -193,15 +193,16 @@ For now we'll use buttons to explore p5js drawing behavior.
 
 ## Ex 1.1 explore sketch draw_rect_print
 
-In this sketch the function [`print`](https://p5js.org/reference/#/p5/print) 
+In this sketch the function `console.log`
 is added so that we can follow the execution of the code called by the buttons in the console.
+We are not using the p5js function [print](https://p5js.org/reference/#/p5/print) to avoid some bugs/issues.
 
-[sketch - draw_rect_print](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P) Open this sketch in a separate window so that you can play it and read this page at the same time.
+[sketch - draw_rect_log](https://editor.p5js.org/jht1493/sketches/NlCr2UD2P) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
-Code that uses the function `print` to help debug:
+Code that uses the function `console.log` to help debug:
 ```
   createButton('backg 240').mousePressed(function() {
-    print('calling background');
+    console.log('calling background');
     background(240);
   });
 ```
@@ -404,14 +405,14 @@ function setup() {
 
 ```
   // setup code
-  // first parameter 'imx' is id for span
+  // first parameter 'imouseX' is id for span
   // replace with your string
-  createSpan().id('imx');
+  createSpan().id('imouseX');
 
   // draw code
-  // replace string imx with your id
-  // parameter '#imx' is id for span. character # is required
-  select('#imx').html('[mouseX='+mouseX+'] ')
+  // replace string imouseX with your id
+  // parameter '#imouseX' is id for span. character # is required
+  select('#imouseX').html('[mouseX='+mouseX+'] ')
 ```
 
 -------------------------------------------------------------------------------
