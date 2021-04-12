@@ -54,17 +54,17 @@ function mouseDragged() {
 }
 ```
 
-### Try
+### > Try
 
 - adding other shapes to draw when the mouse is dragged.
 
-### Try
+### > Try
 
 - as one shape is drawn, an other shape is drawn to mirror it
 
 [sketch - 2.1.2 mouseX mirror](https://editor.p5js.org/jht1493/sketches/C2bgbELqa)
 
-### Try
+### > Try
 
 - Add ui elements to control color and give feedback about mouse location and canvas color. Borrow code from previous session.
 
@@ -96,25 +96,25 @@ x % n // result is always between 0 and n-1
   circleX = (circleX + 1) % width;
 ```
 
-### Try
+### > Try
 
 - add another shape that moves top to bottom
 
 [sketch - 2.2.1 shape1 shape2 ](https://editor.p5js.org/jht1493/sketches/cuaGTyRYU)   
 
-### Try
+### > Try
 
 - re-mix [sketch - growing circle](https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC) use the remainder operator to limit the circle growth
 
 [sketch - 2.2.3 circleR growing](https://editor.p5js.org/jht1493/sketches/2ZGRl9x1p)  
 
-### Try
+### > Try
 
 - remix [sketch - 2.2.1 variable...](https://editor.p5js.org/jht1493/sketches/CwYDz_4N2) with buttons to change the diameter of the circle
 
 [sketch -  2.2.4 circleX width ui](https://editor.p5js.org/jht1493/sketches/UhNMB6GQO)   
 
-### Try
+### > Try
 
 - disable background drawing and play with alpha colors
 
@@ -141,7 +141,7 @@ We could increase the apparent speed of this animation by adding a value greater
 
 By increment by 2 the shape will move faster.
 
-### Try
+### > Try
 
 - create a new variable that controls the speed of the animation
 
@@ -177,14 +177,14 @@ let cYellow = [255,255,0,10];
 let col = random([cRed,cGreen,cYellow]);
 ```
 
-### Try
+### > Try
 
 - remix one of the circleX sketches to change the shape to a random color when the canvas is clicked.
 
 [2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
 
 
-### Try
+### > Try
 
 - use alpha color values with a moving shape
 

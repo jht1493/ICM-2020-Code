@@ -139,17 +139,17 @@ function mouseDragged() {
 }
 ```
 
-### Try
+### > Try
 
 - adding other shapes to draw when the mouse is dragged.
 
-### Try
+### > Try
 
 - as one shape is drawn, an other shape is drawn to mirror it
 
 [sketch - 2.1.2 mouseX mirror](https://editor.p5js.org/jht1493/sketches/C2bgbELqa)
 
-### Try
+### > Try
 
 - Add ui elements to control color and give feedback about mouse location and canvas color. Borrow code from previous session.
 
@@ -181,25 +181,25 @@ x % n // result is always between 0 and n-1
   circleX = (circleX + 1) % width;
 ```
 
-### Try
+### > Try
 
 - add another shape that moves top to bottom
 
 [sketch - 2.2.1 shape1 shape2 ](https://editor.p5js.org/jht1493/sketches/cuaGTyRYU)   
 
-### Try
+### > Try
 
 - re-mix [sketch - growing circle](https://editor.p5js.org/codingtrain/sketches/ehbMJ-otC) use the remainder operator to limit the circle growth
 
 [sketch - 2.2.3 circleR growing](https://editor.p5js.org/jht1493/sketches/2ZGRl9x1p)  
 
-### Try
+### > Try
 
 - remix [sketch - 2.2.1 variable...](https://editor.p5js.org/jht1493/sketches/CwYDz_4N2) with buttons to change the diameter of the circle
 
 [sketch -  2.2.4 circleX width ui](https://editor.p5js.org/jht1493/sketches/UhNMB6GQO)   
 
-### Try
+### > Try
 
 - disable background drawing and play with alpha colors
 
@@ -231,7 +231,7 @@ We could increase the apparent speed of this animation by adding a value greater
 
 By increment by 2 the shape will move faster.
 
-### Try
+### > Try
 
 - create a new variable that controls the speed of the animation
 
@@ -269,19 +269,19 @@ let cYellow = [255,255,0,10];
 let col = random([cRed,cGreen,cYellow]);
 ```
 
-### Try
+### > Try
 
 - remix one of the circleX sketches to change the shape to a random color when the canvas is clicked.
 
 [sketch - 2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
 
-### Try
+### > Try
 
 - use alpha color and remove `background` function call from `draw` function so drawings build up.
 
 [sketch - 2.4.2 shape1 alpha](https://editor.p5js.org/jht1493/sketches/UDMyivHEQ)
 
-### Try
+### > Try
 
 - use the frameRate function to slow down the animation
 - add variables to quickly experiment with alpha, change in shape1x variable, and size of circle.
@@ -317,7 +317,7 @@ In this sketch the function draw_shape1 draws a a circle atop a square. It is ca
 
 ### function `draw_shape1`
 
-The function `draw_shape1` is defined in this sketch. It draws a circle and a rect. The location of the drawing will be relative to the position given to the `translate` function. By defining our own function we can easily run (or call) a series of instructions. In this case we only do two simple drawings as an illustration. To make a different static pattern can and or modify function calls between `translate` and `pop` lines.
+The function `draw_shape1` is defined in this sketch. It draws a circle and a rect. The location of the drawing will be relative to the position given to the `translate` function. By defining our own function we can easily run (or call) a series of instructions. In this case we only do two simple drawings as an illustration. To make a different static pattern add or modify  the function calls between the lines `translate` and `pop`.
 
 ```
 // Draw a circle on top of square
@@ -343,7 +343,7 @@ Each time `draw_shape1` is called it will have new values for `x` and `y.`
 In the first call both `x` and `y` will be 0, in the second call `x` will be 50 and `y` will be 0.
 In effect the `parameter variables x and y` are place holders for values that will be supplied later.
 
-### Try
+### > Try
 
 - adding `draw_shape1` calls to fill the canvas with the shape.
 
@@ -357,7 +357,7 @@ Here's an example of a button to save your canvas as a png file.
 [sketch - 2.5 setup pattern draw_shape1 save](https://editor.p5js.org/jht1493/sketches/D34BIqcoE)
 
 
-### Try
+### > Try
 
   - add the save button to one of your animated sketches and save a special moment.
 
@@ -378,7 +378,7 @@ Here's an example of a button to save your canvas as a png file.
 
 >> creating two line pattern with draw_shape1
 
-### Try
+### > Try
 
 Add buttons to
 - clear background

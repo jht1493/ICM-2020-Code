@@ -72,7 +72,7 @@ For now we'll use buttons to explore p5js drawing behavior.
 
 - what are possible ways to represent color for function [`fill`](https://p5js.org/reference/#/p5/fill)?
 
-### Try
+### > Try
 
 - try adjusting the colors specified in calls to function `fill`
 
@@ -91,7 +91,7 @@ Code that uses the function `print` to help debug:
   });
 ```
 
-### Try
+### > Try
 
 - try setting different colors for each shape, eg:
 - try `fill(100)`
@@ -118,7 +118,7 @@ The alpha value can range from 0 (no alpha, white color), to 255 (full value of 
 For example, alpha value 127 will mix an even amount of the background color with the fill color.
 Alpha value 20 will give a very light tint of the fill color on the background.
 
-### Try
+### > Try
 
 - try clicking each button repeatedly and observe the laying of the colors
 
@@ -230,7 +230,7 @@ followed by any number of letters, numbers or underscore characters.
 - added function create_ui and function update_ui 
 - code is re-used from previous sketch to display mouse location and canvas color
 
-### Try
+### > Try
 
 - add or change shapes drawn in function draw_shapes
 
