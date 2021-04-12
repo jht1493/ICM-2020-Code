@@ -275,7 +275,6 @@ let col = random([cRed,cGreen,cYellow]);
 
 [sketch - 2.4.1 random shape1](https://editor.p5js.org/jht1493/sketches/N2VJYjIWg)
 
-
 ### Try
 
 - use alpha color and remove `background` function call from `draw` function so drawings build up.
@@ -360,7 +359,7 @@ Here's an example of a button to save your canvas as a png file.
 
 ### Try
 
-  - add the save button to one of your animated sketches and save a special moment in the sketch.
+  - add the save button to one of your animated sketches and save a special moment.
 
 <!-- -------------------------------------------------------------------------------
 ## 2.6 animated patterns 

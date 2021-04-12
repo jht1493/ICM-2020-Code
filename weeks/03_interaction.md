@@ -60,15 +60,15 @@
 ## GUI Interfaces
 One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. 
 <!-- In [week 6](https://github.com/ITPNYU/ICM-2018/blob/master/weeks/06_dom.md) we'll compare this technique to using elements the browser provides for free. -->
-- [circle rollover](https://editor.p5js.org/icm/sketches/H1kCSqah)
-- [square rollover](https://editor.p5js.org/icm/sketches/rkLfL56h)
-- [button hold down](https://editor.p5js.org/icm/sketches/S16-H9pn)
-- [button switch](https://editor.p5js.org/icm/sketches/Sywrrqa2)
-- [quadrant rollover](https://editor.p5js.org/icm/sketches/Hki1I5ah)
-- [rollover with fade](https://editor.p5js.org/icm/sketches/SkPsHcph)
-- [draggable](https://editor.p5js.org/icm/sketches/B13wH5T3)
-- [knob](https://editor.p5js.org/icm/sketches/HkfFHcp2)
-- [slider](https://editor.p5js.org/icm/sketches/H1LXU9ah)
+- [sketch - circle rollover](https://editor.p5js.org/icm/sketches/H1kCSqah)
+- [sketch - square rollover](https://editor.p5js.org/icm/sketches/rkLfL56h)
+- [sketch - button hold down](https://editor.p5js.org/icm/sketches/S16-H9pn)
+- [sketch - button switch](https://editor.p5js.org/icm/sketches/Sywrrqa2)
+- [sketch - quadrant rollover](https://editor.p5js.org/icm/sketches/Hki1I5ah)
+- [sketch - rollover with fade](https://editor.p5js.org/icm/sketches/SkPsHcph)
+- [sketch - draggable](https://editor.p5js.org/icm/sketches/B13wH5T3)
+- [sketch - knob](https://editor.p5js.org/icm/sketches/HkfFHcp2)
+- [sketch - slider](https://editor.p5js.org/icm/sketches/H1LXU9ah)
 
 <!-- >> some not easy to reuse this code. Drop?? -->
 <!-- better to show if and variables used with DOM -->
@@ -86,7 +86,7 @@ One way to practice working with conditionals is to try to code a common interfa
 
 >> replace % width with if check  
 >> state tables   
->> boolean tables AND OR  
+>> boolean tables AND OR NOT
 >> breaking long expressions with temp variables  
 >> your code as a story with characters (variables)   
 >> script is the code in sketch -- plot line -- time  
