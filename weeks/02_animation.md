@@ -351,7 +351,7 @@ In effect the `parameter variables x and y` are place holders for values that wi
 
 ## Saving the canvas
 
-  - You have experimented and created an interesting pattern. Let's make it easy to save it.
+  - You are experimenting and create an interesting pattern. Let's make it easy to save it.
 Here's an example of a button to save your canvas as a png file.
 
 [sketch - 2.5 setup pattern draw_shape1 save](https://editor.p5js.org/jht1493/sketches/D34BIqcoE)
