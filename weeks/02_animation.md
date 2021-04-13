@@ -212,7 +212,7 @@ x % n // result is always between 0 and n-1
 -------------------------------------------------------------------------------
 ## Ex 2.3 Incrementing variables
 
-Ways to one to variable `x`.
+Ways to add one to a variable `x`.
 * `x = x + 1;` 
 * `x += 1;` 
 * `x++;`
