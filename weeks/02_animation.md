@@ -359,12 +359,16 @@ Here's an example of a button to save your canvas as a png file.
   - add the save button to one of your animated sketches and save a special moment.
 
 -------------------------------------------------------------------------------
-## Ex 2.6 rotation
+## Ex 2.6 rotate
+
+[2.6.1 rotate mouseX](https://editor.p5js.org/jht1493/sketches/5f-4Wm_1H)  
+[2.6.2 rotate a_angle](https://editor.p5js.org/jht1493/sketches/mq4r5u0v3)   
+[2.6.3 rotate ui](https://editor.p5js.org/jht1493/sketches/iYtC2NDy7)  
+[2.6.4 rotate mouseDragged ui](https://editor.p5js.org/jht1493/sketches/5ZIAjsbyB)  
+[2.6.5 rotate mouseDragged ui map](https://editor.p5js.org/jht1493/sketches/8ui42o3PL)  
 
 
-
-<!-- 
--------------------------------------------------------------------------------
+<!-- -------------------------------------------------------------------------------
 ## 2.6 animated patterns 
 [sketch - 2.5.1 draw_shape1](https://editor.p5js.org/jht1493/sketches/hgFw3__cZ)
 >> parameter variables  
@@ -383,8 +387,7 @@ Add buttons to
 - change spacing of shapes
 
 [sketch - 2.5.4 draw_shape1 pattern2 ui](https://editor.p5js.org/jht1493/sketches/jiS58glnK)
-
--->
+ -->
 
 <!-- 
 # 03_loops
