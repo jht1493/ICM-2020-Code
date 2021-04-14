@@ -317,17 +317,14 @@ In this sketch the function draw_shape1 draws a a circle atop a square. It is ca
 
 ### function `draw_shape1`
 
-The function `draw_shape1` is defined in this sketch. It draws a circle and a rect. The location of the drawing will be relative to the position given to the `translate` function. By defining our own function we can easily run (or call) a series of instructions. In this case we only do two simple drawings as an illustration. To make a different static pattern add or modify  the function calls between the lines `translate` and `pop`.
+The function `draw_shape1` is defined in this sketch. It draws a circle and a rect. The location of the drawing will be relative to the position given to the function. By defining our own function we can easily run (or call) a series of instructions. In this case we only do two simple drawings as an illustration. To make a different static pattern add or modify the function calls `circle` or  `rect`.
 
 ```
 // Draw a circle on top of square
 function draw_shape1(x, y) {
   console.log('draw_shape1 x=' + x + ' y=' + y)
-  push();
-  translate(x, y);
-  circle(0, 25, 50)
-  rect(-25, 50, 50, 50);
-  pop();
+  circle(x + 0, y + 25, 50)
+  rect(x - 25, y + 50, 50, 50);
 }
 ```
 ### parameter variables
@@ -361,33 +358,39 @@ Here's an example of a button to save your canvas as a png file.
 
   - add the save button to one of your animated sketches and save a special moment.
 
-<!-- -------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+## Ex 2.6 rotation
+
+
+
+<!-- 
+-------------------------------------------------------------------------------
 ## 2.6 animated patterns 
-
 [sketch - 2.5.1 draw_shape1](https://editor.p5js.org/jht1493/sketches/hgFw3__cZ)
-
 >> parameter variables  
 >> speed var  
 >> push, translate, pop  
 
 [sketch - 2.5.2 draw_shape1 pattern](https://editor.p5js.org/jht1493/sketches/5JqwobAgJ)
-
 >> creating one line pattern with draw_shape1
 
 [sketch - 2.5.3 draw_shape1 pattern2](https://editor.p5js.org/jht1493/sketches/huhUWN6Uc)
-
 >> creating two line pattern with draw_shape1
 
 ### > Try
-
 Add buttons to
 - clear background
 - change spacing of shapes
 
 [sketch - 2.5.4 draw_shape1 pattern2 ui](https://editor.p5js.org/jht1493/sketches/jiS58glnK)
 
->> save button
- -->
+-->
+
+<!-- 
+# 03_loops
+>> !!@ Consider:
+>> for-loops should follow  variables, before interaction with if-statements
+-->
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches

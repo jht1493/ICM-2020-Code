@@ -34,8 +34,9 @@ gravity ball two objects 1 POJO
 
 ## Arrays
 
-* [7.1 What is an array? - video tutorial](https://www.youtube.com/watch?v=VIQoUghHSxU)
-https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html (~14 min)
+* [7.1 What is an array? - video tutorial](
+https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
+https://www.youtube.com/watch?v=VIQoUghHSxU
 https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ  
 click for next word
 
