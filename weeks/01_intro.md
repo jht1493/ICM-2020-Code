@@ -108,7 +108,9 @@
    * [p5 playground](http://yining1023.github.io/p5PlayGround/)
 
 ### More on the Internets
-  * [The Machine Stops](https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf) by E. M. Forster, November 1909
+  <!-- * [The Machine Stops](https://www.cs.ucdavis.edu/~koehl/Teaching/ECS188/PDF_files/Machine_stops.pdf) by E. M. Forster, November 1909 -->
+  * [The Machine Stops](https://www.ele.uri.edu/faculty/vetter/Other-stuff/The-Machine-Stops.pdf), by E. M. Forster, November 1909
+
    * [As We May Think](http://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/), Vannevar Bush
    * [Long Live the Web](http://jblomo.github.io/webarch253/slides/Long_Live_the_Web.pdf), Tim Berners-Lee
 
@@ -417,15 +419,21 @@ function setup() {
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
+
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
 You are invited to remix and combine them to further explore.  
 
-- add color
-- change shapes
-- have fun ...
+add color  
+change shapes  
+have fun ...
+
+- Chapter 2 Starting to Code
 
 [Ex_02_01 Draw an Ellipse](https://editor.p5js.org/jht1493/sketches/1jYHAXZRF)  
 [Ex_02_02 Make Circles](https://editor.p5js.org/jht1493/sketches/Cc8MICNun)  
+
+- Chapter 3 Draw
+
 [Ex_03_04 quad tri](https://editor.p5js.org/jht1493/sketches/4ru5A30iE)	  
 [Ex_03_06 circles touch](https://editor.p5js.org/jht1493/sketches/R0o3EvVOC)  
 [Ex_03_09 arcs](https://editor.p5js.org/jht1493/sketches/lj5UimD1G)  

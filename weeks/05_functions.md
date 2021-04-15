@@ -1,12 +1,14 @@
-# Organization: Functions (and here comes Objects)
+# Organization: Functions
 
 <!-- _The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0)._ -->
 
 ## Modularity
 
 - [video 5.1: Function Basics](https://thecodingtrain.com/beginners/p5js/5.1-function-basics.html) (~13 min)
-  - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) <!-- >> expand with multiple balls -->
+  - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) 
   - [sketch - Bouncing ball with functions](https://editor.p5js.org/icm/sketches/H1Oq4qta)
+
+<!-- >> !!@  expand with multiple balls -->
 
 ## Re-usability
 
@@ -15,6 +17,8 @@
   - [sketch - Dice no functions](https://editor.p5js.org/icm/sketches/ryx70m5tT)
   - [sketch - Dice w/ functions](https://editor.p5js.org/icm/sketches/S1R44qtT)
   - [sketch - Robots from Getting Started with p5.js Code Example](https://editor.p5js.org/icm/sketches/rylf4S5K6)
+<!-- >> !!@ expand with object literals -->
+
 - [video 5.3: Functions and Return](https://thecodingtrain.com/beginners/p5js/5.3-return.html) (~8 min)
   - [sketch - milesToKm](https://editor.p5js.org/codingtrain/sketches/twpIiI-v)
   - [sketch - Implementing distance function](https://editor.p5js.org/icm/sketches/HJgR7UcKa)
@@ -56,11 +60,13 @@
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
-Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 5 Functions.  
+<!-- >> need to do more with return.
+>> return random color, loc, obj literal -->
+
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW)   
 You are invited to remix and combine them to further explore.
 
->> need to do more with return.
->> return random color, loc, obj literal
+- Chapter 5 Functions
 
 [Ex_09_01 Roll the Dice](https://editor.p5js.org/jht1493/sketches/uetaqd2FH)  
 [Ex_09_02 Another Way](https://editor.p5js.org/jht1493/sketches/oK-w6sUbz)  

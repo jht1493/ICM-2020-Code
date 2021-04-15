@@ -1,5 +1,11 @@
 # 2. Animation: Variables
 
+<!-- Animation: Variables ->
+Variables 
+Loops -- for patterns
+
+-->
+
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
 
 <!-- *The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0).* -->
@@ -353,7 +359,6 @@ Here's an example of a button to save your canvas as a png file.
 
 [sketch - 2.5 setup pattern draw_shape1 save](https://editor.p5js.org/jht1493/sketches/D34BIqcoE)
 
-
 ### > Try
 
   - add the save button to one of your animated sketches and save a special moment.
@@ -403,6 +408,9 @@ You are invited to remix and combine them to further explore drawings in motion.
 
   * Chapter 4 through Ex. 4.5
 
+[Ex_04_01 Reuse the Same Values](https://editor.p5js.org/jht1493/sketches/jcN0Maxum)  
+[Ex_04_02 Change Values](https://editor.p5js.org/jht1493/sketches/Y2Qra2W_N)  
+[Ex_04_03 Adjust the Canvas](https://editor.p5js.org/jht1493/sketches/T4ufWkYjs)  
 [Ex_04_04 Basic Arithmetic](https://editor.p5js.org/jht1493/sketches/Eg01Z5WpY)  
 [Ex_04_05 Do the Same](https://editor.p5js.org/jht1493/sketches/nUqcuwlY9)   
 [Ex_04 Robot 2: Variables](https://editor.p5js.org/jht1493/sketches/mJ_X4q47O)  

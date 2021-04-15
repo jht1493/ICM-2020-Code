@@ -39,9 +39,11 @@
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
-Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 4 Variables.  
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
 You are invited to remix and combine them to further explore.
  
+- Chapter 4 Variables
+
 [Ex_04_05 Do the Same](https://editor.p5js.org/jht1493/sketches/nUqcuwlY9)  
 [Ex_04_06 Use a for Loop](https://editor.p5js.org/jht1493/sketches/h0eBcXsIC)  
 [Ex_04_07 Flex Your for Loop’s](https://editor.p5js.org/jht1493/sketches/oVh1WhBVI)  

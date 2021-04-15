@@ -139,8 +139,10 @@ let diam = 64;
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
-Sketches from the [Getting Started book](http://amzn.to/2ckixCW) Chapter 5 Response.  
+Sketches from the [Getting Started book](http://amzn.to/2ckixCW).  
 You are invited to remix and combine them to further explore.
+
+- Chapter 5 Response
 
 [Ex_05_01 frameCount](https://editor.p5js.org/jht1493/sketches/QrE5pO6E9)  
 [Ex_05_02 setup draw](https://editor.p5js.org/jht1493/sketches/rts0Rja8o)  
