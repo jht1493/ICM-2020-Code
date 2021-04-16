@@ -1,5 +1,10 @@
 # 2. Animation: Variables
 
+<!-- 
+https://docs.google.com/document/d/1X-fESCgnicsf-yjSSP2raQDuvTCfFrNOFVMloGXO2OA/edit#
+ICM Code Worksheet — Week 2 (JHT
+ -->
+ 
 <!-- Animation: Variables ->
 Variables 
 Loops -- for patterns

@@ -3,6 +3,15 @@
 [![](../assets/Ex_03_17-alpha-circles.png)](https://editor.p5js.org/jht1493/sketches/sxI2SjRrh)
 <!-- https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md -->
 
+<!-- 
+JHT - Week 1 Worksheet
+https://docs.google.com/document/d/1Qu7qf-E6PblFg8U3MvfP_xVeca9yT8Bt6mIsSYAxf0s/edit
+
+https://docs.google.com/spreadsheets/d/1ok96W7jiPLmKrFzXoknoUt6YzPEZbnNLM_W6In7lDBM/edit?resourcekey#gid=942059347
+Homework Form (Responses) - ICM CODE JHT
+
+ -->
+
 ##  What is computational media?
   * What is programming?
   * How can I apply programming to _____________?

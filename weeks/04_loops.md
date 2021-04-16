@@ -1,5 +1,10 @@
 # Repetition: Loops
 
+<!-- 
+https://docs.google.com/document/d/117Uk1eSS9yzf-H35RXndyp2o3l9c-w95cs7Cum79QN0/edit
+JHT Week 4 Worksheet
+ -->
+
 ## Loops (while and for)
 * [video 4.1: `while` and `for`](https://thecodingtrain.com/beginners/p5js/4.1-while-for.html
 ) (~14 min)
