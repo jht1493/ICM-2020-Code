@@ -121,13 +121,13 @@ When the variable `circleX` reaches a value greater than `width` it is set to ze
 
 [sketch - 3.1.1 variable circleX width if](https://editor.p5js.org/jht1493/sketches/NO5mWO62W)
 
-Let's take a closer look at the `if` statement. It has two main parts, the **test** and the **body**. 
+Let's take a closer look at the `if` statement. It has two main parts, the **test** and the **statements**. 
 ```
   if (**test**) {
-    **body**
+    **statements**
   }
 ```
-The **body** is any number of statements that will be executed it the **test** is `true`.
+The **statements** is any number of statements that will be executed it the **test** is `true`.
 Let's take a deeper look at what **test** are possible.
 The syntax of the comparision is `a > b` where `a` can be any expression,
 and `b` another expression. The expression is true if the value of `a` is greater than `b`. We can also test for `a` less than `b` with `a < b`.
@@ -223,10 +223,10 @@ To repeatily execute statements we will use the `while` statement:
 
 ```
   while (**test**) {
-    **body**
+    **statements**
   }
 ```
-The **body** is any number of statements that will be executed while the **test** is `true`. Of course me must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
+Any number of **statements**  that will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
 
 Repeatily drawing a simple shape can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
 
@@ -270,7 +270,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 3.4 revealing the invisible
 
-Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables. But as we honing in on a range of setting and blocks of code the we want to play with it's often more convient to create a few DOM elements to allow us to explore with a few clicks.
+Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables. But as we honing in on a range of settings and blocks of code the we want to play with it's often more convient to create a few DOM elements to allow us to explore with a few clicks.
 
 <!-- ## Ex 3.3 playing with animation: sliders and checkbox -->
 
@@ -386,11 +386,12 @@ let a_len = 64;
 
 ## assignment syntax
 
-> `let` **your_var** `=` **inital_value**`;`  
-> **your_var** `=` **new_value**`;`  
-> **your_var** `+=` **increment**`;`  
-> **your_var** `++`;  
-
+```
+  let **your_var** = **inital_value**;  
+  **your_var** = **new_value**;  
+  **your_var** += **increment**;  
+  **your_var** ++;  
+```
 > global variables  
 > local variables  
 > parameter variables  
@@ -424,18 +425,18 @@ Same as `-1 * a`
 
 ## if-test syntax
 
-```
-  if (**test**) {
-    **body**
-  }
-```
+<!-- ```
+>`if (`**test**) `{`  
+> **statements**
+>`}`
+``` -->
 
 ```
   if (**test**) {
-    **body**
+    **statements**
   }
   else {
-    **body**
+    **statements**
   }
 ```
 
@@ -443,7 +444,7 @@ Same as `-1 * a`
 
 ```
   while (**test**) {
-    **body**
+    **statements**
   }
 ```
 
