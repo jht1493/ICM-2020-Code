@@ -300,7 +300,7 @@ let col = random([cRed,cGreen,cYellow]);
 [sketch - 2.4.3 shape1 alpha slow](https://editor.p5js.org/jht1493/sketches/iNY8JDhzH)
 
 -------------------------------------------------------------------------------
-## Ex 2.5 static patterns
+## Ex 2.5 patterns
 
 [sketch - 2.5 setup pattern draw_shape1](https://editor.p5js.org/jht1493/sketches/OtE1lw_X2)
 
@@ -359,7 +359,7 @@ In effect the `parameter variables x and y` are place holders for values that wi
 
 ## Saving the canvas
 
-  - You are experimenting and create an interesting pattern. Let's make it easy to save it.
+  - When you are experimenting and create an interesting pattern it would be nice to easily save it.
 Here's an example of a button to save your canvas as a png file.
 
 [sketch - 2.5 setup pattern draw_shape1 save](https://editor.p5js.org/jht1493/sketches/D34BIqcoE)
@@ -371,12 +371,25 @@ Here's an example of a button to save your canvas as a png file.
 -------------------------------------------------------------------------------
 ## Ex 2.6 rotate
 
-[2.6.1 rotate mouseX](https://editor.p5js.org/jht1493/sketches/5f-4Wm_1H)  
-[2.6.2 rotate a_angle](https://editor.p5js.org/jht1493/sketches/mq4r5u0v3)   
-[2.6.3 rotate ui](https://editor.p5js.org/jht1493/sketches/iYtC2NDy7)  
-[2.6.4 rotate mouseDragged ui](https://editor.p5js.org/jht1493/sketches/5ZIAjsbyB)  
-[2.6.5 rotate mouseDragged ui map](https://editor.p5js.org/jht1493/sketches/8ui42o3PL)  
+These sketches help visualize the behavior of the `rotate` function.
 
+- As the mouse is moved horizontally the line is rotated. Extra lines are drawn to show the X-Y axis.
+
+[sketch - 2.6.1 rotate mouseX](https://editor.p5js.org/jht1493/sketches/5f-4Wm_1H)  
+
+- A variable is used for the angle. Try different values fot the angle.
+
+[sketch - 2.6.2 rotate a_angle](https://editor.p5js.org/jht1493/sketches/mq4r5u0v3)  
+
+- UI elements are added to display the value used for the angle.
+
+[sketch - 2.6.3 rotate ui](https://editor.p5js.org/jht1493/sketches/iYtC2NDy7)  
+[sketch - 2.6.4 rotate mouseDragged ui](https://editor.p5js.org/jht1493/sketches/5ZIAjsbyB)  
+[sketch - 2.6.5 rotate mouseDragged ui map](https://editor.p5js.org/jht1493/sketches/8ui42o3PL)  
+
+### > Try
+
+- Creating your own sketches to expore the behavior of other drawing functions
 
 <!-- -------------------------------------------------------------------------------
 ## 2.6 animated patterns 

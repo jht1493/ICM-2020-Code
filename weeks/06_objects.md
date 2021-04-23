@@ -1,83 +1,68 @@
 # Scale: Objects and Arrays
-
+<!-- Objects and Array -> ES6 OOP Classes -->
 <!-- Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know! -->
 
 ## Object-Oriented Programming with Classes in JavaScript
 
-* [video -  6.1 Intro to ES6 OOP](https://www.youtube.com/watch?v=xG2Vbnv0wvg)  
-https://thecodingtrain.com/beginners/p5js/6.1-opp-intro.html (~2 min)  
-https://www.youtube.com/watch?v=xG2Vbnv0wvg  
+* [video -  6.1 Intro to ES6 OOP](https://thecodingtrain.com/beginners/p5js/6.1-opp-intro.html) (~2 min)  
 
-* [video - 6.2 Writing a Class](https://www.youtube.com/watch?v=T-HGdc8L-7w)  
-https://thecodingtrain.com/beginners/p5js/6.2-classes.html (~20 min)  
-https://editor.p5js.org/codingtrain/sketches/qi7N4LWq  
-two bubbles same size
+* [video - 6.2 Writing a Class](https://thecodingtrain.com/beginners/p5js/6.2-classes.html) (~20 min)  
+  - [sketch - two bubbles same size](https://editor.p5js.org/codingtrain/sketches/qi7N4LWq)
 
-* [video - 6.3 Constructor Arguments](https://www.youtube.com/watch?v=rHiSsgFRgx4)  
-https://thecodingtrain.com/beginners/p5js/6.3-constructor-arguments.html (~8 min)  
-https://editor.p5js.org/codingtrain/sketches/HZG-lnyR  
-two bubbles different size
+* [video - 6.3 Constructor Arguments](https://thecodingtrain.com/beginners/p5js/6.3-constructor-arguments.html) (~8 min)  
+  - [sketch - two bubbles different size](https://editor.p5js.org/codingtrain/sketches/HZG-lnyR)
+  - [sketch - Two Gravity Ball Objects](https://editor.p5js.org/icm4.0/sketches/vshTFC6kU)  
 
-* [Two Gravity Ball Objects code](https://editor.p5js.org/icm4.0/sketches/vshTFC6kU)  
-
-https://editor.p5js.org/icm4.0/sketches/vshTFC6kU  
-// 2020-10-11 jht: Corrected bounce test, comments  
-
-https://editor.p5js.org/jht1493/sketches/vA7I6jRfY  
-gravity ball two objects 1 POJO
+<!-- https://editor.p5js.org/icm4.0/sketches/vshTFC6kU   -->
+<!-- // 2020-10-11 jht: Corrected bounce test, comments   -->
+<!-- https://editor.p5js.org/jht1493/sketches/vA7I6jRfY   -->
+<!-- gravity ball two objects 1 POJO -->
 
 #### Written Tutorials
 
 * [Learning Processing Chapter 8 on Objects translated to p5](https://shiffman.github.io/Learning-p5.js/ch08.html)
+<!-- https://shiffman.github.io/Learning-p5.js/ch08.html#ch08fig05 -- java syntax -->
 
 * [Mozilla Classes reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+<!-- Is this useful? Too much? -->
 
 ## Arrays
 
 * [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
-https://www.youtube.com/watch?v=VIQoUghHSxU
-https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ  
-click for next word
+    - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 
-* [video - 7.2 Arrays and loops](https://www.youtube.com/watch?v=RXWO3mFuW-I)  
-https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html (~9 min)  
-https://editor.p5js.org/codingtrain/sketches/ZnPevren  
-circles from array  
+* [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
+  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren)
+  <!-- !!@ Update to use let -->
 
-* [video - 7.3 Arrays of objects](https://www.youtube.com/watch?v=fBqaA7zRO58)  
-https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html (~15 min)  
-  - [sketch - mouse drag for more bubbles](https://editor.p5js.org/codingtrain/sketches/1y_xfueO)
+* [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)  
+  - [sketch - drag mouse for bubbles](https://editor.p5js.org/codingtrain/sketches/1y_xfueO)
+  - [sketch - A Snake Following the Mouse](https://editor.p5js.org/icm/sketches/BkBsybb5X)
   
 - [Extra video tutorial: for...of loop](https://youtu.be/Y8sMnRQYr3c?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) (~4 min)
-
-  - [sketch - A Snake Following the Mouse](https://editor.p5js.org/icm/sketches/BkBsybb5X)
+  - [sketch - Array for-of bubbles](https://editor.p5js.org/jht1493/sketches/utpzYq_O8)
 
 ## Arrays of Objects
 
-* [video - 7.4 Mouse interaction with objects](https://www.youtube.com/watch?v=TaN5At5RWH8)  
-https://thecodingtrain.com/beginners/p5js/7.4-mouse-interaction.html (~15 min)    
+* [video - 7.4 Mouse interaction with objects](https://thecodingtrain.com/beginners/p5js/7.4-mouse-interaction.html) (~15 min)    
   - [sketch - bubbles click to turn gray](https://editor.p5js.org/codingtrain/sketches/lE4ypFpI)
 
-* [video - 7.5 Removing objects from arrays](https://www.youtube.com/watch?v=tA_ZgruFF9k)  
-https://thecodingtrain.com/beginners/p5js/7.5-removing-objects-from-array.html (~19 min)
+* [video - 7.5 Removing objects from arrays](https://thecodingtrain.com/beginners/p5js/7.5-removing-objects-from-array.html) (~19 min)
   - [sketch - click to remove bubble](https://editor.p5js.org/codingtrain/sketches/smC4Jedi)
   - [sketch - drag trail of n bubbles](https://editor.p5js.org/codingtrain/sketches/9Ve9S6Mx)
-  - [sketch - Interactive Stripes](http://editor.p5js.org/icm/sketches/B1ja76khW)
+  - [sketch - Interactive Stripes](http://editor.p5js.org/icm/sketches/B1ja76khW) 
   - [sketch - An Array of Buttons](http://editor.p5js.org/icm/sketches/BkaTNak3Z)
+<!-- stripe.js./button.js !!@ consider put in sketch.js Easier to follow -->
 
 ## Object "communication"
 
-* [video - 7.6: Object Communication Part 1](https://youtu.be/W1-ej3Wu5zg?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)  
-https://thecodingtrain.com/beginners/p5js/7.6-object-communication-1.html (~14 min)  
-https://editor.p5js.org/codingtrain/sketches/OG-_2K16  
-Drag bubble over small bubble
+* [video - 7.6: Object Communication Part 1](https://thecodingtrain.com/beginners/p5js/7.6-object-communication-1.html) (~14 min)  
+  - [sketch - drag bubble over small bubble](https://editor.p5js.org/codingtrain/sketches/OG-_2K16)
 
-* [video - 7.7: Object Communication Part 2](https://youtu.be/5Q9cA0REztY?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)  
-https://thecodingtrain.com/beginners/p5js/7.7-object-communication-2.html (~19 min)  
-https://editor.p5js.org/codingtrain/sketches/7SjPmXN2  
-Many bubbles touch react
 
-* [Checking Objects Intersection - code](http://editor.p5js.org/icm/sketches/S1BbBT13b)
+* [video - 7.7: Object Communication Part 2](https://thecodingtrain.com/beginners/p5js/7.7-object-communication-2.html) (~19 min)  
+  - [sketch - many bubbles touch react](https://editor.p5js.org/codingtrain/sketches/7SjPmXN2)
+  - [sketch - Checking Objects Intersection](http://editor.p5js.org/icm/sketches/S1BbBT13b)
 
 <!-- ## Getting Started with p5.js book
 *  Chapters 10 and 11 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
@@ -95,8 +80,7 @@ Many bubbles touch react
 
 #### Images and Objects
 
-* [7.8: Objects and Images - video tutorial](https://youtu.be/i2C1hrJMwz0?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA)  
-https://thecodingtrain.com/beginners/p5js/7.8-objects-and-images.html (~17 min)  
+* [7.8: Objects and Images - video tutorial](https://thecodingtrain.com/beginners/p5js/7.8-objects-and-images.html) (~17 min)  
 
   - [sketch - MousePressed Adding New Images](http://editor.p5js.org/icm/sketches/SJzKEak3W)
 
