@@ -270,7 +270,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 3.4 revealing the invisible
 
-Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables. But as we honing in on a range of settings and blocks of code the we want to play with it's often more convient to create a few DOM elements to allow us to explore with a few clicks.
+Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables. But as we honing in on a range of settings and blocks of code it's often more convient to create a few DOM elements to allow us to explore with a few clicks.
 
 <!-- ## Ex 3.3 playing with animation: sliders and checkbox -->
 
@@ -355,13 +355,13 @@ let a_len = 64;
 
 #### 5. use a span to display the variable
 
-- use `createSpan` to create the span and name it 
+- use `createSpan` to create the span and give it an id. 
 
 ```
   createSpan().id('ia_len');
 ```
 
-- at `draw` time use `select` to  update the span with a labeled value from the variable
+- at `draw` time use `select` to  update the span with the value of the variable. The text inside the single quotes is a label for the value.
 
 ```
   select('#ia_len').html('[a_len=' + a_len + '] ')

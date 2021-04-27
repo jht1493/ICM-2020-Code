@@ -4,6 +4,7 @@
 <!-- https://github.com/jht1493/ICM-2020-Code/blob/master/weeks/01_intro.md -->
 
 <!-- 
+
 JHT - Week 1 Worksheet
 https://docs.google.com/document/d/1Qu7qf-E6PblFg8U3MvfP_xVeca9yT8Bt6mIsSYAxf0s/edit
 
@@ -60,6 +61,7 @@ Homework Form (Responses) - ICM CODE JHT
 ## book - Code as Creative Medium 
   * Part One: Iterative Pattern
     * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
+<!-- https://github.com/CodeAsCreativeMedium/exercises -->
 
 ## Tutorials: Drawing
 
