@@ -62,6 +62,7 @@ Homework Form (Responses) - ICM CODE JHT
   * Part One: Iterative Pattern
     * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 <!-- https://github.com/CodeAsCreativeMedium/exercises -->
+<!-- > !!@ Add to Inspiration.md?  -->
 
 ## Tutorials: Drawing
 
