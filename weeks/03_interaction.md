@@ -270,7 +270,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 3.4 revealing the invisible
 
-Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables. But as we honing in on a range of settings and blocks of code it's often more convenient to create a few DOM elements to allow us to explore with a few clicks.
+Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
 
 <!-- ## Ex 3.3 playing with animation: sliders and checkbox -->
 
