@@ -1,9 +1,11 @@
 # Repetition: Loops
 
+<!-- 
 > Arrays intro here.  
 > Object literal  
 > Toolbox  
-> Explore patterns with func
+> Explore patterns with func 
+-->
 
 <!-- Relocate from objects -->
 <!-- ## Arrays
@@ -26,6 +28,10 @@ JHT Week 4 Worksheet
   * [sketch - while for ](https://editor.p5js.org/codingtrain/sketches/1B6jhzI6)
 * [video 4.2: nested loops](https://thecodingtrain.com/beginners/p5js/4.2-nested-loops.html) (~10 min)
   * [sketch - nested loops](https://editor.p5js.org/codingtrain/sketches/nxJTfiJd)
+* [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
+    - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
+* [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
+  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren)
 
 <!-- * [4.1: `while` and `for` - video tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14) -->
 <!-- * [4.2: nested loops - video tutorial](https://www.youtube.com/watch?v=1c1_TMdf8b8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=15) -->
@@ -45,16 +51,69 @@ JHT Week 4 Worksheet
 * [10PRINT Coding Challenge video](https://youtu.be/bEyTZ5ZZxZs)
   * [sketch - 10PRINT code example](https://editor.p5js.org/icm/sketches/rkHKL962)
 <!-- >> !!@ Does NOT use for loop -->
->> convert to while-loop version
+<!-- >> convert to while-loop version -->
 
 * Tutorial: [Recode Metaesquema by Hélio Oiticica](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-04/session-04-example.md)
 
 -------------------------------------------------------------------------------
 # 4. Recap, Explore and Experiment - Repetition: Loops
 
->> [] !!@ TODO
+<!-- >> [] !!@ TODO -->
 <!-- >> read out ui -->
 <!-- >> save canvas -->
+
+## Ex 4.1 patterns 
+
+In this exercise we'll explore creating patterns as seen in textiles or wall papers. We will also apply randomness to get controlled variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
+
+To repeatily execute statements we will use the `while` statement:
+
+```
+  while (**test**) {
+    **statements**
+  }
+```
+Any number of **statements**  that will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
+
+Repeatily drawing a simple shape can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
+
+[sketch - 4.1 pattern while](https://editor.p5js.org/jht1493/sketches/QlAHBLxi8e)
+
+```
+  while (x < width) {
+    console.log('x='+x+' y='+y+' len='+len);
+    circle(x + 25, y + 25, len-10);
+    rect(x, y, len, len);
+    x = x + len;
+  }
+```
+
+Compare this sketch to the previous sketches that produce animations. You'll should note that there is no `draw` function in this sketch. All drawing is done in the `setup` function.
+
+### > Try
+
+- modify the sketch to have the drawing fill the canvas
+  - hint: add code to modify the `y` variable and test it against the canvas `height` variable
+
+[sketch - 4.1 pattern y](https://editor.p5js.org/jht1493/sketches/S9YsVD9gV)
+
+### > Try
+
+- modify the previous sketch to consolate the drawing code into a user defined function
+
+[sketch - 4.1 pattern drawShape1](https://editor.p5js.org/jht1493/sketches/cA_XRhYnI)
+
+### > Try
+
+- modify the previous sketch to use randomness and your user defined function to create some variety
+
+[sketch - 4.1 pattern while random](https://editor.p5js.org/jht1493/sketches/JM1F5XmJuJ)
+
+[sketch - 4.1 pattern while random 2](https://editor.p5js.org/jht1493/sketches/44dcLkWoC)
+
+[sketch - 4.1 pattern while 3](https://editor.p5js.org/jht1493/sketches/vqy_zDixd)
+
+[sketch - 4.1 pattern while 4](https://editor.p5js.org/jht1493/sketches/_TkkjoNrW)
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches

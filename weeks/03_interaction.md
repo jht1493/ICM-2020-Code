@@ -64,6 +64,9 @@ JHT Week 3 Worksheet
   * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
   * [git source code](https://github.com/lmccart/gswp5.js-code)
 
+## book - Code as Creative Medium 
+  * Part One: Iterative Pattern
+    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 
 ## GUI Interfaces
 One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. 
@@ -214,59 +217,6 @@ In pseudo-code (english like code) the `if` statement reads
 ### > Try
 
 - add DOM elements to control one of your animated sketches.
-
-## Ex 3.3 patterns 
-
-In this exercise we'll explore creating patterns as you may see in textiles or wall papers. We will also apply randomness to get controlled variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
-
-To repeatily execute statements we will use the `while` statement:
-
-```
-  while (**test**) {
-    **statements**
-  }
-```
-Any number of **statements**  that will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
-
-Repeatily drawing a simple shape can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
-
-[sketch - 3.3. pattern while](https://editor.p5js.org/jht1493/sketches/QlAHBLxi8e)
-
-```
-  while (x < width) {
-    console.log('x='+x+' y='+y+' len='+len);
-    circle(x + 25, y + 25, len-10);
-    rect(x, y, len, len);
-    x = x + len;
-  }
-```
-
-Compare this sketch to the previous sketches that produce animations. You'll should note that there is no `draw` function in this sketch. All drawing is done in the `setup` function.
-
-### > Try
-
-- modify the sketch to have the drawing fill the canvas
-  - hint: add code to modify the `y` variable and test it against the canvas `height` variable
-
-[sketch - 3.3. pattern while y](https://editor.p5js.org/jht1493/sketches/S9YsVD9gV)
-
-### > Try
-
-- modify the previous sketch to consolate the drawing code into a user defined function
-
-[sketch - 3.3. pattern while drawShape1](https://editor.p5js.org/jht1493/sketches/cA_XRhYnI)
-
-### > Try
-
-- modify the previous sketch to use randomness and your user defined function to create some variety
-
-[sketch - 3.3. pattern while random](https://editor.p5js.org/jht1493/sketches/JM1F5XmJuJ)
-
-[sketch - 3.3. pattern while random 2](https://editor.p5js.org/jht1493/sketches/44dcLkWoC)
-
-[sketch - 3.3. pattern while 3](https://editor.p5js.org/jht1493/sketches/vqy_zDixd)
-
-[sketch - 3.3. pattern while 4](https://editor.p5js.org/jht1493/sketches/_TkkjoNrW)
 
 ## Ex 3.4 revealing the invisible
 

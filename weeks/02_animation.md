@@ -35,10 +35,6 @@ Loops -- for patterns
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read.
 
-## book - Code as Creative Medium 
-  * Part One: Iterative Pattern
-    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
-
 ## Tutorials: Basics
 
 * `setup()`, `draw()`, and other events: `mousePressed()`, etc.

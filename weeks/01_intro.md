@@ -21,6 +21,9 @@ Homework Form (Responses) - ICM CODE JHT
   * Can programming be an expressive medium?
   * Why are we introducing programming through drawing?
 
+## book - Code as Creative Medium 
+  * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
+
 ## Programming language discussion
   * General discussion of programming languages
   * History of creative coding frameworks
@@ -57,12 +60,6 @@ Homework Form (Responses) - ICM CODE JHT
     * [NYU Library Ebook (free, must be on campus to access)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728)
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
-
-## book - Code as Creative Medium 
-  * Part One: Iterative Pattern
-    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
-<!-- https://github.com/CodeAsCreativeMedium/exercises -->
-<!-- > !!@ Add to Inspiration.md?  -->
 
 ## Tutorials: Drawing
 

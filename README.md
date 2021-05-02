@@ -32,6 +32,7 @@ The following is an overview of how we will be spending class time over the next
 - [Coding Lab](https://itp.nyu.edu/help/in-person-help/coding-lab/) for drop-in help
 
 ## Inspiration
+- [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 - [Help contribute to this wiki!](https://github.com/ITPNYU/ICM-2020-Code/wiki/Inspiration)
 
 # Policies
