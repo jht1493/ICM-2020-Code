@@ -46,9 +46,13 @@ JHT Week 4 Worksheet
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
     * [git source code](https://github.com/lmccart/gswp5.js-code)
 
+## book - Code as Creative Medium 
+  * Part One: Iterative Pattern
+    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 
 ## 10PRINT
 * [10PRINT Coding Challenge video](https://youtu.be/bEyTZ5ZZxZs)
+  * [book - 10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org)
   * [sketch - 10PRINT code example](https://editor.p5js.org/icm/sketches/rkHKL962)
 <!-- >> !!@ Does NOT use for loop -->
 <!-- >> convert to while-loop version -->
