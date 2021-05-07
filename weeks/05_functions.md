@@ -9,10 +9,16 @@ JHT Week 5 Worksheet
 
 ## Modularity
 
+<!-- >> !!@ object literals part of modularity
+functions modularize behavior
+object literals modularize state/data
+ -->
+
 - [video 5.1: Function Basics](https://thecodingtrain.com/beginners/p5js/5.1-function-basics.html) (~13 min)
   - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) 
   - [sketch - Bouncing ball with functions](https://editor.p5js.org/icm/sketches/H1Oq4qta)
 
+<!-- >> !!@  uses object literals -->
 <!-- >> !!@  expand with multiple balls -->
 
 ## Re-usability
@@ -56,6 +62,9 @@ JHT Week 5 Worksheet
 
 -------------------------------------------------------------------------------
 # 5. Recap, Explore and Experiment - Functions
+
+<!-- >> object literals -- passing an returning -->
+<!-- >> arrays with object literals -->
 
 <!-- >> slider ui + read out ui -->
 <!-- >> text input ui -->

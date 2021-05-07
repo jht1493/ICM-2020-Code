@@ -1,5 +1,7 @@
 # Repetition: Loops
 
+[![](../assets/Ex_04_09-Kinking.png)](https://editor.p5js.org/jht1493/sketches/o_7ocEFZ8)
+
 <!-- 
 > Arrays intro here.  
 > Object literal  
@@ -7,7 +9,7 @@
 > Explore patterns with func 
 -->
 
-<!-- Relocate from objects -->
+<!-- Repeated from objects -->
 <!-- ## Arrays
 * [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
@@ -28,6 +30,8 @@ JHT Week 4 Worksheet
   * [sketch - while for ](https://editor.p5js.org/codingtrain/sketches/1B6jhzI6)
 * [video 4.2: nested loops](https://thecodingtrain.com/beginners/p5js/4.2-nested-loops.html) (~10 min)
   * [sketch - nested loops](https://editor.p5js.org/codingtrain/sketches/nxJTfiJd)
+
+## Arrays
 * [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 * [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
@@ -59,18 +63,16 @@ JHT Week 4 Worksheet
 
 * Tutorial: [Recode Metaesquema by Hélio Oiticica](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-04/session-04-example.md)
 
+[![](../assets/Ex_04_09-Kinking.png)](https://editor.p5js.org/jht1493/sketches/o_7ocEFZ8)
+
 -------------------------------------------------------------------------------
 # 4. Recap, Explore and Experiment - Repetition: Loops
 
-<!-- >> [] !!@ TODO -->
-<!-- >> read out ui -->
-<!-- >> save canvas -->
-
 ## Ex 4.1 patterns 
 
-In this exercise we'll explore creating patterns as seen in textiles or wall papers. We will also apply randomness to get controlled variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
+In this exercise we'll explore creating patterns as seen in textiles or wall papers. We will also apply randomness to get variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
 
-To repeatily execute statements we will use the `while` statement:
+To repeatedly execute statements we will use the `while` statement:
 
 ```
   while (**test**) {
@@ -79,7 +81,9 @@ To repeatily execute statements we will use the `while` statement:
 ```
 Any number of **statements**  that will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
 
-Repeatily drawing a simple shape can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
+Drawing a simple shape across the canvas can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
+
+[![](../assets/4.1-cirlce-rect-pattern.png)](https://editor.p5js.org/jht1493/sketches/QlAHBLxi8e)
 
 [sketch - 4.1 pattern while](https://editor.p5js.org/jht1493/sketches/QlAHBLxi8e)
 
@@ -96,7 +100,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ### > Try
 
-- modify the sketch to have the drawing fill the canvas
+- modify the sketch to fill the canvas with the shape.
   - hint: add code to modify the `y` variable and test it against the canvas `height` variable
 
 [sketch - 4.1 pattern y](https://editor.p5js.org/jht1493/sketches/S9YsVD9gV)
@@ -109,15 +113,77 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ### > Try
 
-- modify the previous sketch to use randomness and your user defined function to create some variety
+- modify the previous sketch to use randomness and your user defined function to create a variety of patterns
 
-[sketch - 4.1 pattern while random](https://editor.p5js.org/jht1493/sketches/JM1F5XmJuJ)
+[sketch - 4.1 pattern random 1](https://editor.p5js.org/jht1493/sketches/JM1F5XmJuJ)
 
-[sketch - 4.1 pattern while random 2](https://editor.p5js.org/jht1493/sketches/44dcLkWoC)
+[sketch - 4.1 pattern random 2](https://editor.p5js.org/jht1493/sketches/44dcLkWoC)
 
-[sketch - 4.1 pattern while 3](https://editor.p5js.org/jht1493/sketches/vqy_zDixd)
+[sketch - 4.1 pattern random 3](https://editor.p5js.org/jht1493/sketches/vqy_zDixd)
 
-[sketch - 4.1 pattern while 4](https://editor.p5js.org/jht1493/sketches/_TkkjoNrW)
+[sketch - 4.1 pattern random 4](https://editor.p5js.org/jht1493/sketches/_TkkjoNrW)
+
+## Ex 4.2 for-loops
+
+Another way repeatedly execute statements is the `for` statement, where the critical pieces of code the affect the loop are grouped together.
+
+```
+  for (**initialize**; **test**; **change**) {
+    **statements**
+  }
+```
+
+The **initialize** code is execute once. Then the **statements** are executed,
+followed by the **change** code, this is repeated if the **test** is `true`.  
+
+For example:
+
+```
+  for (let x = 0;  x < 5; x += 1) {
+    console.log('x='+x);
+  }
+```
+
+Here the variable `x` will take on values 0, 1, 2, 3, 4.
+
+### > Try
+
+Write your own for-loop that draws a repeating shape on one row of the canvas.
+
+[sketch - 4.2 for-loop](https://editor.p5js.org/jht1493/sketches/xlkU2_AlE)
+
+### > Try
+
+Organize your shape into a user defined function and have it fill the canvas using for-loops.
+
+[sketch - 4.2 for-loop drawShape1](https://editor.p5js.org/jht1493/sketches/ZRMgh5oWA)
+
+
+### > Try
+
+Add some randomness.
+
+[sketch - 4.2 for-loop random](https://editor.p5js.org/jht1493/sketches/cV8HNKv_D)
+
+
+## Ex 4.3 arrays
+
+
+<!-- 
+array[index]
+
+arr.length
+
+adding to an array
+arr.push(x)
+arr[arr.length] = x
+
+multiple arrays
+xLocs[]
+yLocs[]
+
+ -->
+
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
@@ -139,3 +205,6 @@ You are invited to remix and combine them to further explore.
 [Ex_04_99 Robot 2: Variables](https://editor.p5js.org/jht1493/sketches/mJ_X4q47O)  
 [Ex_04_99 Robot 2: Variable func](https://editor.p5js.org/jht1493/sketches/cyyCJGXOz)  
 [Ex_04_99 Robot 2: func jiggle](https://editor.p5js.org/jht1493/sketches/D3QUVpQhx)  
+
+[![](../assets/Ex_04_10-Embed.png)](https://editor.p5js.org/jht1493/sketches/bFe6Hk45R)
+[![](../assets/Ex_04_13-Halftone-topleft.png)](https://editor.p5js.org/jht1493/sketches/kEyYmVtg-)

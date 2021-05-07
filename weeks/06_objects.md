@@ -28,11 +28,12 @@
 
 ## Arrays
 
+<!-- !!@ arrays introduced with loops -->
 * [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 
 * [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
-  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren)
+  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren) -->
   <!-- !!@ Update to use let -->
 
 * [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)  

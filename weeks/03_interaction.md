@@ -319,8 +319,6 @@ let a_len = 64;
 
 [sketch - 3.4 circleX ui more](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
 
-
-
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
 
