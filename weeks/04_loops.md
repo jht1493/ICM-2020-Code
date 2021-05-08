@@ -49,6 +49,8 @@ JHT Week 4 Worksheet
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
     * [git source code](https://github.com/lmccart/gswp5.js-code)
+-  Chapter 11 Arrays
+    - [sketches](https://editor.p5js.org/jht1493/collections/GdOUniOjF)
 
 ## book - Code as Creative Medium 
   * Part One: Iterative Pattern
@@ -133,8 +135,7 @@ Another way repeatedly execute statements is the `for` statement, where the crit
   }
 ```
 
-The **initialize** code is execute once. Then the **statements** are executed,
-followed by the **change** code, this is repeated if the **test** is `true`.  
+The **initialize** code is execute once. While the **test** is `true` the **statements** are executed, followed by the **change** code.  
 
 For example:
 

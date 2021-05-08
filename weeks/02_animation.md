@@ -5,10 +5,11 @@ https://docs.google.com/document/d/1X-fESCgnicsf-yjSSP2raQDuvTCfFrNOFVMloGXO2OA/
 ICM Code Worksheet — Week 2 (JHT
  -->
  
-<!-- Animation: Variables ->
+<!-- 
+Animation: Variables ->
 Variables 
 Loops -- for patterns
-
+!!@ Go all the way on variable, make Chapter 6 Transforms & 8 Motion optional
 -->
 
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
@@ -22,13 +23,13 @@ Loops -- for patterns
  -->
 
  ## book - Getting Started with p5.js 
-  * Chapter 4 through Ex. 4.5
+  * Chapter 4 Variables through Ex. 4.5
     * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
-  * Chapter 8 through Ex. 8.9
+  * Chapter 8 Motion through Ex. 8.9
     * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
-  * Going further: Chapter 6 (Transformations) 
+  * Going further: Chapter 6 Transformations
     * [sketches](https://editor.p5js.org/jht1493/collections/LyMXjpqPV)
-  * Going further: Chapter 8.10-8.15 (More complex motion)
+  * Going further: Chapter 8 Motion 8.10-8.15 (More complex motion)
     * [sketches](https://editor.p5js.org/jht1493/collections/a0FX7oZfY)
   * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
@@ -99,6 +100,14 @@ Loops -- for patterns
 # 2. Recap, Explore and Experiment - Animation: Variables
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
+
+-------------------------------------------------------------------------------
+## 2.0 Increment by one
+
+Ways to add one to a variable `x`:
+* `x = x + 1;` 
+* `x += 1;` 
+* `x++;`
 
 -------------------------------------------------------------------------------
 ## Ex 2.1 mouseX and mouseY
@@ -216,13 +225,7 @@ x % n // result is always between 0 and n-1
 
 [sketch - sketch - 2.2.5 variable circleX rgb](https://editor.p5js.org/jht1493/sketches/mDleb9mKk)   
 
--------------------------------------------------------------------------------
-## Ex 2.3 Incrementing variables
-
-Ways to add one to a variable `x`.
-* `x = x + 1;` 
-* `x += 1;` 
-* `x++;`
+## Ex 2.3 Incrementing for animation
 
 These examples uses this coding pattern to create animation: A variable, circleX, is updated by increment its value. There is an illusion of motion as the shape is drawn one pixel to the right each time the `function draw` is called.
 
