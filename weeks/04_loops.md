@@ -127,7 +127,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 4.2 for-loops
 
-Another way repeatedly execute statements is the `for` statement, where the critical pieces of code the affect the loop are grouped together.
+To repeatedly execute statements use the `for` statement, where the critical pieces of code the affect the loop are grouped together.
 
 ```
   for (**initialize**; **test**; **change**) {
