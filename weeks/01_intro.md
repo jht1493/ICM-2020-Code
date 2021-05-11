@@ -61,7 +61,7 @@ Homework Form (Responses) - ICM CODE JHT
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * [sketches - Chapter 1-3](https://editor.p5js.org/jht1493/collections/l4oMbMJ_u)
 
-## Tutorials: Drawing
+## tutorials: Drawing
 
 * Programming for Beginners with p5.js
   * [video 1.1 Introduction](https://thecodingtrain.com/beginners/p5js/1.1-introduction.html) (~13 min)

@@ -24,14 +24,29 @@ https://docs.google.com/document/d/117Uk1eSS9yzf-H35RXndyp2o3l9c-w95cs7Cum79QN0/
 JHT Week 4 Worksheet
  -->
 
-## Loops (while and for)
+<!-- ## Getting Started with p5.js book
+*  Chapter 4.5-4.13 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
+## book - Getting Started with p5.js 
+* [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+  * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+  * [git source code](https://github.com/lmccart/gswp5.js-code)
+*  Chapter 4 Variables 4.5-4.13
+    * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
+-  Chapter 11 Arrays
+    - [sketches](https://editor.p5js.org/jht1493/collections/GdOUniOjF)
+
+## book - Code as Creative Medium 
+  * Part One: Iterative Pattern
+    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
+
+## tutorials: while-loops and for-loops
 * [video 4.1: `while` and `for`](https://thecodingtrain.com/beginners/p5js/4.1-while-for.html
 ) (~14 min)
   * [sketch - while for ](https://editor.p5js.org/codingtrain/sketches/1B6jhzI6)
 * [video 4.2: nested loops](https://thecodingtrain.com/beginners/p5js/4.2-nested-loops.html) (~10 min)
   * [sketch - nested loops](https://editor.p5js.org/codingtrain/sketches/nxJTfiJd)
 
-## Arrays
+## tutorials: Arrays
 * [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 * [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
@@ -39,22 +54,6 @@ JHT Week 4 Worksheet
 
 <!-- * [4.1: `while` and `for` - video tutorial](https://www.youtube.com/watch?v=cnRD9o6odjk&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=14) -->
 <!-- * [4.2: nested loops - video tutorial](https://www.youtube.com/watch?v=1c1_TMdf8b8&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=15) -->
-
-
-<!-- ## Getting Started with p5.js book
-*  Chapter 4.5-4.13 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
-## Getting Started with p5.js book
-*  Chapter 4 Variables 4.5-4.13
-  * [sketches](https://editor.p5js.org/jht1493/collections/yH3IYcxzz)
-  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
-    * [git source code](https://github.com/lmccart/gswp5.js-code)
--  Chapter 11 Arrays
-    - [sketches](https://editor.p5js.org/jht1493/collections/GdOUniOjF)
-
-## book - Code as Creative Medium 
-  * Part One: Iterative Pattern
-    * [Code as Creative Medium](https://www.amazon.com/gp/product/0262542048)
 
 ## 10PRINT
 * [book - 10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org)
@@ -70,18 +69,18 @@ JHT Week 4 Worksheet
 -------------------------------------------------------------------------------
 # 4. Recap, Explore and Experiment - Repetition: Loops
 
-## Ex 4.1 patterns 
+## Ex 4.1 patterns with while-loops
 
 In this exercise we'll explore creating patterns as seen in textiles or wall papers. We will also apply randomness to get variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
 
-To repeatedly execute statements we will use the `while` statement:
+To repeatedly execute statements we can use the `while` statement:
 
 ```
   while (**test**) {
     **statements**
   }
 ```
-Any number of **statements**  that will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
+Any number of **statements** will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
 
 Drawing a simple shape across the canvas can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
 
@@ -127,7 +126,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 4.2 for-loops
 
-To repeatedly execute statements use the `for` statement, where the critical pieces of code the affect the loop are grouped together.
+We can also repeatedly execute statements using the `for` statement. Here the essential expressions that affect the loop are grouped together.
 
 ```
   for (**initialize**; **test**; **change**) {
@@ -135,12 +134,12 @@ To repeatedly execute statements use the `for` statement, where the critical pie
   }
 ```
 
-The **initialize** code is execute once. While the **test** is `true` the **statements** are executed, followed by the **change** code.  
+The **initialize** code is executed once. While the **test** is `true` the **statements** are executed, followed by the **change** code.  
 
 For example:
 
 ```
-  for (let x = 0;  x < 5; x += 1) {
+  for (let x = 0; x < 5; x += 1) {
     console.log('x='+x);
   }
 ```
@@ -155,22 +154,45 @@ Write your own for-loop that draws a repeating shape on one row of the canvas.
 
 ### > Try
 
-Organize your shape into a user defined function and have it fill the canvas using for-loops.
+Fill the canvase pattern: Organize your shape into a user defined function and have it fill the canvas using for-loops.
 
 [sketch - 4.2 for-loop drawShape1](https://editor.p5js.org/jht1493/sketches/ZRMgh5oWA)
 
 
 ### > Try
 
-Add some randomness.
+Add randomness to your pattern.
 
 [sketch - 4.2 for-loop random](https://editor.p5js.org/jht1493/sketches/cV8HNKv_D)
 
+[sketch - 4.2 for-loop random 2](https://editor.p5js.org/jht1493/sketches/Bz-e4Japh)
+
+[sketch - 4.2 for-loop random 3](https://editor.p5js.org/jht1493/sketches/YJojuZV9V)
+
+[sketch - 4.2 for-loop random 4](https://editor.p5js.org/jht1493/sketches/uWqMpSb09)
 
 ## Ex 4.3 arrays
 
+Arrays hold many value.  
+?? review expressions  
+number  
+string  
+
+[sketch - 4.3 array d](https://editor.p5js.org/jht1493/sketches/PkHBdgZak)
+
+[sketch - 4.3 array color](https://editor.p5js.org/jht1493/sketches/MN_30o-l-)
+
+[sketch - 4.3 array for-loop](https://editor.p5js.org/jht1493/sketches/Gom4JIsDb)
 
 <!-- 
+
+stepping thru an array on click
+array of colors
+
+index 0 ... length-1
+index values
+
+pull values from an array
 array[index]
 
 arr.length
@@ -207,5 +229,20 @@ You are invited to remix and combine them to further explore.
 [Ex_04_99 Robot 2: Variable func](https://editor.p5js.org/jht1493/sketches/cyyCJGXOz)  
 [Ex_04_99 Robot 2: func jiggle](https://editor.p5js.org/jht1493/sketches/D3QUVpQhx)  
 
+- Chapter 11 Arrays
+
+[Ex_11_01 Many Variables](https://editor.p5js.org/jht1493/sketches/W26Y1uuiu)  
+[Ex_11_02 Too Many Variables](https://editor.p5js.org/jht1493/sketches/WNdXMzR_Q)  
+[Ex_11_03 Arrays, Not Variables](https://editor.p5js.org/jht1493/sketches/mJyTluseZ)  
+[Ex_11_04 Declare and Assign an Array](https://editor.p5js.org/jht1493/sketches/FghpP9uDR)  
+[Ex_11_05 Assigning to an Array in One Go](https://editor.p5js.org/jht1493/sketches/n3apYawMJ)  
+[Ex_11_06 Revisiting the First Example](https://editor.p5js.org/jht1493/sketches/WSHfHkoyV)  
+[Ex_11_07 Filling an Array in a for Loop](https://editor.p5js.org/jht1493/sketches/BjH5BkIjj)  
+[Ex_11_08 Track Mouse Movements](https://editor.p5js.org/jht1493/sketches/pVd3PT6U3)  
+[Ex_11_09 Managing Many Objects](https://editor.p5js.org/jht1493/sketches/XDfmnW1JD)  
+[Ex_11_10 Sequences of Images](https://editor.p5js.org/jht1493/sketches/-XbD5Gw0a)  
+[Ex_11_99 Robot Array](https://editor.p5js.org/jht1493/sketches/dO-IXUHhr)
+
 [![](../assets/Ex_04_10-Embed.png)](https://editor.p5js.org/jht1493/sketches/bFe6Hk45R)
 [![](../assets/Ex_04_13-Halftone-topleft.png)](https://editor.p5js.org/jht1493/sketches/kEyYmVtg-)
+

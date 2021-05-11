@@ -9,7 +9,8 @@ ICM Code Worksheet — Week 2 (JHT
 Animation: Variables ->
 Variables 
 Loops -- for patterns
-!!@ Go all the way on variable, make Chapter 6 Transforms & 8 Motion optional
+!!@ Go all the way on variable
+make Chapter 6 Transforms & 8 Motion optional
 -->
 
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
@@ -36,7 +37,7 @@ Loops -- for patterns
     * [git source code](https://github.com/lmccart/gswp5.js-code)
     * recommendation: read chapters before watching videos. play with the sketches discussed in the chapters as you read.
 
-## Tutorials: Basics
+## tutorials: Basics
 
 * `setup()`, `draw()`, and other events: `mousePressed()`, etc.
 
@@ -73,7 +74,7 @@ Loops -- for patterns
 
 * Tutorial: [Recode Catalog by John Whitney](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-02/session-02.md)
 
-## Tutorials: Transformations
+## tutorials: Transformations
 
   * [video 9.1: translate](https://thecodingtrain.com/Tutorials/9-additional-topics/9.1-transformations-part-1.html) (~ 22min)
 
@@ -323,7 +324,7 @@ setup done
 ```
 
 What's going on?
-In this sketch the function draw_shape1 draws a a circle atop a square. It is called several times from the `setup` function.
+In this sketch the function `draw_shape1` draws a a circle atop a square. It is called several times from the `setup` function.
 
 ### function `draw_shape1`
 

@@ -7,7 +7,14 @@ JHT Week 5 Worksheet
 
 <!-- _The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0)._ -->
 
-## Modularity
+## book - Getting Started with p5.js 
+* [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+    * [git source code](https://github.com/lmccart/gswp5.js-code)
+*  Chapter 9 Functions
+    * [sketches](https://editor.p5js.org/jht1493/collections/RNo3VMponN)
+
+## tutorials: Modularity
 
 <!-- >> !!@ object literals part of modularity
 functions modularize behavior
@@ -21,7 +28,7 @@ object literals modularize state/data
 <!-- >> !!@  uses object literals -->
 <!-- >> !!@  expand with multiple balls -->
 
-## Re-usability
+## tutorials: Re-usability
 
 - [video 5.2: Function Parameters and Arguments](https://thecodingtrain.com/beginners/p5js/5.2-parameters-arguments.html) (~11 min)
   - [sketch - lollipop](https://editor.p5js.org/codingtrain/sketches/eGD-xzsw)
@@ -40,13 +47,6 @@ object literals modularize state/data
 
 <!-- ## Getting Started with p5.js book
 - Chapter 9 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
-
-## Getting Started with p5.js book
-*  Chapter 9 Functions
-  * [sketches](https://editor.p5js.org/jht1493/collections/RNo3VMponN)
-  * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-    * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
-    * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 # Object Literals
 
@@ -91,3 +91,4 @@ You are invited to remix and combine them to further explore.
 [Ex_09_07 Owls of Different Sizes](https://editor.p5js.org/jht1493/sketches/45Cv8Gi4i)  
 [Ex_09_08 Return a Value](https://editor.p5js.org/jht1493/sketches/xAc-jbG9y)  
 [Ex_09_99 Robot Function](https://editor.p5js.org/jht1493/sketches/7QXYp9M8Z)
+

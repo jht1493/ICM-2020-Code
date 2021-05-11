@@ -17,7 +17,16 @@ JHT Week 3 Worksheet
 <!-- >> ?? recommend reading before watching videos -->
 <!-- >> guided copy-and-paster: re-mix is ok, start with best practices -->
 
-## Conditional Statements
+
+## book - Getting Started with p5.js 
+* Chapter 5. Response
+  * [sketches](https://editor.p5js.org/jht1493/collections/u8b97q_m7)
+* [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
+  * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
+  * [git source code](https://github.com/lmccart/gswp5.js-code)
+
+## tutorials: Conditional Statements
+
 * [video 3.1: Introduction to Conditional Statements ](https://thecodingtrain.com/beginners/p5js/3.1-conditional-statements.html) (~12 min)
   * `if` statement
   * relational operators (`>`, `<`, `<=`, `>=`, `==`, `===`, `!==`)
@@ -56,13 +65,6 @@ JHT Week 3 Worksheet
 <!-- https://www.youtube.com/watch?v=r2S7j54I68c&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=12 -->
 <!-- 3.4: Boolean variables - video tutorial -->
 <!-- https://www.youtube.com/watch?v=Rk-_syQluvc&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=13 -->
-
-## Getting Started with p5.js book
-* Chapter 5. Response
-  * [sketches](https://editor.p5js.org/jht1493/collections/u8b97q_m7)
-* [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
-  * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
-  * [git source code](https://github.com/lmccart/gswp5.js-code)
 
 ## GUI Interfaces
 One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. 
