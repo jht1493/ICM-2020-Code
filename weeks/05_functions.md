@@ -25,8 +25,12 @@ object literals modularize state/data
   - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) 
   - [sketch - Bouncing ball with functions](https://editor.p5js.org/icm/sketches/H1Oq4qta)
 
-<!-- >> !!@  uses object literals -->
-<!-- >> !!@  expand with multiple balls -->
+<!-- 
+>> !!@  uses object literals 
+>> !!@  expand with multiple balls
+array add
+array remove
+-->
 
 ## tutorials: Re-usability
 

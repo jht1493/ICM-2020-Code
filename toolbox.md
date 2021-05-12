@@ -9,46 +9,7 @@
 
 ## Javascript Syntax and Grammar
 
-## assignment syntax
-
-```
-  let **your_var** = **inital_value**;  
-  **your_var** = **new_value**;  
-  **your_var** += **increment**;  
-  **your_var** ++;  
-```
-> global variables  
-> local variables  
-> parameter variables  
-
-## Value expressions
-
-numbers  
-booleans  
-strings  
-arrays  
-objects  
-
-## Arithmetic operators
-
-`a` **Arithmetic-operator** `b`
-
-| Syntax | Arithmetic-operator |
-|---| ---- |
-| `a + b` | Addition |
-| `a − b` | Subtraction |
-| `a * b` | Multiplication |
-| `a / b` | Division |
-
-### Negation
-
-| Syntax | Negation |
-|---| ---- |
-| - a | Negation |
-
-Same as `-1 * a`
-
-## if-test syntax
+## flow: if-test syntax
 
 <!-- ```
 >`if (`**test**) `{`  
@@ -65,7 +26,7 @@ Same as `-1 * a`
   }
 ```
 
-## while-loop syntax
+## flow: while-loop syntax
 
 ```
   while (**test**) {
@@ -73,11 +34,59 @@ Same as `-1 * a`
   }
 ```
 
+## flow: for-loop syntax
+
+```
+  for (**initialize**; **test**; **change**) {
+    **statements**
+  }
+```
+
+## assignment syntax
+
+```
+  let **your_var** = **inital_value**;  
+  **your_var** = **new_value**;  
+  **your_var** += **increment**;  
+  **your_var** ++;  
+```
+> global variables  
+> local variables  
+> parameter variables  
+
+## value expressions
+
+numbers  
+booleans  
+strings  
+objects  
+arrays  
+
+## arithmetic operators
+
+`a` **Arithmetic-operator** `b`
+
+| Syntax | Arithmetic-operator |
+|---| ---- |
+| `a + b` | Addition |
+| `a − b` | Subtraction |
+| `a * b` | Multiplication |
+| `a / b` | Division |
+
+### negation
+
+| Syntax | Negation |
+|---| ---- |
+| - a | Negation |
+
+Same as `-1 * a`
+
+
 ## relational operators
 
 A **test** is any `boolean` expression, an expression that produces a `true` or `false` value. The comparison operators will produce a `boolean` expression by comparing any two values.
 
-### Syntax for relational operators
+### relational operators syntax
 
 `a` **relational-operator** `b`
 

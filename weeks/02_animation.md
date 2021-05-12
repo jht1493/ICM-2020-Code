@@ -11,6 +11,7 @@ Variables
 Loops -- for patterns
 !!@ Go all the way on variable
 make Chapter 6 Transforms & 8 Motion optional
+!!@ Consider addling createGraphics for layered drawing
 -->
 
 [![](../assets/Ex_08_03-Move-0.png) ![](../assets/Ex_08_03-Move-1.png)](https://editor.p5js.org/jht1493/sketches/W_nCg2LI2)
