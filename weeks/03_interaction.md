@@ -302,7 +302,7 @@ At `setup` time use `createCheckbox` to create the checkBox, give it a label, gi
 
 ### > slider for numeric variable
 
-The buttons, sliders, and span can be used to control and display a numeric variable. In this example the variable `a_len` determines the diameter of the circle. Here are the steps to connect the variable to a pan for display, buttons to set it to a specific value, and a slider to allow it to be set to a value in a range.
+A span can be used to to display a numeric variable. A button or a slider can be used to change a variable. In this example the variable `a_len` determines the diameter of the circle. Let's connect this variable to DOM elements to display and change it. First we'll connect the variable to a span for display, then use buttons and a slider to change the variable.
 
 #### •> 1. declare the variable
 
@@ -318,7 +318,7 @@ let a_len = 64;
   circle(circleX, circleY, a_len);
 ```
 
-#### •> 3. set the variable to a specific value
+#### •> 3. button to set the variable
 
 ```
   createButton('a_len 50').mousePressed(function() {
@@ -335,7 +335,7 @@ let a_len = 64;
   });
 ```
 
-#### •> 5. use a span to display the variable
+#### •> 5. span to display the variable
 
 - use `createSpan` to create the span and give it an id. 
 
