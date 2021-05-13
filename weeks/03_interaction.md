@@ -100,7 +100,7 @@ Recall from the last session we used a variable `circleX` to animate a circle mo
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
 
-The remainder arithmetic operator % is use in this sketch to have the animation wrap around when the circle passes the right edge of the screen. 
+To have the animation wrap around when the circle passes the right edge of the screen, we used the remainder arithmetic operator %.
 
 ```
   circleX = (circleX + 1) % width;
