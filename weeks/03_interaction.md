@@ -271,7 +271,7 @@ use DOM to make variables visible   -->
 The DOM checkBox element is the natural way to set and display a boolean variable.
 In this example the boolean variable `a_move` is used to control the animation. If it is `true` the animation will run, otherwise there is no movement. Here are the steps to connect a variable to a checkBox DOM element.
 
-#### >> 1. declare the boolean variable
+#### •> 1. declare the boolean variable
 
 The variable is declared and given an initial value.
 
@@ -279,7 +279,7 @@ The variable is declared and given an initial value.
 let a_move = true;
 ```
 
-#### >> 2. use the boolean variable 
+#### •> 2. use the boolean variable 
 
 For example, the `if` statement to control the action.
 
@@ -289,7 +289,7 @@ For example, the `if` statement to control the action.
   }
 ```
 
-#### >> 3. connect the variable to the checkbox
+#### •> 3. connect the variable to the checkbox
 
 At `setup` time use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and code to run to update the variable.
 
@@ -304,7 +304,7 @@ At `setup` time use `createCheckbox` to create the checkBox, give it a label, gi
 
 The buttons, sliders, and span can be used to control and display a numeric variable. In this example the variable `a_len` determines the diameter of the circle. Here are the steps to connect the variable to a pan for display, buttons to set it to a specific value, and a slider to allow it to be set to a value in a range.
 
-#### >> 1. declare the variable
+#### •> 1. declare the variable
 
 The variable is declared and given an initial value.
 
@@ -312,13 +312,13 @@ The variable is declared and given an initial value.
 let a_len = 64;
 ```
 
-#### >> 2. use the value
+#### •> 2. use the value
 
 ```
   circle(circleX, circleY, a_len);
 ```
 
-#### >> 3. set the variable to a specific value
+#### •> 3. set the variable to a specific value
 
 ```
   createButton('a_len 50').mousePressed(function() {
@@ -326,7 +326,7 @@ let a_len = 64;
   });
 ```
 
-#### >> 4. connect the variable to a slider
+#### •> 4. connect the variable to a slider
 
 ```
   // createSlider(min, max, [value], [step])
@@ -335,7 +335,7 @@ let a_len = 64;
   });
 ```
 
-#### >> 5. use a span to display the variable
+#### •> 5. use a span to display the variable
 
 - use `createSpan` to create the span and give it an id. 
 
