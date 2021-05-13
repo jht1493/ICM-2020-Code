@@ -82,7 +82,7 @@ To repeatedly execute statements we can use the `while` statement:
 ```
 Any number of **statements** will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
 
-Drawing a simple shape across the canvas can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
+Drawing a shape across the canvas can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
 
 [![](../assets/4.1-cirlce-rect-pattern.png)](https://editor.p5js.org/jht1493/sketches/QlAHBLxi8e)
 
@@ -90,10 +90,10 @@ Drawing a simple shape across the canvas can be done concisely using a variable 
 
 ```
   while (x < width) {
-    console.log('x='+x+' y='+y+' len='+len);
-    circle(x + 25, y + 25, len-10);
-    rect(x, y, len, len);
-    x = x + len;
+    console.log('x='+x+' y='+y);
+    rect(x, y, 50, 50);
+    circle(x + 25, y + 25, 40);
+    x = x + 50;
   }
 ```
 
@@ -126,7 +126,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ## Ex 4.2 for-loops
 
-We can also repeatedly execute statements using the `for` statement. Here the essential expressions that affect the loop are grouped together.
+We can also repeatedly execute statements using the `for` statement. The essential expressions that affect the loop are grouped together.
 
 ```
   for (**initialize**; **test**; **change**) {
@@ -144,7 +144,7 @@ For example:
   }
 ```
 
-Here the variable `x` will take on values 0, 1, 2, 3, 4.
+The variable `x` will take on values 0, 1, 2, 3, 4.
 
 ### > Try
 
@@ -154,7 +154,7 @@ Write your own for-loop that draws a repeating shape on one row of the canvas.
 
 ### > Try
 
-Fill the canvase pattern: Organize your shape into a user defined function and have it fill the canvas using for-loops.
+Fill the canvas with a  pattern: Organize your shape into a user defined function and have it fill the canvas using for-loops.
 
 [sketch - 4.2 for-loop drawShape1](https://editor.p5js.org/jht1493/sketches/ZRMgh5oWA)
 
@@ -211,6 +211,11 @@ arr[arr.length] = x
 multiple arrays
 xLocs[]
 yLocs[]
+
+  * [sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
+array of x, y for multiple balls
+
+>> convert to pattern with no background
 
  -->
 

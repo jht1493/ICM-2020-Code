@@ -216,9 +216,43 @@ In pseudo-code (english like code) the `if` statement reads
 
 - add DOM elements to control one of your animated sketches.
 
-## Ex 3.4 revealing the invisible
+## Ex 3.4 patterns from animation
 
-Let's explore using the slider and checkbox DOM elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
+In this re-mix of the bounding ball sketch the call to function `background` is commented out to produced a pattern of the drawings over time.
+
+[3.4 bouncing ball pattern](https://editor.p5js.org/jht1493/sketches/r4HyeG6R8)
+
+### > Try
+
+- convert an animation sketch to a pattern of drawings over time.
+
+## Ex 3.5 revealing the invisible
+
+Let's explore using elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
+
+### > bounce ball with display
+
+In the video tutorial a ball is animated bouncing across the canvas. In this re-mix, DOM elements are added to display the variables: `x` the location of the ball, and `speed`.
+
+  * [sketch - bounce ball x OR ui](https://editor.p5js.org/jht1493/sketches/h0ZJWwOzb)
+
+```
+let x = 0;
+let speed = 3;
+...
+function create_ui() {
+  createSpan().id('ix');
+  createSpan().id('ispeed');
+}
+
+function update_ui() {
+  select('#ix').html('[x='+x+'] ');
+  select('#ispeed').html('[speed='+speed+'] ');
+}
+```
+The DOM function `createSpan` creates a place to show a value. The DOM function `select` is used to update the DOM element to show the variable with some descriptive text.
+
+### > sliders and checkboxes
 
 <!-- ## Ex 3.3 playing with animation: sliders and checkbox -->
 
@@ -230,14 +264,14 @@ Let's explore using the slider and checkbox DOM elements to control and display 
 use DOM to make variables visible   -->
 
 [![](../assets/3.1_circleX_diam_ui.png)](https://editor.p5js.org/jht1493/sketches/qBt6Ty_7b)  
-[sketch - 3.4 circleX a_len ui](https://editor.p5js.org/jht1493/sketches/qBt6Ty_7b)
+[sketch - 3.5 circleX a_len ui](https://editor.p5js.org/jht1493/sketches/qBt6Ty_7b)
 
-### checkBox for boolean variable
+### > checkBox for boolean variable
 
 The DOM checkBox element is the natural way to set and display a boolean variable.
 In this example the boolean variable `a_move` is used to control the animation. If it is `true` the animation will run, otherwise there is no movement. Here are the steps to connect a variable to a checkBox DOM element.
 
-#### 1. declare the boolean variable
+#### >> 1. declare the boolean variable
 
 The variable is declared and given an initial value.
 
@@ -245,7 +279,7 @@ The variable is declared and given an initial value.
 let a_move = true;
 ```
 
-#### 2. use the boolean variable 
+#### >> 2. use the boolean variable 
 
 For example, the `if` statement to control the action.
 
@@ -255,7 +289,7 @@ For example, the `if` statement to control the action.
   }
 ```
 
-#### 3. connect the variable to the checkbox
+#### >> 3. connect the variable to the checkbox
 
 At `setup` time use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and code to run to update the variable.
 
@@ -266,11 +300,11 @@ At `setup` time use `createCheckbox` to create the checkBox, give it a label, gi
   });
 ```
 
-### slider for numeric variable
+### > slider for numeric variable
 
 The buttons, sliders, and span can be used to control and display a numeric variable. In this example the variable `a_len` determines the diameter of the circle. Here are the steps to connect the variable to a pan for display, buttons to set it to a specific value, and a slider to allow it to be set to a value in a range.
 
-#### 1. declare the variable
+#### >> 1. declare the variable
 
 The variable is declared and given an initial value.
 
@@ -278,13 +312,13 @@ The variable is declared and given an initial value.
 let a_len = 64;
 ```
 
-#### 2. use the value
+#### >> 2. use the value
 
 ```
   circle(circleX, circleY, a_len);
 ```
 
-#### 3. set the variable to a specific value
+#### >> 3. set the variable to a specific value
 
 ```
   createButton('a_len 50').mousePressed(function() {
@@ -292,7 +326,7 @@ let a_len = 64;
   });
 ```
 
-#### 4. connect the variable to a slider
+#### >> 4. connect the variable to a slider
 
 ```
   // createSlider(min, max, [value], [step])
@@ -301,7 +335,7 @@ let a_len = 64;
   });
 ```
 
-#### 5. use a span to display the variable
+#### >> 5. use a span to display the variable
 
 - use `createSpan` to create the span and give it an id. 
 
@@ -317,9 +351,9 @@ let a_len = 64;
 
 ### > Try
 
-- add DOM elements to display other variable in the previous sketch
+- add DOM elements to display variables used in your animations
 
-[sketch - 3.4 circleX ui more](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
+[sketch - 3.5 circleX ui more](https://editor.p5js.org/jht1493/sketches/uGy4cEzbs)
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
