@@ -89,9 +89,9 @@ One way to practice working with conditionals is to try to code a common interfa
 
 Let's recap, explore, and experiment with the concepts introduced in this session.
 
-## Ex 3.1 Variables circleX
+## Ex 3.1 Variable circleX
 
-Recall from the last session we used a variable `circleX` to animate a circle moving across the screen.
+Recall from the last session we used a variable `circleX` to animate a circle moving across the screen. When the circle reaches the right edge of the canvas it disappears.
 
 ```
   circle(circleX, 150, 64);
@@ -100,8 +100,7 @@ Recall from the last session we used a variable `circleX` to animate a circle mo
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
 
-The remainder arithmetic operator % is use in this sketch to do the same thing, 
-and have the animation wrap around when the circle passes the right edge of the screen.
+The remainder arithmetic operator % is use in this sketch to have the animation wrap around when the circle passes the right edge of the screen. 
 
 ```
   circleX = (circleX + 1) % width;
@@ -218,9 +217,18 @@ In pseudo-code (english like code) the `if` statement reads
 
 ## Ex 3.4 patterns from animation
 
-In this re-mix of the bounding ball sketch the call to function `background` is commented out to produced a pattern of the drawings over time.
+Let's re-mix the `bounding ball` sketch to visualize the animation as a pattern. In this re-mix the call to function `background` is commented out to produced a pattern of the drawings over time.
 
 [3.4 bouncing ball pattern](https://editor.p5js.org/jht1493/sketches/r4HyeG6R8)
+
+<!-- 
+meditate
+- time
+- state
+!!@ meditation on algorithm
+what make it visual stable?
+
+-->
 
 ### > Try
 
@@ -228,7 +236,9 @@ In this re-mix of the bounding ball sketch the call to function `background` is 
 
 ## Ex 3.5 revealing the invisible
 
-Let's explore using elements to display and change variables. We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
+We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables. When we find a range of settings or sections of code that maybe interesting and we want to quickly compare them it's can be convenient to create DOM elements to allow us to explore with a few clicks.
+
+Let's explore using DOM elements to display and change variables.
 
 ### > bounce ball with display
 
@@ -251,6 +261,10 @@ function update_ui() {
 }
 ```
 The DOM function `createSpan` creates a place to show a value. The DOM function `select` is used to update the DOM element to show the variable with some descriptive text.
+
+### > Try
+
+Adding buttons to change the speed or location.
 
 ### > sliders and checkboxes
 
@@ -302,7 +316,7 @@ At `setup` time use `createCheckbox` to create the checkBox, give it a label, gi
 
 ### > slider for numeric variable
 
-A span can be used to to display a numeric variable. A button or a slider can be used to change a variable. In this example the variable `a_len` determines the diameter of the circle. Let's connect this variable to DOM elements to display and change it. First we'll connect the variable to a span for display, then use buttons and a slider to change the variable.
+A span can be used to to display a variable. A button or a slider can be used to change a variable. In this example the variable `a_len` determines the diameter of the circle. Let's connect this variable to DOM elements to display and change it. First we'll connect the variable to a span for display, then use buttons and a slider to change the variable.
 
 #### •> 1. declare the variable
 
@@ -335,7 +349,7 @@ let a_len = 64;
   });
 ```
 
-#### •> 5. span to display the variable
+#### •> 5. display the variable
 
 - use `createSpan` to create the span and give it an id. 
 
