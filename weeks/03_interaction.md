@@ -228,7 +228,7 @@ In this re-mix of the bounding ball sketch the call to function `background` is 
 
 ## Ex 3.5 revealing the invisible
 
-Let's explore using elements to control and display variables. We can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
+Let's explore using elements to display and change variables. We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables, but as we honing in on a range of settings it's often convenient to create a few DOM elements to allow us to explore with a few clicks.
 
 ### > bounce ball with display
 
@@ -291,7 +291,7 @@ For example, the `if` statement to control the action.
 
 #### •> 3. connect the variable to the checkbox
 
-At `setup` time use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and code to run to update the variable.
+At `setup` time use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and give it code to run to update the variable.
 
 ```
   // createCheckbox([label], [value])
