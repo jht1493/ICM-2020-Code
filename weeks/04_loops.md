@@ -59,8 +59,11 @@ JHT Week 4 Worksheet
 * [book - 10 PRINT CHR$(205.5+RND(1)); : GOTO 10](https://10print.org)
 * [10PRINT Coding Challenge video](https://youtu.be/bEyTZ5ZZxZs)
   * [sketch - 10PRINT code example](https://editor.p5js.org/icm/sketches/rkHKL962)
-<!-- >> !!@ Does NOT use for loop -->
-<!-- >> convert to while-loop version -->
+<!-- 
+>> !!@ Does NOT use for loop 
+>> convert to while-loop version 
+!!@ Move to 02_animation or 03_interaction
+-->
 
 * Tutorial: [Recode Metaesquema by Hélio Oiticica](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-04/session-04-example.md)
 
@@ -216,6 +219,8 @@ yLocs[]
 array of x, y for multiple balls
 
 >> convert to pattern with no background
+
+>> array of points, draw and jiggle with randomness
 
  -->
 

@@ -7,6 +7,26 @@ JHT Week 5 Worksheet
 
 <!-- _The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0)._ -->
 
+<!-- 
+
+>> !!@ object literals use for modularity/encapsulation
+functions modularize behavior
+object literals modularize state/data
+function makeIt(it) {
+  if (typeof it === 'undefined') {
+    it = {};
+  }
+  it.action = actionFunc;
+  return it;
+  function actionFunc(it) {
+    //....
+  }
+}
+let aobj = makeIt();
+let bobj = makeIt({x: 0});
+
+ -->
+
 ## book - Getting Started with p5.js 
 * [Getting Started with p5.js book](http://amzn.to/2ckixCW) 
     * [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) 
@@ -15,11 +35,6 @@ JHT Week 5 Worksheet
     * [sketches](https://editor.p5js.org/jht1493/collections/RNo3VMponN)
 
 ## tutorials: Modularity
-
-<!-- >> !!@ object literals part of modularity
-functions modularize behavior
-object literals modularize state/data
- -->
 
 - [video 5.1: Function Basics](https://thecodingtrain.com/beginners/p5js/5.1-function-basics.html) (~13 min)
   - [sketch - Function Basics ball](https://editor.p5js.org/codingtrain/sketches/omHOuJY1) 
