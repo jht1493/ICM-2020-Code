@@ -25,6 +25,10 @@ function makeIt(it) {
 let aobj = makeIt();
 let bobj = makeIt({x: 0});
 
+>> add to week 6 & week 7
+> draw function as looping in time
+> recursion as a form of looping
+
  -->
 
 ## book - Getting Started with p5.js 

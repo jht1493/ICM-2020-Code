@@ -7,6 +7,8 @@
 > Object literal  
 > Toolbox  
 > Explore patterns with func 
+
+
 -->
 
 <!-- Repeated from objects -->
@@ -176,22 +178,53 @@ Add randomness to your pattern.
 
 ## Ex 4.3 arrays
 
-Arrays hold many value.  
-?? review expressions  
-number  
-string  
+### using values from an array
+
+Arrays are used to multiple values. These values can be numbers, strings, objects, or other arrays.
+
+An array literal which begins with an open square bracket had has any number of values separated by commas, and ends with a closing square bracket.
+```
+let a_array = [ **value0**, **value1**, **value2** ... ];
+```
+To access an element from an array using an numerical value as an index. The first element is at numerical index 0, second at 1, etc...
+```
+let value = a_array[ **index** ];
+```
 
 [sketch - 4.3 array d](https://editor.p5js.org/jht1493/sketches/PkHBdgZak)
 
-[sketch - 4.3 array color](https://editor.p5js.org/jht1493/sketches/MN_30o-l-)
+Example: Array holding numbers use for the size of a line of circles.
+Each click gets the next size.
+
+[sketch - 4.3 array colors](https://editor.p5js.org/jht1493/sketches/MN_30o-l-)
+
+Example: Array used to hold color name strings. Each click uses the next color from the array.
+
+[sketch - 4.3 array colors alpha](https://editor.p5js.org/jht1493/sketches/a81qFOT7_)
+
+Example: Array used to hold color array of red, green, blue, alpha. Each click uses the next color from the array.
 
 [sketch - 4.3 array for-loop](https://editor.p5js.org/jht1493/sketches/Gom4JIsDb)
 
+Example: Six circles of different sizes using an array and a for-loop.
+
 [sketch - 4.3 array for-loop 2](https://editor.p5js.org/jht1493/sketches/tNqn2o0M3)
+
+Example: Drawing a circles of different sizes and colors using arrays and for-loop. 
+
+### > Try
+
+Modifing any of the sketches to fill the canvas.
 
 [sketch - 4.3 array for-loop 3](https://editor.p5js.org/jht1493/sketches/NZSWjB70Y)
 
+Circles repeated to fill the canvas.
+
 [sketch - 4.3 array for-loop 4](https://editor.p5js.org/jht1493/sketches/d1C72NC0Q)
+
+Circles repeated to fill the canvas variation.
+
+### adding values to an array
 
 
 <!-- 
@@ -212,6 +245,8 @@ arr.push(x)
 arr[arr.length] = x
 
 multiple arrays
+a_d
+a_colors
 xLocs[]
 yLocs[]
 
