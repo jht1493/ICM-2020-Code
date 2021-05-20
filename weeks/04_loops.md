@@ -180,13 +180,13 @@ Add randomness to your pattern.
 
 ### using values from an array
 
-Arrays are used to multiple values. These values can be numbers, strings, objects, or other arrays.
+Arrays are used to multiple values. These values can be numbers, strings, or objects, or other arrays.
 
 An array literal which begins with an open square bracket had has any number of values separated by commas, and ends with a closing square bracket.
 ```
 let a_array = [ **value0**, **value1**, **value2** ... ];
 ```
-To access an element from an array using an numerical value as an index. The first element is at numerical index 0, second at 1, etc...
+To access an element from an array use an numerical value as an index. The first element is at numerical index 0, second at 1, etc...
 ```
 let value = a_array[ **index** ];
 ```
@@ -214,7 +214,7 @@ Example: Drawing a circles of different sizes and colors using arrays and for-lo
 
 ### > Try
 
-Modifing any of the sketches to fill the canvas.
+Re-mix or create a sketch that makes use of an array to produce a pattern that fills the canvas. 
 
 [sketch - 4.3 array for-loop 3](https://editor.p5js.org/jht1493/sketches/NZSWjB70Y)
 
@@ -225,6 +225,25 @@ Circles repeated to fill the canvas.
 Circles repeated to fill the canvas variation.
 
 ### adding values to an array
+
+[sketch - 4.3 array add](https://editor.p5js.org/jht1493/sketches/wl7Kc2bCW)
+
+```
+let a_d = [];
+// Fill the array with random values
+for (let i = 0; i < 10; i++) {
+  a_d.push(random([10, 40]));
+}
+```
+
+
+[sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
+
+Re-mix using array for multiple balls
+
+[sketch - 4.3 array bouncing balls](https://editor.p5js.org/jht1493/sketches/ss-mUo0A2)
+
+### removing values from an array
 
 
 <!-- 
