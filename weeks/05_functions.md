@@ -5,25 +5,25 @@ https://docs.google.com/document/d/1-3Ti4n0kBs7TeI5E9ZDPDwqP7IZqMn2ckHZxaS9ihYg/
 JHT Week 5 Worksheet
  -->
 
-<!-- _The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0)._ -->
+<!-- 
+_The videos in this section were created ~2 years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. Most notably in JavaScript `let` is now the preferred way to declare a variable over `var`. If you would like to learn more about this you can [watch this video about let vs var](https://youtu.be/q8SHaDQdul0)._ 
+-->
 
 <!-- 
-
 >> !!@ object literals use for modularity/encapsulation
 functions modularize behavior
 object literals modularize state/data
-function makeIt(it) {
-  if (typeof it === 'undefined') {
-    it = {};
-  }
-  it.action = actionFunc;
-  return it;
-  function actionFunc(it) {
+function MakeEntity(it) {
+  it.action = function (it) {
     //....
-  }
+  };
+  return it;
 }
-let aobj = makeIt();
-let bobj = makeIt({x: 0});
+let ent1 = MakeEntity({});
+ent1.action(ent1);
+let ent2 = MakeEntity({x: 0});
+OR: 
+action(ent1)
 
 >> add to week 6 & week 7
 > draw function as looping in time
@@ -71,16 +71,17 @@ array remove
 <!-- ## Getting Started with p5.js book
 - Chapter 9 of [Getting Started with p5.js book](http://amzn.to/2ckixCW) | [Ebook (free with NYU Library login)](https://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4333728) | [Code](https://github.com/lmccart/gswp5.js-code) -->
 
-# Object Literals
+## tutorials: Object Literals
 
-- [Video](https://www.youtube.com/watch?v=-e5h4IGKZRY) | [Code](https://editor.p5js.org/codingtrain/sketches/6J5VPMbW)
+- [Video Object Literals](https://www.youtube.com/watch?v=-e5h4IGKZRY) 
+  - [sketch - JavaScript Objects](https://editor.p5js.org/codingtrain/sketches/6J5VPMbW)
 
 ## Going Further
 
 - [Coding Challenge video: Recursion](https://youtu.be/jPsZwrV9ld0)
-  - [recursion code example](https://editor.p5js.org/icm/sketches/Hyevi8ct6)
+  - [sketch - recursion code example](https://editor.p5js.org/icm/sketches/Hyevi8ct6)
 - [Coding Challenge video: Fractal Tree](https://youtu.be/0jjeOYMjmDU) - note this video uses the p5.dom function `createSlider()` which we have yet to cover in class!
-  - [fractal tree code example](https://editor.p5js.org/icm/sketches/rkZAJ6PtX)
+  - [sketch - fractal tree code example](https://editor.p5js.org/icm/sketches/rkZAJ6PtX)
   - Tutorial: [Recode Morisawa series by John Maeda](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-05/session-05-example.md)
 
 -------------------------------------------------------------------------------
@@ -88,6 +89,13 @@ array remove
 
 <!-- >> object literals -- passing an returning -->
 <!-- >> arrays with object literals -->
+
+<!-- 
+>> array of createGraphics layers.
+https://p5js.org/reference/#/p5/createGraphics
+createGraphics(w, h, [renderer])
+p5.Graphics: offscreen graphics buffer
+ -->
 
 <!-- >> slider ui + read out ui -->
 <!-- >> text input ui -->

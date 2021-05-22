@@ -159,7 +159,7 @@ Write your own for-loop that draws a repeating shape on one row of the canvas.
 
 ### > Try
 
-Fill the canvas with a  pattern: Organize your shape into a user defined function and have it fill the canvas using for-loops.
+Fill the canvas with a  pattern. Organize your shape into a user defined function and have it fill the canvas using for-loops.
 
 [sketch - 4.2 for-loop drawShape1](https://editor.p5js.org/jht1493/sketches/ZRMgh5oWA)
 
@@ -178,17 +178,29 @@ Add randomness to your pattern.
 
 ## Ex 4.3 arrays
 
-### using values from an array
+### > array basics
 
-Arrays are used to multiple values. These values can be numbers, strings, or objects, or other arrays.
+Arrays are used to store multiple elements. These elements can be numbers, strings, or objects, or other arrays. You can visualize an array as a building with multiple floors, each floor (element) holds a distinct value. The number of the floor is called it's index, with zero been the first floor. A variable can hold a single value, or refer to an array to hold many values.
 
-An array literal which begins with an open square bracket had has any number of values separated by commas, and ends with a closing square bracket.
+One way to represent an array is an array literal. An array literal begins with an open square bracket had has any number of elements, separated by commas, and ends with a closing square bracket.
 ```
-let a_array = [ **value0**, **value1**, **value2** ... ];
+// Syntax: assign an array to variable
+let array_ref = [ **element0**, **element1**, **element2** ... ];
+
+// Examples:
+let a1 = [10,'blue']; // Array with 2 elements
+let a1 = ['red']; // Array with 1 element
+let a2 = []; // Array with zero elements
 ```
-To access an element from an array use an numerical value as an index. The first element is at numerical index 0, second at 1, etc...
+To access an element in an array use an index enclosed in square brackets. The first element is at numerical index 0, second at 1, etc... The number of elements held by the array is available with the array length property. The index of the last element in an array is its length minus 1 (since first index of the array is zero).
 ```
-let value = a_array[ **index** ];
+// Syntax: extract an element from an array
+let value = array_ref[ **index** ];
+
+// Examples:
+let first = array_ref[0]; // Get the first element
+let second = arra_ref[1]; // Get the second element
+let last = array_ref[array_ref.length-1]; // Get the last element
 ```
 
 [sketch - 4.3 array d](https://editor.p5js.org/jht1493/sketches/PkHBdgZak)
@@ -214,70 +226,113 @@ Example: Drawing a circles of different sizes and colors using arrays and for-lo
 
 ### > Try
 
-Re-mix or create a sketch that makes use of an array to produce a pattern that fills the canvas. 
+Re-mix or a sketch or create a new sketch that makes use of an array to produce a pattern that fills the canvas. 
 
 [sketch - 4.3 array for-loop 3](https://editor.p5js.org/jht1493/sketches/NZSWjB70Y)
 
-Circles repeated to fill the canvas.
+Example: Circles repeated to fill the canvas.
 
 [sketch - 4.3 array for-loop 4](https://editor.p5js.org/jht1493/sketches/d1C72NC0Q)
 
-Circles repeated to fill the canvas variation.
+Example: Circles repeated to fill the canvas, variation.
 
-### adding values to an array
+### > adding elements to an array
+
+The array push function is used to add an element to the end of the array.
+
+```
+// Syntax: add in an element to an array
+array_ref.push( **new_element** );
+
+// Examples:
+let a1 = [];
+a1.push(10);
+a1.push('green');
+// a1 is now [10, 'green']
+```
 
 [sketch - 4.3 array add](https://editor.p5js.org/jht1493/sketches/wl7Kc2bCW)
 
+Example: an array filled with random values 10 or 40 and used to draw a pattern of circles.
+
 ```
 let a_d = [];
-// Fill the array with random values
+// Fill the array with random numbers 10 or 40
 for (let i = 0; i < 10; i++) {
   a_d.push(random([10, 40]));
 }
 ```
 
+### > Try
+
+Array can be used to create multiple versions of a shape. Create your own or re-mix using these examples.
 
 [sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
 
-Re-mix using array for multiple balls
+Re-mix bouncing ball example from previous session to use arrays to create multiple bouncing balls.
 
 [sketch - 4.3 array bouncing balls](https://editor.p5js.org/jht1493/sketches/ss-mUo0A2)
 
-### removing values from an array
+[sketch - 4.3 array bouncing balls 2](https://editor.p5js.org/jht1493/sketches/CYdufPe8D)
 
+[sketch - 4.3 array bouncing balls 3](https://editor.p5js.org/jht1493/sketches/gVFoxRUsw)
 
 <!-- 
 
-stepping thru an array on click
-array of colors
-
-index 0 ... length-1
-index values
-
-pull values from an array
-array[index]
-
-arr.length
-
-adding to an array
-arr.push(x)
-arr[arr.length] = x
-
-multiple arrays
-a_d
-a_colors
-xLocs[]
-yLocs[]
-
-  * [sketch - bouncing ball xy](https://editor.p5js.org/icm/sketches/BJKWv5Tn)
-array of x, y for multiple balls
-
->> convert to pattern with no background
-
 >> array of points, draw and jiggle with randomness
+ -->
+
+### > removing values from an array
+
+The array splice function is used to add an element to the end of the array.
+
+```
+// Syntax: to remove elements from an array
+array_ref.splice( **start_index**, **delete_count** );
+
+// Examples:
+let a1 = [10, 'green'];
+a1.splice(1,1); // Remove the second element
+// a1 is now [10]
+```
+
+### > Try
+
+Add a button to remove a ball from a `bouncing balls` example.
+
+[sketch - 4.3 array bouncing balls remove](https://editor.p5js.org/jht1493/sketches/7l92OzPjl)
+
+<!-- 
+>> splice(start, deleteCount)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+splice(start)
+splice(start, deleteCount)
+splice(start, deleteCount, item1)
+splice(start, deleteCount, item1, item2, itemN)
 
  -->
 
+
+<!-- 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+array 
+
+// Functionless
+sort()
+
+// Arrow function
+sort((firstEl, secondEl) => { ... } )
+
+// Compare function
+sort(compareFn)
+
+// Inline compare function
+sort(function compareFn(firstEl, secondEl) { ... })
+
+ -->
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
