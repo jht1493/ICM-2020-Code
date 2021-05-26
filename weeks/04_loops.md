@@ -316,21 +316,16 @@ splice(start, deleteCount, item1, item2, itemN)
 
 
 <!-- 
+
+p5js array shuffle
+
+https://initjs.org/all-permutations-of-a-set-f1be174c79f8
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
-array 
 
-// Functionless
 sort()
-
-// Arrow function
-sort((firstEl, secondEl) => { ... } )
-
-// Compare function
-sort(compareFn)
-
-// Inline compare function
-sort(function compareFn(firstEl, secondEl) { ... })
+sort(function (firstEl, secondEl) { ... })
 
  -->
 
