@@ -148,7 +148,7 @@ function mouseDragged() {
 
 [sketch - 2.1.2 mouseX,mouseY arith](https://editor.p5js.org/jht1493/sketches/pmA0d9Uqt) Two circles are drawn when the mouse moves in this sketch.
 
-We can draw multiple shapes based on the mouse location using the some basic arithmatic. 
+We can draw multiple shapes based on the mouse location using some basic arithmetic. 
 
 ```
 function mouseDragged() {
