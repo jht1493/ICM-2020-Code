@@ -13,6 +13,10 @@ _The videos in this section were created ~2 years ago. They use different editor
 >> !!@ object literals use for modularity/encapsulation
 functions modularize behavior
 object literals modularize state/data
+
+>> recursion as loop
+
+
 function MakeEntity(it) {
   it.action = function (it) {
     //....
@@ -87,26 +91,41 @@ array remove
 -------------------------------------------------------------------------------
 # 5. Recap, Explore and Experiment - Functions
 
-<!-- >> object literals -- passing an returning -->
-<!-- >> arrays with object literals -->
+## Ex 5.1 ball bounce xy
 
 <!-- 
+
+https://editor.p5js.org/codingtrain/sketches/omHOuJY1
+- [sketch - Function Basics ball]
+
+>> drawing with array of points
+
+>> do more with return.
+
+>> return random color, loc, obj literal 
+
+>> object literals -- passing an returning
+
+>> arrays with object literals
+
 >> array of createGraphics layers.
 https://p5js.org/reference/#/p5/createGraphics
 createGraphics(w, h, [renderer])
 p5.Graphics: offscreen graphics buffer
- -->
 
-<!-- >> slider ui + read out ui -->
-<!-- >> text input ui -->
+>> pseudo code
 
->> [] !!@ TODO
+>> playing computer
+
+>> slider ui + read out ui
+
+>> text input ui
+
+-->
+
 
 -------------------------------------------------------------------------------
 ## Getting Started with p5.js book sketches
-
-<!-- >> need to do more with return.
->> return random color, loc, obj literal -->
 
 Sketches from the [Getting Started book](http://amzn.to/2ckixCW)   
 You are invited to remix and combine them to further explore.
