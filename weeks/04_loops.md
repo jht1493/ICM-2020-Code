@@ -284,7 +284,7 @@ Re-mix bouncing ball example from previous session to use arrays to create multi
 
 ### > removing values from an array
 
-The array splice function is used to add an element to the end of the array.
+Use the array `splice` function to remove elements from an array.
 
 ```
 // Syntax: to remove elements from an array
