@@ -2,6 +2,8 @@
 <!-- Objects and Array -> ES6 OOP Classes -->
 <!-- Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know! -->
 
+[![](../assets/Ex_11_09-Managing-A.png)](https://editor.p5js.org/jht1493/sketches/XDfmnW1JD)
+
 ## Object-Oriented Programming with Classes in JavaScript
 
 * [video -  6.1 Intro to ES6 OOP](https://thecodingtrain.com/beginners/p5js/6.1-opp-intro.html) (~2 min)  
@@ -33,7 +35,7 @@
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 
 * [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
-  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren) -->
+  - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren)
   <!-- !!@ Update to use let -->
 
 * [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)  
@@ -94,6 +96,8 @@
 * [video - Snowfall](https://youtu.be/cl-mHFCGzYk)
   - [sketch - Snowfall](https://editor.p5js.org/icm/sketches/HkICgMSqQ)
 
+[![](../assets/Ex_11_09-Managing-B.png)](https://editor.p5js.org/jht1493/sketches/XDfmnW1JD)
+
 -------------------------------------------------------------------------------
 # 6. Recap, Explore and Experiment - Objects and Arrays
 
@@ -124,4 +128,8 @@ You are invited to remix and combine them to further explore.
 [Ex_11_09 Managing Many Objects](https://editor.p5js.org/jht1493/sketches/XDfmnW1JD)  
 [Ex_11_10 Sequences of Images](https://editor.p5js.org/jht1493/sketches/-XbD5Gw0a)  
 [Ex_11_99 Robot Array](https://editor.p5js.org/jht1493/sketches/dO-IXUHhr)
+
+[![](../assets/Ex_11_10-Sequences-A.png)](https://editor.p5js.org/jht1493/sketches/-XbD5Gw0a) [![](../assets/Ex_11_10-Sequences-B.png)](https://editor.p5js.org/jht1493/sketches/-XbD5Gw0a)
+
+[![](../assets/Ex_11_09-Managing-Many-remix.png)](https://editor.p5js.org/jht1493/sketches/HSp7qS5n4)
 
