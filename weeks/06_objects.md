@@ -11,7 +11,10 @@
 * [video - 6.2 Writing a Class](https://thecodingtrain.com/beginners/p5js/6.2-classes.html) (~20 min)  
   - [sketch - two bubbles same size](https://editor.p5js.org/codingtrain/sketches/qi7N4LWq)
 
-* [video - 6.3 Constructor Arguments](https://thecodingtrain.com/beginners/p5js/6.3-constructor-arguments.html) (~8 min)  
+<!-- -->
+
+* [video - 6.3 Constructor Arguments](https://thecodingtrain.com/beginners/p5js/6.3-constructor-arguments.html) (~8 min)
+
   - [sketch - two bubbles different size](https://editor.p5js.org/codingtrain/sketches/HZG-lnyR)
   - [sketch - Two Gravity Ball Objects](https://editor.p5js.org/icm4.0/sketches/vshTFC6kU)  
 
@@ -31,11 +34,16 @@
 ## Arrays
 
 <!-- !!@ arrays introduced with loops -->
-* [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)  
+* [video - 7.1 What is an array?](https://thecodingtrain.com/beginners/p5js/7.1-what-is-an-array.html) (~14 min)
+
     - [sketch - click for next word](https://editor.p5js.org/codingtrain/sketches/DmwVbhOZ)
 
+<!-- -->
+
 * [video - 7.2 Arrays and loops](https://thecodingtrain.com/beginners/p5js/7.2-arrays-loops.html) (~9 min)  
+
   - [sketch - circles from array](https://editor.p5js.org/codingtrain/sketches/ZnPevren)
+
   <!-- !!@ Update to use let -->
 
 * [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)  
