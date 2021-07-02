@@ -103,13 +103,16 @@
 * Tutorial. [The pixel array: Pushin Pusheen Pixels](https://github.com/itpresidents/icm-help-sessions-2020/blob/master/session-06/session-06-example.md)
 
 #### tutorials: Particle Systems
+
 * [video - Particle System](https://thecodingtrain.com/CodingChallenges/078-simple-particle-system.html) (~14 min)
+
   - [sketch - Particle System](https://editor.p5js.org/codingtrain/sketches/D4ty3DgZB)
 <!-- 
 https://youtu.be/UcdigVaIYAk
 https://editor.p5js.org/icm/sketches/B1d5xfS5X
 -->
 * [video - Snowfall](https://thecodingtrain.com/CodingChallenges/088-snowfall.html)
+
   - [sketch - Snowfall](https://editor.p5js.org/codingtrain/sketches/UMUPBVuH5) (~53 min)
 <!-- !!@ fails 
 https://editor.p5js.org/icm/sketches/HkICgMSqQ
