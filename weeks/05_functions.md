@@ -117,7 +117,7 @@ As we go from simple sketches to more complex ones functions and object literals
 
 Study the code and note the differences.
 
-### >> bouncing ball code
+### > bouncing ball code
 ```
 let x = 160;
 let y = 90;
@@ -143,7 +143,7 @@ function draw() {
 }
 ```
 
-### >> bouncing ball function code
+### > bouncing ball function code
 ```
 let ball = {
   x: 160,
