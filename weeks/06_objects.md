@@ -56,16 +56,20 @@
 
   <!-- !!@ Update to use let -->
 
-* [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)  
+* [video - 7.3 Arrays of objects](https://thecodingtrain.com/beginners/p5js/7.3-array-of-objects.html) (~15 min)
+
   - [sketch - drag mouse for bubbles](https://editor.p5js.org/codingtrain/sketches/1y_xfueO)
   - [sketch - A Snake Following the Mouse](https://editor.p5js.org/icm/sketches/BkBsybb5X)
   
-- [Extra video tutorial: for...of loop](https://youtu.be/Y8sMnRQYr3c?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) (~4 min)
+* [Extra video tutorial: for...of loop](https://youtu.be/Y8sMnRQYr3c?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA) (~4 min)
+
   - [sketch - Array for-of bubbles](https://editor.p5js.org/jht1493/sketches/utpzYq_O8)
+
 
 ## tutorials: Arrays of Objects
 
-* [video - 7.4 Mouse interaction with objects](https://thecodingtrain.com/beginners/p5js/7.4-mouse-interaction.html) (~15 min)    
+* [video - 7.4 Mouse interaction with objects](https://thecodingtrain.com/beginners/p5js/7.4-mouse-interaction.html) (~15 min)
+
   - [sketch - bubbles click to turn gray](https://editor.p5js.org/codingtrain/sketches/lE4ypFpI)
 
 * [video - 7.5 Removing objects from arrays](https://thecodingtrain.com/beginners/p5js/7.5-removing-objects-from-array.html) (~19 min)
