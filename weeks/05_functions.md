@@ -175,9 +175,13 @@ function draw_ball() {
 }
 ```
 
-### > Object Literals
+### > Object Literals and naming
 
 The object literal begins at the top of the sketch with the code `let ball = { ...`. All the variables related to the ball are grouped inside the object literal which begins with the curly bracket. The variables inside the object literal are later refered to using the dot syntax: `ball.x`. eg. `ellipse(ball.x, ...`
+
+It's a good practice to use object literal for related global variables to avoid naming conflicts with p5js. For example a global variable named `scale` or `image` can unintentional conflict with the p5js global of the same name.
+
+Also recommended is to use underscore in your global function names, eg. `draw_ball`, to avoid p5js naming conflict.
 
 ### > Try
 
