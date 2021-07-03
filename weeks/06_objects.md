@@ -162,15 +162,15 @@ The JitterBug example re-mixed to use a button to add JitterBugs to canvas.
 
 - modify to drag to create bugs
 
-[Ex 6.2 JitterBug drag](https://editor.p5js.org/jht1493/sketches/AKpx2vF1U)
+[sketch - Ex 6.2 JitterBug drag](https://editor.p5js.org/jht1493/sketches/AKpx2vF1U)
 
 - limit the number of bugs created
 
-[Ex 6.2 JitterBug limit](https://editor.p5js.org/jht1493/sketches/fcsUMY4C6)
+[sketch - Ex 6.2 JitterBug limit](https://editor.p5js.org/jht1493/sketches/fcsUMY4C6)
 
 - reduce the randomness and draw lines between the bugs
 
-[Ex 6.2 JitterBug line](https://editor.p5js.org/jht1493/sketches/wYka9ilXw)
+[sketch - Ex 6.2 JitterBug line](https://editor.p5js.org/jht1493/sketches/wYka9ilXw)
 
 - modify to draw individual figures
 - add button to save figure as JSON
