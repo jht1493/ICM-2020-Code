@@ -1,10 +1,14 @@
 # The DOM: HTML and CSS
+<!-- 
+https://thecodingtrain.com/Tutorials/
+https://thecodingtrain.com/Tutorials/8-html-css-dom/8.1-what-is-html.html
+-->
 
 <!-- The videos in this section were created two years ago. They use a different editor for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan Shiffman know! -->
 
 ## Video Tutorials
 * [Code for videos below](https://github.com/CodingTrain/website/tree/master/Tutorials/P5JS/p5.js/08)
-* [Full Series on HTML / CSS / DOM](https://youtu.be/URSH0QpxKo8?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX)
+* [Full Series on HTML / CSS / DOM](https://thecodingtrain.com/Tutorials/8-html-css-dom) <!-- https://youtu.be/URSH0QpxKo8?list=PLRqwX-V7Uu6bI1SlcCRfLH79HZrFAtBvX -->
    * Basics
       * 8.1: What is HTML?
       * 8.2: Creating HTML Elements with JavaScript
