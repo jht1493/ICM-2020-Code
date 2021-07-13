@@ -163,7 +163,7 @@ function mouseDragged() {
 
 ### > Try
 
-- as one shape is drawn, an other shape is drawn to mirror it
+- as one shape is drawn, another shape is drawn to mirror it
 
 [sketch - 2.1.2 mouseX mirror](https://editor.p5js.org/jht1493/sketches/C2bgbELqa)
 
@@ -178,9 +178,9 @@ function mouseDragged() {
 
 [sketch - make your own variable](https://editor.p5js.org/codingtrain/sketches/xPXNdPy17)  
 
-In this sketch the variable circleX is used to control the location of the circle. The circle will move to the right indefinately. We'll use the math operator remainder to have the circle jump back to the left after it has passed the right edge of the canvas.
+In this sketch the variable circleX is used to control the location of the circle. The circle will move to the right indefinitely. We'll use the math operator remainder to have the circle jump back to the left after it has passed the right edge of the canvas.
 
-The remainder operator will give the remainder when a number is divided by another.
+The remainder operator will give the remainder when a number (x) is divided by another (n).
 The net effect is that one value can be use to limit another value.
 Some examples:
 ```
@@ -229,7 +229,7 @@ x % n // result is always between 0 and n-1
 
 ## Ex 2.3 Incrementing for animation
 
-These examples uses this coding pattern to create animation: A variable, circleX, is updated by increment its value. There is an illusion of motion as the shape is drawn one pixel to the right each time the `function draw` is called.
+These examples use this coding pattern to create animation: A variable, circleX, is updated by incrementing its value. There is an illusion of motion as the shape is drawn one pixel to the right each time the function 'draw' is called.
 
 ```
   circleX = (circleX + 1) % width;
@@ -241,7 +241,7 @@ We could increase the apparent speed of this animation by adding a value greater
   circleX = (circleX + 2) % width;
 ```
 
-By increment by 2 the shape will move faster.
+By increasing the value of the increment, the speed of the shape across the canvas increases.
 
 ### > Try
 
@@ -312,7 +312,7 @@ The `draw` function is not used. All drawing is done in the `setup` function so 
 The canvas should look like this:  
 ![](../assets/2.5-setup-pattern.png)
 
-and you should see theses console messages. If you don't see all of these lines, pull the top edge of the console panel up to make it bigger.
+and you should see the console messages. If you don't see all of these lines, pull the top edge of the console panel up to make it bigger.
 ```
 row 1 
 draw_shape1 x=0 y=0 
