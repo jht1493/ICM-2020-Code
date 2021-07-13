@@ -1,6 +1,10 @@
 # Scale: Objects and Arrays
 <!-- Objects and Array -> ES6 OOP Classes -->
 <!-- Some of the videos in this section were created last year and some two years ago. They use different editors for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan know! -->
+<!-- 
+https://docs.google.com/document/d/1nFkUN74ZtC1eIMCu9fBEa08hH89xgzm7eHvZLONZuN8/edit
+Worksheet 006
+-->
 
 [![](../assets/Ex_11_09-Managing-A.png)](https://editor.p5js.org/jht1493/sketches/XDfmnW1JD)
 

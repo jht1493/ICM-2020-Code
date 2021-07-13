@@ -3,6 +3,10 @@
 https://thecodingtrain.com/Tutorials/
 https://thecodingtrain.com/Tutorials/8-html-css-dom/8.1-what-is-html.html
 -->
+<!--
+https://docs.google.com/document/d/1uIiKt8huW3PJFnVQ7EtWX3hVmMibDatRDXdyYuivJxc/edit#heading=h.gjdgxs
+JHT Week 7 Worksheet
+-->
 
 <!-- The videos in this section were created two years ago. They use a different editor for p5.js. All of the concepts should still apply, however, there are some minor changes. If you notice something way off, please let Dan Shiffman know! -->
 
