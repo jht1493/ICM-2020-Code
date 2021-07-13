@@ -129,8 +129,8 @@ Let's take a closer look at the `if` statement. It has two main parts, the **tes
     **statements**
   }
 ```
-The **statements** is any number of statements that will be executed it the **test** is `true`.
-Let's take a deeper look at what **test** are possible.
+The **statements** is any number of statements that will be executed if the **test** is `true`.
+Let's take a deeper look at what **tests** are possible.
 The syntax of the comparision is `a > b` where `a` can be any expression,
 and `b` another expression. The expression is true if the value of `a` is greater than `b`. We can also test for `a` less than `b` with `a < b`.
 
@@ -157,7 +157,7 @@ We can use what we have seen with basic arithmetic to get some variations. In th
 
 ## Ex 3.2 Bouncing animation
 
-To have the circle animate in a horizontally back and forth on the canvas we introduce a variable, `circleXspeed`, that controls the direction of the animation.
+To have the circle animate horizontally back and forth on the canvas we introduce a variable, `circleXspeed`, that controls the direction of the animation.
 
 [sketch - 3.2 variable circleXspeed](https://editor.p5js.org/jht1493/sketches/TAV5p1sMW)
 
@@ -173,7 +173,7 @@ let circleXspeed = 1;
   }
 ```
 
-When `circleXspeed` is 1, or any value greater than zero, the circle will move the right. When `circleXspeed` is -1, the circle will move to the left. It's helpfull to visualize the X-axis as a number line:  
+When `circleXspeed` is 1, or any value greater than zero, the circle will move to the right. When `circleXspeed` is -1, the circle will move to the left. It's helpful to visualize the X-axis as a number line:  
 
 |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -181,13 +181,13 @@ When `circleXspeed` is 1, or any value greater than zero, the circle will move t
 <!-- |   |   |   |   |   |   |   | ^circleX  |   |   |   |   |   |   |   | -->
 
 Adding positive values to variable `circleX` will move to the right,
-adding negative values will move the to left.
+adding negative values will move to the left.
 
  <!-- ... | -2 | -1 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | .... -->
 
 ### > Try
 
-- add two buttons to adjust the speed of animation
+- add two buttons to adjust the speed of the animation
 
 [sketch - 3.2 variable circleXspeed buttons](https://editor.p5js.org/jht1493/sketches/SvxAd4V3z)
 
@@ -202,7 +202,7 @@ adding negative values will move the to left.
 ```
 In pseudo-code (english like code) the `if` statement reads
 > if the variable `circleX` is greater than the width of the canvas  
- OR less than the left edge of the canvas, do this:
+ OR less than the value of the left edge of the canvas, do this:
 > > change the sign of variable `circleXspeed` from positive to negative, or negative to positive
 
 [sketch - 3.2 variable circleXspeed OR](https://editor.p5js.org/jht1493/sketches/PLfo2BKRm)
@@ -238,7 +238,7 @@ what make it visual stable?
 
 ## Ex 3.5 revealing the invisible
 
-We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables. When we find a range of settings or sections of code that maybe interesting and we want to quickly compare them it's can be convenient to create DOM elements to allow us to explore with a few clicks.
+We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables. When we find a range of settings or sections of code that maybe interesting and we want to quickly compare them it can be convenient to create DOM elements to allow us to explore with a few clicks.
 
 Let's explore using DOM elements to display and change variables.
 
@@ -284,7 +284,7 @@ use DOM to make variables visible   -->
 
 ### > checkBox for boolean variable
 
-The DOM checkBox element is the natural way to set and display a boolean variable.
+The DOM checkBox element is a simple way to set and display a boolean variable.
 In this example the boolean variable `a_move` is used to control the animation. If it is `true` the animation will run, otherwise there is no movement. Here are the steps to connect a variable to a checkBox DOM element.
 
 #### -> 1. declare the boolean variable
