@@ -160,23 +160,23 @@ Also we haved used functions defined by the p5js library,
 like `ellipse` and `rect`, to draw shapes on the canvas.
 
 In these exercises we'll explore 
+- "states" that stick around (fill and stroke)
 - how to create buttons to run code   
-- how to use the print function to debug your code   
+- how to use console.log to debug your code   
 - the behavior of alpha value for colors   
 - how to define your own functions   
 
-For these sketches no drawing is done in the function `draw`. Drawing will be trigger by clicking on buttons.
+For these sketches no drawing is done in the function `draw`. Drawing will be triggered by clicking on buttons.
 When nothing is drawn the canvas will start out white.
 
 ## Ex 1.1 play sketch draw_rect
 
 [sketch - draw_rect](https://editor.p5js.org/jht1493/sketches/WJFtFBmnK) Open this sketch in a separate window so that you can play it and read this page at the same time.
 
-- if your screen too small to allow viewing sketch and this page at the same time, 
-use a print out this page as you explore the sketch.
+- if your screen is too small to allow viewing the sketch and this page at the same time, print out this page as you explore the sketch.
 - buttons will appear below canvas
 
-This sketch defines buttons to draw on the screen. 
+This sketch defines buttons that can be used to draw on the screen. 
 Here's the code that defines one of the buttons and its action:
 
 ```
@@ -195,7 +195,7 @@ For now we'll use buttons to explore p5js drawing behavior.
 - did you notice that sometimes the left rect can be white or gray? 
     - if the answer is not clear bring as question to class
 
-- what are possible ways to represent color for function `file`
+- what are possible ways to represent color for the function `fill`
   - check out the reference for [`fill`](https://p5js.org/reference/#/p5/fill)
 
 ### > Try
@@ -224,7 +224,7 @@ Code that uses the function `console.log` to help debug:
   - `fill(100)`
   - `fill(100,20)`
 
-In p5js a color can be represent in a number of ways.
+In p5js a color can be represented in a number of ways.
 Here are a few:
 
 - color name, eg: 'white', 'black', 'red', 'green', 'yellow', 'blue'
