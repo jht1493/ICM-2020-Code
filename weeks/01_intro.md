@@ -17,7 +17,7 @@ Homework Form (Responses) - ICM CODE JHT
   * What is programming?
   * How can I apply programming to _____________?
   * As a ____________, why would I want or need to write software?
-  * [Example projects for Inspiration](../Inspiration)
+  * [Example projects for Inspiration](../Inspiration.md)
   * Can programming be an expressive medium?
   * Why are we introducing programming through drawing?
 
@@ -137,12 +137,12 @@ Homework Form (Responses) - ICM CODE JHT
   - state
 
 ## Strategies
-- buy hard-copy of books. hilight, write margin notes, add book marks. make it yours.
+- buy hard-copy of books. highlight, write margin notes, add bookmarks. make it yours.
 - draw pictures of what you've learned
 - re-mix and experiment with sketches
 - create your own summary sheet of p5js terms as you use them
 - if you get stuck, document the issues
-  - duplicated your sketch, add issues as comments
+  - duplicate your sketch, add issues as comments
   - bring your sketch to class and ask for help
 
 -------------------------------------------------------------------------------
