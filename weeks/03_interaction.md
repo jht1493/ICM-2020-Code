@@ -69,7 +69,7 @@ JHT Week 3 Worksheet
 <!-- https://www.youtube.com/watch?v=Rk-_syQluvc&list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA&index=13 -->
 
 ## GUI Interfaces
-One way to practice working with conditionals is to try to code a common interface elements in the canvas: e.g. rollover, button, slider, etc. 
+One way to practice working with conditionals is to try to code common interface elements in the canvas: e.g. rollover, button, slider, etc. 
 <!-- In [week 6](https://github.com/ITPNYU/ICM-2018/blob/master/weeks/06_dom.md) we'll compare this technique to using elements the browser provides for free. -->
 - [sketch - circle rollover](https://editor.p5js.org/icm/sketches/H1kCSqah)
 - [sketch - square rollover](https://editor.p5js.org/icm/sketches/rkLfL56h)
@@ -151,7 +151,7 @@ We can use what we have seen with basic arithmetic to get some variations. In th
 
 ### > Try
 
-- have the circles remain entirely with inside the canvas.
+- have the circles remain entirely within the canvas.
 
 [sketch - 3.1.3 variable circle1X tight](https://editor.p5js.org/jht1493/sketches/b-pzyyNSU)
 
@@ -219,7 +219,7 @@ In pseudo-code (english like code) the `if` statement reads
 
 ## Ex 3.4 patterns from animation
 
-Let's re-mix the `bounding ball` sketch to visualize the animation as a pattern. In this re-mix the call to function `background` is commented out to produced a pattern of the drawings over time.
+Let's re-mix the `bouncing ball` sketch to visualize the animation as a pattern. In this re-mix the call to function `background` is commented out to produced a pattern of the drawings over time.
 
 [3.4 bouncing ball pattern](https://editor.p5js.org/jht1493/sketches/r4HyeG6R8)
 
@@ -238,13 +238,13 @@ what make it visual stable?
 
 ## Ex 3.5 revealing the invisible
 
-We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables. When we find a range of settings or sections of code that maybe interesting and we want to quickly compare them it can be convenient to create DOM elements to allow us to explore with a few clicks.
+We have seen how we can do quick experiments by commenting out code and manually changing the initial value of variables. When we find a range of settings or sections of code that maybe interesting and we want to quickly compare, it can be convenient to create DOM elements to allow us to explore with a few clicks.
 
 Let's explore using DOM elements to display and change variables.
 
 ### > bounce ball with display
 
-In the video tutorial a ball is animated bouncing across the canvas. In this re-mix, DOM elements are added to display the variables: `x` the location of the ball, and `speed`.
+In the video tutorial a ball is animated bouncing across the canvas. In this remix, DOM elements are added to display the variables: `x` the location of the ball, and `speed`.
 
   * [sketch - bounce ball x OR ui](https://editor.p5js.org/jht1493/sketches/h0ZJWwOzb)
 
@@ -297,7 +297,7 @@ let a_move = true;
 
 #### -> 2. use the boolean variable 
 
-For example, the `if` statement to control the action.
+For example, the `if` statement can be used to control the action.
 
 ```
   if (a_move) {
@@ -307,7 +307,7 @@ For example, the `if` statement to control the action.
 
 #### -> 3. connect the variable to the checkbox
 
-At `setup` time use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and give it code to run to update the variable.
+At `setup` use `createCheckbox` to create the checkBox, give it a label, give it an initial value, and give it code to run to update the variable.
 
 ```
   // createCheckbox([label], [value])
@@ -359,7 +359,7 @@ let a_len = 64;
   createSpan().id('ia_len');
 ```
 
-- at `draw` time use `select` to  update the span with the value of the variable. The text inside the single quotes is a label for the value.
+- at `draw` use `select` to  update the span with the value of the variable. The text inside the single quotes is a label for the value.
 
 ```
   select('#ia_len').html('[a_len=' + a_len + '] ')
