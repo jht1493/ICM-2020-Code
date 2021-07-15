@@ -78,14 +78,14 @@ JHT Week 4 Worksheet
 
 In this exercise we'll explore creating patterns as seen in textiles or wall papers. We will also apply randomness to get variety. You can think of patterns as frozen imprints of the animations techniques we have used so far.
 
-To repeatedly execute statements we can use the `while` statement:
+To repeatedly execute statements we can use the `while` conditional:
 
 ```
   while (**test**) {
     **statements**
   }
 ```
-Any number of **statements** will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the Browser will lockup and will have to close the page.
+Any number of **statements** will be executed while the **test** is `true`. We must make sure the **test** is `false` at some point otherwise the browser will lockup and we will have to close the page.
 
 Drawing a shape across the canvas can be done concisely using a variable and the `while` statement. In this sketch one row of a simple shape is drawn left to right on the canvas:
 
@@ -113,7 +113,7 @@ Compare this sketch to the previous sketches that produce animations. You'll sho
 
 ### > Try
 
-- modify the previous sketch to consolate the drawing code into a user defined function
+- modify the previous sketch to consolidate the drawing code into a user defined function
 
 [sketch - 4.1 pattern drawShape1](https://editor.p5js.org/jht1493/sketches/cA_XRhYnI)
 
