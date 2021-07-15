@@ -182,7 +182,7 @@ Add randomness to your pattern.
 
 Arrays are used to store multiple elements. These elements can be numbers, strings, or objects, or other arrays. You can visualize an array as a building with multiple floors, each floor (element) holds a distinct value. The number of the floor is called it's index, with zero been the first floor. A variable can hold a single value, or refer to an array to hold many values.
 
-One way to represent an array is an array literal. An array literal begins with an open square bracket had has any number of elements, separated by commas, and ends with a closing square bracket.
+One way to represent an array is as an array literal. An array literal begins with an open square bracket and has any number of elements, separated by commas, and ends with a closing square bracket.
 ```
 // Syntax: assign an array to variable
 let array_ref = [ **element0**, **element1**, **element2** ... ];
@@ -199,13 +199,13 @@ let value = array_ref[ **index** ];
 
 // Examples:
 let first = array_ref[0]; // Get the first element
-let second = arra_ref[1]; // Get the second element
+let second = array_ref[1]; // Get the second element
 let last = array_ref[array_ref.length-1]; // Get the last element
 ```
 
 [sketch - 4.3 array d](https://editor.p5js.org/jht1493/sketches/PkHBdgZak)
 
-Example: Array holding numbers use for the size of a line of circles.
+Example: Array holding numbers used for the size of a line of circles.
 Each click gets the next size.
 
 [sketch - 4.3 array colors](https://editor.p5js.org/jht1493/sketches/MN_30o-l-)
@@ -222,11 +222,11 @@ Example: Six circles of different sizes using an array and a for-loop.
 
 [sketch - 4.3 array for-loop 2](https://editor.p5js.org/jht1493/sketches/tNqn2o0M3)
 
-Example: Drawing a circles of different sizes and colors using arrays and for-loop. 
+Example: Drawing circles of different sizes and colors using arrays and for-loop. 
 
 ### > Try
 
-Re-mix or a sketch or create a new sketch that makes use of an array to produce a pattern that fills the canvas. 
+Re-mix a sketch or create a new sketch that makes use of an array to produce a pattern that fills the canvas. 
 
 [sketch - 4.3 array for-loop 3](https://editor.p5js.org/jht1493/sketches/NZSWjB70Y)
 
