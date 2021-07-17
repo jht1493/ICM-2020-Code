@@ -296,7 +296,8 @@ let a1 = [10, 'green'];
 a1.splice(1,1); // Remove the second element
 // a1 is now [10]
 ```
-
+<!--
+Consider adding example to try removing elements from an array
 ### > Try
 
 Add a button to remove a ball from a `bouncing balls` example.
