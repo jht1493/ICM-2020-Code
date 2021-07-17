@@ -180,7 +180,7 @@ Add randomness to your pattern.
 
 ### > array basics
 
-Arrays are used to store multiple elements. These elements can be numbers, strings, or objects, or other arrays. You can visualize an array as a building with multiple floors, each floor (element) holds a distinct value. The number of the floor is called it's index, with zero been the first floor. A variable can hold a single value, or refer to an array to hold many values.
+Arrays are used to store multiple elements. These elements can be numbers, strings,objects, or other arrays. You can visualize an array as a building with multiple floors, each floor (element) holds a distinct value. The number of the floor is called it's index, with zero been the first floor. A variable can hold a single value, or refer to an array to hold many values.
 
 One way to represent an array is as an array literal. An array literal begins with an open square bracket and has any number of elements, separated by commas, and ends with a closing square bracket.
 ```
@@ -262,7 +262,8 @@ for (let i = 0; i < 10; i++) {
   a_d.push(random([10, 40]));
 }
 ```
-
+<!--
+This is better dealt with as objects
 ### > Try
 
 Array can be used to create multiple versions of a shape. Create your own or re-mix using these examples.
@@ -301,6 +302,8 @@ a1.splice(1,1); // Remove the second element
 Add a button to remove a ball from a `bouncing balls` example.
 
 [sketch - 4.3 array bouncing balls remove](https://editor.p5js.org/jht1493/sketches/7l92OzPjl)
+
+-->
 
 <!-- 
 >> splice(start, deleteCount)
